@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "content/addAFlight.css",
+    "inputFile": "content/addAFlight.scss"
+  },
+  {
+    "outputFile": "content/flightList.css",
+    "inputFile": "content/flightList.scss"
+  },
+  {
+    "outputFile": "content/Index.css",
+    "inputFile": "content/Index.scss"
+  }
+]
