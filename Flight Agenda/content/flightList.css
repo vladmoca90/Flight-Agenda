@@ -13,4 +13,6 @@
     font-weight: bold; }
   .flight-list tbody > tr > td {
     text-align: center; }
+  .flight-list i {
+    margin: 3px; }
 
