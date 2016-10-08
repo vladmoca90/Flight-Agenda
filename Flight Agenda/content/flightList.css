@@ -3,8 +3,10 @@
 .flight-list {
   font-size: 15px;
   font-family: Ubuntu; }
-  .flight-list th, .flight-list td {
-    padding: 8px; }
+  .flight-list th,
+  .flight-list td {
+    padding: 8px;
+    border: 1px solid #ccc; }
   .flight-list th {
     text-align: center !important;
     font-weight: bold; }

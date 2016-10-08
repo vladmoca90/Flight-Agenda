@@ -19,8 +19,10 @@ $main-font: Ubuntu;
 .flight-list {
     font-size: 15px;
     font-family: $main-font;
-    th, td {
+    th, 
+    td {
         padding: 8px;
+        border: 1px solid #ccc;
     }
     th {
         text-align: center !important;
