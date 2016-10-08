@@ -22,10 +22,13 @@ $main-font: Ubuntu;
     margin: auto;
     width: $maxWidth;
     max-width: 500px;
-    p {
-        display: inline-block;
-    }
-    input {
-        margin-top: 3%;
+    div {
+
+        p {
+            display: inline-block;
+        }
+        input {
+            margin-top: 3%;
+        }
     }
 }
