@@ -5,7 +5,7 @@
   font-family: Ubuntu; }
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc; }
   .flight-list thead > tr > th {
     text-align: center !important;
