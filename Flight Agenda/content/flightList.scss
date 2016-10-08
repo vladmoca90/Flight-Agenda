@@ -26,11 +26,13 @@ $main-font: Ubuntu;
         padding: 10px;
         border: 1px solid #ccc;
     }
-    thead>tr>th {
+    thead {
         background: #851C0F;
-        color: $white-color;
-        text-align: center !important;
-        font-weight: bold;
+        tr>th {
+            color: $white-color;
+            text-align: center !important;
+            font-weight: bold;
+        }
     }
     tbody>tr>td {
         text-align: center;

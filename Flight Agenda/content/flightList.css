@@ -8,11 +8,12 @@
   .flight-list tbody > tr > td {
     padding: 10px;
     border: 1px solid #ccc; }
-  .flight-list thead > tr > th {
-    background: #851C0F;
-    color: #FFFFFF;
-    text-align: center !important;
-    font-weight: bold; }
+  .flight-list thead {
+    background: #851C0F; }
+    .flight-list thead tr > th {
+      color: #FFFFFF;
+      text-align: center !important;
+      font-weight: bold; }
   .flight-list tbody > tr > td {
     text-align: center; }
   .flight-list i {
