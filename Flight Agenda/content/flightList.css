@@ -17,8 +17,8 @@
       color: #FFFFFF;
       text-align: center !important;
       font-weight: bold; }
-  .flight-list tbody > tr > td {
+  .flight-list tbody > tr {
     text-align: center; }
-    .flight-list tbody > tr > td i {
+    .flight-list tbody > tr td > i {
       margin: 3px; }
 

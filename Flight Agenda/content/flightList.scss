@@ -37,9 +37,9 @@ $main-font: Ubuntu;
             font-weight: bold;
         }
     }
-    tbody>tr>td {
+    tbody>tr {
         text-align: center;
-        i {
+        td>i {
             margin: 3px;
         }
     }
