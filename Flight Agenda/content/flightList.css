@@ -1,9 +1,11 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
 .flight-list {
-  text-align: center;
   font-size: 15px;
   font-family: Ubuntu; }
+  .flight-list thead > th,
+  .flight-list tbody > tr > td {
+    text-align: center; }
   .flight-list thead > th {
     font-weight: bold; }
 
