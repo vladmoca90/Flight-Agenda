@@ -16,6 +16,6 @@
       font-weight: bold; }
   .flight-list tbody > tr > td {
     text-align: center; }
-  .flight-list i {
-    margin: 3px; }
+    .flight-list tbody > tr > td i {
+      margin: 3px; }
 
