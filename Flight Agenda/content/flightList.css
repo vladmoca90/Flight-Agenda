@@ -9,6 +9,8 @@
     padding: 10px;
     border: 1px solid #ccc; }
   .flight-list thead > tr > th {
+    background: #851C0F;
+    color: #FFFFFF;
     text-align: center !important;
     font-weight: bold; }
   .flight-list tbody > tr > td {
