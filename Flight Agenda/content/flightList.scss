@@ -19,6 +19,9 @@ $black-color: #000000;
 $main-font: Ubuntu;
 
 .flight-list {
+    width: $maxWidth;
+    max-width: 1005px;
+    margin: auto;
     font-size: 15px;
     font-family: $main-font;
     thead>tr>th, 
