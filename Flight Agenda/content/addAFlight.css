@@ -5,6 +5,8 @@
   margin: auto;
   width: 100%;
   max-width: 600px; }
+  #add-a-flight-form p {
+    display: inline-block; }
   #add-a-flight-form input {
     margin-top: 3.5%; }
 
