@@ -3,9 +3,9 @@
 .flight-list {
   font-size: 15px;
   font-family: Ubuntu; }
-  .flight-list thead > th,
+  .flight-list th {
+    text-align: center !important;
+    font-weight: bold; }
   .flight-list tbody > tr > td {
     text-align: center; }
-  .flight-list thead > th {
-    font-weight: bold; }
 

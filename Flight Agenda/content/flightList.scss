@@ -19,11 +19,11 @@ $main-font: Ubuntu;
 .flight-list {
     font-size: 15px;
     font-family: $main-font;
-    thead>th,
+    th {
+        text-align: center !important;
+        font-weight: bold;
+    }
     tbody>tr>td {
         text-align: center;
-    }
-    thead>th {
-        font-weight: bold;
     }
 }
