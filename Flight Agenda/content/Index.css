@@ -12,6 +12,9 @@
 #bottom {
   height: 100%; }
 
+#top {
+  max-height: 300px; }
+
 #bottom {
   max-height: 150px;
   background: #808080; }
