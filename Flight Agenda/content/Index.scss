@@ -24,18 +24,17 @@ $main-font: Ubuntu;
     max-width: 1000px;
     margin: auto;
 }
-#top,
-#bottom {
+#top {
     @include maxWidthHeight;
 }
 #top {
     max-height: 100px;
 }
-#middle {
+#middle,
+#bottom {
     width: $maxWidth;
 }
 #bottom {
-    max-height: 70px;
     background: #808080;
     #bottom-text-container {
         .bottom-texts {
