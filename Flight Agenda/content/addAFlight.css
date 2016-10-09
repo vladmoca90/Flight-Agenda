@@ -8,8 +8,10 @@
 
 #add-a-flight-form {
   max-width: 500px; }
-  #add-a-flight-form div p {
-    display: inline-block; }
-  #add-a-flight-form div input {
-    margin-top: 3%; }
+  #add-a-flight-form div {
+    max-width: 300px; }
+    #add-a-flight-form div p {
+      display: inline-block; }
+    #add-a-flight-form div input {
+      margin-top: 3%; }
 
