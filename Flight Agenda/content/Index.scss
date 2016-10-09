@@ -24,7 +24,8 @@ $main-font: Ubuntu;
     max-width: 1000px;
     margin: auto;
 }
-#top {
+#top,
+#bottom-icons-container>img {
     @include maxWidthHeight;
 }
 #top {
@@ -36,7 +37,11 @@ $main-font: Ubuntu;
 }
 #bottom {
     background: #808080;
+    overflow: hidden;
     #bottom-text-container {
+        width: 100%;
+        max-width: 500px;
+        float: left;
         .bottom-texts {
             font-size: 15px;
             margin: 2% 0% 2% 1%;
@@ -45,8 +50,13 @@ $main-font: Ubuntu;
         }
     }
     #bottom-icons-container {
+        width: 100%;
+        max-width: 500px;
+        float: left;
         img {
             float: left;
+            max-height: 35px;
+            max-width: 35px;
         }
     }
 }
