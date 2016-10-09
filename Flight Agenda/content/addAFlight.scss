@@ -14,6 +14,7 @@
 }
 
 $maxWidth: 100%;
+$maxHeight: 100%;
 $white-color: #FFFFFF;
 $black-color: #000000;
 $main-font: Ubuntu;
@@ -23,7 +24,6 @@ $main-font: Ubuntu;
     margin: auto;
     width: $maxWidth;
 }
-
 #add-a-flight-form {
     max-width: 500px;
     div {
