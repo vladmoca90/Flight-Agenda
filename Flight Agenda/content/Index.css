@@ -20,8 +20,9 @@
 #bottom {
   max-height: 70px;
   background: #808080; }
-  #bottom .bottom-texts {
+  #bottom #bottom-text-container .bottom-texts {
     font-size: 15px;
-    margin-left: 10px;
-    color: #FFFFFF; }
+    margin: 2% 0% 2% 1%;
+    color: #FFFFFF;
+    display: inline-block; }
 
