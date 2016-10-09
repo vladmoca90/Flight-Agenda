@@ -18,6 +18,14 @@ $white-color: #FFFFFF;
 $black-color: #000000;
 $main-font: Ubuntu;
 
+
+#top,
+#middle,
+#bottom {
+    width: $maxWidth;
+    max-width: 1000px;
+    margin: auto;
+}
 #top {
 
 }
