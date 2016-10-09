@@ -38,4 +38,9 @@ $main-font: Ubuntu;
 }
 #bottom {
     max-height: 100px;
+    .bottom-texts {
+        font-size: 15px;
+        color: $white-color;
+        display: inline-block;
+    }
 }

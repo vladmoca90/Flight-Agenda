@@ -14,4 +14,8 @@
 
 #bottom {
   max-height: 100px; }
+  #bottom .bottom-texts {
+    font-size: 15px;
+    color: #FFFFFF;
+    display: inline-block; }
 
