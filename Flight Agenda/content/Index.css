@@ -24,4 +24,6 @@
     margin: 2% 0% 2% 1%;
     color: #FFFFFF;
     display: inline-block; }
+  #bottom #bottom-icons-container img {
+    float: left; }
 

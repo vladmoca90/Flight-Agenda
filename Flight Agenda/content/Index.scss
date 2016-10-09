@@ -44,4 +44,9 @@ $main-font: Ubuntu;
             display: inline-block;
         }
     }
+    #bottom-icons-container {
+        img {
+            float: left;
+        }
+    }
 }
