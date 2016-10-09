@@ -27,12 +27,13 @@ $main-font: Ubuntu;
 #add-a-flight-form {
     max-width: 500px;
     div {
+        margin-top: 3%;
         max-width: 300px;
         p {
             display: inline-block;
         }
         input {
-            margin-top: 3%;
+            float: right;
         }
     }
 }
