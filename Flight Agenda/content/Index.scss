@@ -37,12 +37,11 @@ $main-font: Ubuntu;
 
 }
 #bottom {
-    max-height: 150px;
+    max-height: 70px;
     background: #808080;
     .bottom-texts {
         font-size: 15px;
         margin-left: 10px;
         color: $white-color;
-        display: inline-block;
     }
 }

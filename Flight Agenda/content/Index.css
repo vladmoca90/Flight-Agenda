@@ -16,11 +16,10 @@
   max-height: 300px; }
 
 #bottom {
-  max-height: 150px;
+  max-height: 70px;
   background: #808080; }
   #bottom .bottom-texts {
     font-size: 15px;
     margin-left: 10px;
-    color: #FFFFFF;
-    display: inline-block; }
+    color: #FFFFFF; }
 
