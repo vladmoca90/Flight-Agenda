@@ -26,6 +26,10 @@ $main-font: Ubuntu;
     max-width: 1000px;
     margin: auto;
 }
+#top,
+#bottom {
+    height: $maxHeight;
+}
 #top {
 
 }
@@ -33,5 +37,5 @@ $main-font: Ubuntu;
 
 }
 #bottom {
-
+    max-height: 120px;
 }

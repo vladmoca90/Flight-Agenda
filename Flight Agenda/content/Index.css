@@ -8,3 +8,10 @@
   max-width: 1000px;
   margin: auto; }
 
+#top,
+#bottom {
+  height: 100%; }
+
+#bottom {
+  max-height: 120px; }
+
