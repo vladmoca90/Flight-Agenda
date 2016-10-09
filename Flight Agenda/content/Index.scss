@@ -20,21 +20,19 @@ $black-color: #000000;
 $main-font: Ubuntu;
 
 #top,
-#middle,
-#bottom {
-    width: $maxWidth;
+#bottom { 
     max-width: 1000px;
     margin: auto;
 }
 #top,
 #bottom {
-    height: $maxHeight;
+    @include maxWidthHeight;
 }
 #top {
     max-height: 200px;
 }
 #middle {
-
+    width: $maxWidth;
 }
 #bottom {
     max-height: 70px;
