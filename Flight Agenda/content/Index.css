@@ -6,14 +6,10 @@
   max-width: 1000px;
   margin: auto; }
 
-#top,
 #bottom-icons-container,
 #bottom-icons-container > img {
   width: 100%;
   height: 100%; }
-
-#top {
-  max-height: 100px; }
 
 #button-menu {
   max-height: 40px;

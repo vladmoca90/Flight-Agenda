@@ -24,13 +24,9 @@ $main-font: Ubuntu;
     max-width: 1000px;
     margin: auto;
 }
-#top,
 #bottom-icons-container,
 #bottom-icons-container>img {
     @include maxWidthHeight;
-}
-#top {
-    max-height: 100px;
 }
 #button-menu {
     max-height: 40px;
