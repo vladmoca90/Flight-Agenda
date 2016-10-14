@@ -37,7 +37,7 @@ body {
       padding: 5px 8px; }
       #button-menu li a:hover {
         text-decoration: none;
-        background: #3e6e82;
+        background: #3E6E82;
         border-radius: 10px; }
       #button-menu li a .button-list-texts {
         margin-left: 3px; }
@@ -52,7 +52,7 @@ body {
   width: 100%; }
 
 #bottom {
-  background: #808080;
+  background: #3E6E82;
   overflow: hidden; }
   #bottom #bottom-text-container {
     width: 100%;
