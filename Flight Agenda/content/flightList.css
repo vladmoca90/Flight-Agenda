@@ -22,3 +22,15 @@
     .flight-list tbody > tr td > i {
       margin: 3px; }
 
+.moneySymbol {
+  color: darkseagreen; }
+
+.asteriskSymbol {
+  color: gold; }
+
+.editSymbol {
+  color: aliceblue; }
+
+.closeSymbol {
+  color: red; }
+
