@@ -16,7 +16,8 @@
   max-height: 100px; }
 
 #button-menu {
-  max-width: 480px; }
+  max-width: 480px;
+  float: right; }
   #button-menu li {
     list-style-type: none;
     font-size: 17px;
