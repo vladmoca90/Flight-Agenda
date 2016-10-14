@@ -42,6 +42,12 @@ body {
         margin-left: 4%;
         line-height: 30px;
         float: left;
+        a {
+            color: $black-color;
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 }
 #button-menu {

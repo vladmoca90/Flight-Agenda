@@ -25,6 +25,10 @@ body {
     margin-left: 4%;
     line-height: 30px;
     float: left; }
+    #button-menu li a {
+      color: #000000; }
+      #button-menu li a:hover {
+        text-decoration: none; }
 
 #button-menu {
   height: 100%; }
