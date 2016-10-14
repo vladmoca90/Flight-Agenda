@@ -15,11 +15,15 @@
 #top {
   max-height: 100px; }
 
-#button-menu li {
-  list-style-type: none;
-  font-size: 17px;
-  float: left; }
+#button-menu {
+  max-width: 480px; }
+  #button-menu li {
+    list-style-type: none;
+    font-size: 17px;
+    margin-left: 4%;
+    float: left; }
 
+#button-menu,
 #middle,
 #bottom {
   width: 100%; }
