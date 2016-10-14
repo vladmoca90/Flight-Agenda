@@ -32,6 +32,13 @@ $main-font: Ubuntu;
 #top {
     max-height: 100px;
 }
+#button-menu {
+    li {
+        list-style-type: none;
+        font-size: 16px;
+        float: left;
+    }
+}
 #middle,
 #bottom {
     width: $maxWidth;
