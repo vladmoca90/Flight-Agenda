@@ -29,6 +29,8 @@ body {
       color: #000000; }
       #button-menu li a:hover {
         text-decoration: none; }
+      #button-menu li a .button-list-texts {
+        margin-left: 3px; }
 
 #button-menu {
   height: 100%; }
