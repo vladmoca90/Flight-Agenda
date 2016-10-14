@@ -16,6 +16,7 @@
   max-height: 100px; }
 
 #button-menu {
+  max-height: 45px;
   max-width: 480px;
   float: right; }
   #button-menu li {
@@ -23,6 +24,9 @@
     font-size: 17px;
     margin-left: 4%;
     float: left; }
+
+#button-menu {
+  height: 100%; }
 
 #button-menu,
 #middle,

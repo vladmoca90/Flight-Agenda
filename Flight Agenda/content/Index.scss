@@ -33,6 +33,7 @@ $main-font: Ubuntu;
     max-height: 100px;
 }
 #button-menu {
+    max-height: 45px;
     max-width: 480px;
     float: right;
     li {
@@ -41,6 +42,9 @@ $main-font: Ubuntu;
         margin-left: 4%;
         float: left;
     }
+}
+#button-menu {
+    height: $maxHeight;
 }
 #button-menu,
 #middle,
