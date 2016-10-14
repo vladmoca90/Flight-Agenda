@@ -19,6 +19,9 @@ $white-color: #FFFFFF;
 $black-color: #000000;
 $main-font: Ubuntu;
 
+body {
+    font-family: $main-font;
+}
 #add-a-flight-form,
 #add-a-flight-form>div {
     margin: auto;

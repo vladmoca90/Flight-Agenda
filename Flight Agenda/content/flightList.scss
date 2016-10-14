@@ -19,12 +19,14 @@ $white-color: #FFFFFF;
 $black-color: #000000;
 $main-font: Ubuntu;
 
+body {
+    font-family: $main-font;
+}
 .flight-list {
     width: $maxWidth;
     max-width: 1000px;
     margin: auto;
     font-size: 14px;
-    font-family: $main-font;
     thead>tr>th, 
     tbody>tr>td {
         padding: 9px;

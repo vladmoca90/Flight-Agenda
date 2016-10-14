@@ -1,6 +1,9 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+body {
+  font-family: Ubuntu; }
+
 #top,
 #bottom {
   max-width: 1000px;
