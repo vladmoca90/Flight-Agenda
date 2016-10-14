@@ -4,6 +4,9 @@
 body {
   font-family: Ubuntu; }
 
+#top {
+  min-height: 80px; }
+
 #top,
 #bottom {
   max-width: 1000px;
@@ -32,6 +35,7 @@ body {
       #button-menu li a .button-list-texts {
         margin-left: 3px; }
 
+#top,
 #button-menu {
   height: 100%; }
 
