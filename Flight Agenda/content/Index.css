@@ -9,8 +9,7 @@ body {
   background-image: url("../images/background.jpg");
   background-size: 100% 100%; }
   #top .logo {
-    position: relative;
-    top: 1%; }
+    margin: 1% 0% 0% 1.5%; }
 
 #top,
 #bottom {
@@ -25,7 +24,7 @@ body {
 #button-menu {
   max-height: 40px;
   max-width: 550px;
-  margin-top: 1.7%;
+  margin: 1.75% 1% 0% 0%;
   float: right; }
   #button-menu li {
     list-style-type: none;
