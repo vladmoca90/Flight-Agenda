@@ -36,7 +36,7 @@ body {
     @include maxWidthHeight;
 }
 #button-menu {
-    max-height: 30px;
+    max-height: 40px;
     max-width: 550px;
     margin-top: 1.7%;
     float: right;
@@ -44,10 +44,10 @@ body {
         list-style-type: none;
         font-size: 16px;
         margin-left: 4%;
-        line-height: 30px;
+        line-height: 40px;
         float: left;
         a {
-            color: $black-color;
+            color: $white-color;
             &:hover {
                 text-decoration: none;
             }
