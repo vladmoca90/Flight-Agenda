@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\background.jpg" />
     <Content Include="images\facebook.png" />
     <Content Include="images\google.png" />
     <Content Include="images\instagram.png" />
