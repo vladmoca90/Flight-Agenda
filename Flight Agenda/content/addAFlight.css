@@ -10,6 +10,7 @@ body {
   width: 100%; }
 
 #add-a-flight-form {
+  margin: 3% auto;
   max-width: 500px; }
   #add-a-flight-form div {
     margin-top: 3%;
