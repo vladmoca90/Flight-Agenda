@@ -71,14 +71,14 @@ body {
 }
 #button-menu,
 #middle,
-#bottom {
+#bottom,
+#bottom-text-container {
     width: $maxWidth;
 }
 #bottom {
     background: #3E6E82;
     max-height: 80px;
     #bottom-text-container {
-        width: 100%;
         max-width: 500px;
         float: left;
         .bottom-texts {
