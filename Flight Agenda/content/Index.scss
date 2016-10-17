@@ -76,7 +76,6 @@ body {
 }
 #bottom {
     background: #3E6E82;
-    overflow: auto;
     max-height: 80px;
     #bottom-text-container {
         width: 100%;
@@ -86,14 +85,11 @@ body {
             font-size: 15px;
             margin: 4% 0% 4% 1.5%;
             color: $white-color;
-            display: inline-block;
         }
     }
     #bottom-icons-container {
-        max-height: 61px;
         max-width: 285px;
-        line-height: 61px;
-        float: right;
+        float: left;
         img {
             max-height: 30px;
             max-width: 30px;
