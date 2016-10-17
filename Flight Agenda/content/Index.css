@@ -53,20 +53,22 @@ body {
 #bottom-text-container {
   width: 100%; }
 
+#bottom-text-container,
+#bottom-icons-container {
+  float: left; }
+
 #bottom {
   background: #3E6E82;
   min-height: 70px; }
   #bottom #bottom-text-container {
-    max-width: 500px;
-    float: left; }
+    max-width: 500px; }
     #bottom #bottom-text-container .bottom-texts {
       font-size: 15px;
       display: inline;
       margin: 4% 0% 4% 1.5%;
       color: #FFFFFF; }
   #bottom #bottom-icons-container {
-    max-width: 285px;
-    float: left; }
+    max-width: 285px; }
     #bottom #bottom-icons-container img {
       max-height: 30px;
       max-width: 30px;
