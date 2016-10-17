@@ -53,7 +53,7 @@ body {
 
 #bottom {
   background: #3E6E82;
-  overflow: hidden; }
+  overflow: auto; }
   #bottom #bottom-text-container {
     width: 100%;
     max-width: 500px;
