@@ -43,7 +43,7 @@ body {
     @include maxWidthHeight;
 }
 #button-menu {
-    max-height: 25px;
+    max-height: 40px;
     max-width: 650px;
     margin: 4% 1% 0% 0%;
     float: right;
@@ -51,7 +51,7 @@ body {
         list-style-type: none;
         font-size: 17px;
         margin-left: 2.5%;
-        line-height: 25px;
+        line-height: 40px;
         a {
             color: $white-color;
             padding: 5px 8px;
@@ -61,7 +61,7 @@ body {
                 border-radius: 10px;
             }
             .button-list-texts {
-                margin-left: 3px;
+                margin-left: 5px;
             }
         }
     }
