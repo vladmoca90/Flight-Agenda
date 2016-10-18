@@ -35,7 +35,7 @@ body {
     line-height: 80px; }
     #button-menu li a {
       color: #FFFFFF;
-      padding: 5px 8px; }
+      padding: 7px; }
       #button-menu li a:hover {
         text-decoration: none;
         background: rgba(0, 47, 93, 0.9); }
