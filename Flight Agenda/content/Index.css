@@ -25,7 +25,7 @@ body {
   height: 100%; }
 
 #button-menu {
-  max-height: 40px;
+  max-height: 25px;
   max-width: 600px;
   margin: 1.8% 1% 0% 0%;
   float: right; }
@@ -33,7 +33,7 @@ body {
     list-style-type: none;
     font-size: 16px;
     margin-left: 2.5%;
-    line-height: 40px;
+    line-height: 25px;
     float: left; }
     #button-menu li a {
       color: #FFFFFF;
