@@ -72,10 +72,14 @@ body {
     height: $maxHeight;
 }
 #button-menu,
+#user-panel,
 #middle,
 #bottom,
 #bottom-text-container {
     width: $maxWidth;
+}
+#user-panel {
+
 }
 #bottom {
     min-height: 50px;
