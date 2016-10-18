@@ -69,7 +69,8 @@ body {
   min-height: 50px;
   line-height: 50px; }
   #user-panel p {
-    font-size: 21px; }
+    font-size: 21px;
+    text-indent: 10px; }
 
 #bottom {
   min-height: 50px;
