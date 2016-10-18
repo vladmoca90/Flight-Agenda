@@ -75,4 +75,6 @@ body {
       max-height: 30px;
       max-width: 30px;
       margin-left: 3%; }
+      #bottom #bottom-icons-container img:hover {
+        cursor: pointer; }
 
