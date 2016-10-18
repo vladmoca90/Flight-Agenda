@@ -26,12 +26,12 @@ body {
 
 #button-menu {
   max-height: 40px;
-  max-width: 650px;
+  max-width: 620px;
   margin: 3.5% 1% 0% 0%;
   float: right; }
   #button-menu li {
     list-style-type: none;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 2.5%;
     line-height: 40px; }
     #button-menu li a {
