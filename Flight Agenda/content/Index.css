@@ -4,10 +4,12 @@
 body {
   font-family: Ubuntu; }
 
-#top {
+.logo {
+  margin: 0.7% 0% 0% 1.5%; }
+
+#top,
+#button-menu {
   min-height: 80px; }
-  #top .logo {
-    margin: 0.7% 0% 0% 1.5%; }
 
 #top,
 #bottom {

@@ -22,11 +22,12 @@ $main-font: Ubuntu;
 body {
     font-family: $main-font;
 }
-#top {
+.logo {
+    margin: 0.7% 0% 0% 1.5%;
+}
+#top,
+#button-menu {
     min-height: 80px;
-    .logo {
-        margin: 0.7% 0% 0% 1.5%;
-    }
 }
 #top, 
 #bottom {
