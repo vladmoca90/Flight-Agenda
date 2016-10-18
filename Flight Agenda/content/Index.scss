@@ -67,6 +67,7 @@ body {
 }
 #top,
 #button-menu,
+#user-panel,
 #bottom {
     height: $maxHeight;
 }
@@ -83,6 +84,7 @@ body {
     color: $white-color;
 }
 #user-panel {
+    max-height: 150px;
     background: $black-color;
 }
 #bottom {
