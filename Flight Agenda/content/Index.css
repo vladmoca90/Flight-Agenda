@@ -58,6 +58,10 @@ body {
 #bottom-text-container {
   width: 100%; }
 
+#user-panel {
+  background: #000000;
+  color: #FFFFFF; }
+
 #bottom {
   min-height: 50px;
   line-height: 50px; }

@@ -79,7 +79,8 @@ body {
     width: $maxWidth;
 }
 #user-panel {
-
+    background: $black-color;
+    color: $white-color;
 }
 #bottom {
     min-height: 50px;
