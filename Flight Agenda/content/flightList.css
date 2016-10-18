@@ -7,7 +7,7 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  font-size: 14px; }
+  font-size: 15px; }
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
     padding: 9px;
