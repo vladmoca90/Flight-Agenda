@@ -5,11 +5,14 @@ body {
   font-family: Ubuntu; }
 
 #top {
-  min-height: 80px;
-  background-image: url("../images/background.jpg");
-  background-size: 100% 100%; }
+  min-height: 80px; }
   #top .logo {
     margin: 1% 0% 0% 1.5%; }
+
+#top,
+#bottom {
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100%; }
 
 #top,
 #bottom {
@@ -58,7 +61,6 @@ body {
   float: left; }
 
 #bottom {
-  background: #3E6E82;
   min-height: 50px;
   line-height: 50px; }
   #bottom #bottom-text-container {
