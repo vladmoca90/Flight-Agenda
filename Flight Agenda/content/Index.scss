@@ -24,6 +24,7 @@ body {
     margin: 0.7% 0% 0% 5%;
 }
 #top,
+#user-panel,
 #button-menu {
     min-height: 80px;
 }
@@ -32,6 +33,7 @@ body {
     background-image: url("../images/background.jpg");
     background-size: 100% 100%;
 }
+#user-panel,
 #bottom { 
     max-width: 1000px;
     margin: auto;
@@ -84,7 +86,6 @@ body {
     color: $white-color;
 }
 #user-panel {
-    max-height: 150px;
     background: $black-color;
 }
 #bottom {
