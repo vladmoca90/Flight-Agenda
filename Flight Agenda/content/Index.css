@@ -67,6 +67,8 @@ body {
 #user-panel {
   background: #000000;
   min-height: 50px; }
+  #user-panel p {
+    font-size: 20px; }
 
 #bottom {
   min-height: 50px;

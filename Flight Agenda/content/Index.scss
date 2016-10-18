@@ -87,6 +87,9 @@ body {
 #user-panel {
     background: $black-color;
     min-height: 50px;
+    p {
+        font-size: 20px;
+    }
 }
 #bottom {
     min-height: 50px;
