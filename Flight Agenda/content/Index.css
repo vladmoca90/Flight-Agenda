@@ -7,7 +7,6 @@ body {
   margin: 0.7% 0% 0% 5%; }
 
 #top,
-#user-panel,
 #button-menu {
   min-height: 80px; }
 
@@ -66,7 +65,8 @@ body {
   color: #FFFFFF; }
 
 #user-panel {
-  background: #000000; }
+  background: #000000;
+  min-height: 50px; }
 
 #bottom {
   min-height: 50px;
