@@ -99,6 +99,7 @@
     <Content Include="images\google.png" />
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin.png" />
+    <Content Include="images\logo.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\pinterest.png" />
     <Content Include="images\twitter.png" />
