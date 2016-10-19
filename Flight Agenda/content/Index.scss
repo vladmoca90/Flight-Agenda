@@ -86,16 +86,17 @@ body {
 }
 #user-panel {
     background: $black-color;
-    min-height: 50px;
-    line-height: 50px;
     p {
         font-size: 21px;
         text-indent: 10px;
     }
 }
+#user-panel,
 #bottom {
     min-height: 50px;
     line-height: 50px;
+}
+#bottom {
     #bottom-text-container {
         max-width: 500px;
         margin-left: 2%;
