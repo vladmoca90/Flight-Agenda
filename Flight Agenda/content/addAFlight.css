@@ -14,12 +14,14 @@ body {
 #ticket-information-container,
 .ticket-information,
 .ticket-information > label,
+#seat-container,
 input[type="radio"] {
   width: 100%; }
 
 #add-a-flight-form,
 #form-container,
-#ticket-information-container {
+#ticket-information-container,
+#seat-container {
   max-width: 700px; }
 
 .ticket-information,
