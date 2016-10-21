@@ -33,7 +33,8 @@ body {
       #add-a-flight-form #form-container #ticket-information-container .ticket-information {
         width: 100%;
         max-width: 115px;
-        background: red;
+        background: #808080;
+        border: 1px solid #000000;
         border-radius: 25px;
         float: left; }
         #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
