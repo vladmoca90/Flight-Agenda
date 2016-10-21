@@ -23,4 +23,11 @@ body {
     #add-a-flight-form div input {
       float: right;
       margin-left: 10px; }
+  #add-a-flight-form .ticket-information-container {
+    width: 100%;
+    max-width: 130px;
+    border-radius: 25px;
+    float: left; }
+    #add-a-flight-form .ticket-information-container input[type="radio"] {
+      width: 100%; }
 
