@@ -32,7 +32,7 @@ body {
     max-width: 700px;
     padding: 1% 0%;
     #form-container {
-        max-width: 600px;
+        max-width: 700px;
         #main-flight-info-container {
             max-width: 330px;
         }
@@ -55,6 +55,7 @@ body {
                 float: left;
                 width: $maxWidth;
                 max-width: 115px;
+                margin-left: 3%;
                 label {
                     background: #cfcdcd;
                     width: 100%;
