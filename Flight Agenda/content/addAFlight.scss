@@ -25,27 +25,29 @@ body {
 #main-flight-info-container {
     margin: auto;
 }
-#add-a-flight-form,
+#flight-form,
 #form-container,
 #main-flight-info-container,
 #ticket-information-container,
 #seat-container,
+#flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information>label,
 input[type="radio"] {
     width: $maxWidth;
 }
-#add-a-flight-form,
+#flight-form,
 #form-container,
 #ticket-information-container,
-#seat-container {
+#seat-container,
+#flight-reason-container {
     max-width: 700px;
 }
 .add-a-flight-information,
 .add-a-flight-information>label {
     max-width: 115px;
 }
-#add-a-flight-form {
+#flight-form {
     background: rgba(246,247,248,0.85) ;
     margin: 3% auto;
     padding: 1% 0%;
@@ -68,7 +70,8 @@ input[type="radio"] {
     }
 }
 #ticket-information-container,
-#seat-container {
+#seat-container,
+#flight-reason-container {
     overflow: auto;
 }
 .add-a-flight-information {
