@@ -37,7 +37,8 @@ input[type="radio"] {
     #add-a-flight-form #form-container div label {
       display: inline-block;
       margin: 3px 0px;
-      font-size: 18px; }
+      font-size: 18px;
+      font-weight: lighter; }
     #add-a-flight-form #form-container div input {
       float: right; }
   #add-a-flight-form #form-container #ticket-information-container {
