@@ -13,25 +13,24 @@ body {
   margin: 3% auto;
   max-width: 650px;
   padding: 1% 0%; }
-  #add-a-flight-form div {
-    margin-top: 3%;
-    max-width: 550px; }
-    #add-a-flight-form div label {
+  #add-a-flight-form #form-container div {
+    margin-top: 3%; }
+    #add-a-flight-form #form-container div label {
       display: inline-block;
       margin: 3px 0px;
       font-size: 18px; }
-    #add-a-flight-form div input {
+    #add-a-flight-form #form-container div input {
       float: right;
       margin-left: 10px; }
-  #add-a-flight-form #ticket-information-container {
+  #add-a-flight-form #form-container #ticket-information-container {
     width: 100%;
     max-width: 550px;
     margin: auto; }
-    #add-a-flight-form #ticket-information-container .ticket-information {
+    #add-a-flight-form #form-container #ticket-information-container .ticket-information {
       width: 100%;
       max-width: 130px;
       border-radius: 25px;
       float: left; }
-      #add-a-flight-form #ticket-information-container .ticket-information input[type="radio"] {
+      #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
         width: 100%; }
 

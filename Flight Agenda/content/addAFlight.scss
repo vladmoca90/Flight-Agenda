@@ -30,30 +30,31 @@ body {
     margin: 3% auto;
     max-width: 650px;
     padding: 1% 0%;
-    div {
-        margin-top: 3%;
-        max-width: 550px;
-        label {
-            display: inline-block;
-            margin: 3px 0px;
-            font-size: 18px;
+    #form-container {
+        div {
+            margin-top: 3%;
+            label {
+                display: inline-block;
+                margin: 3px 0px;
+                font-size: 18px;
+            }
+            input {
+                float: right;
+                margin-left: 10px;
+            }
         }
-        input {
-            float: right;
-            margin-left: 10px;
-        }
-    }
-    #ticket-information-container {
-        width: $maxWidth;
-        max-width: 550px;
-        margin: auto;
-        .ticket-information {
+        #ticket-information-container {
             width: $maxWidth;
-            max-width: 130px;
-            border-radius: 25px;
-            float: left;
-            input[type="radio"] {
-                width: 100%;
+            max-width: 550px;
+            margin: auto;
+            .ticket-information {
+                width: $maxWidth;
+                max-width: 130px;
+                border-radius: 25px;
+                float: left;
+                input[type="radio"] {
+                    width: 100%;
+                }
             }
         }
     }
