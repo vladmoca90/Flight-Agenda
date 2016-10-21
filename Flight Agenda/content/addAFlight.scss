@@ -43,13 +43,16 @@ body {
             margin-left: 10px;
         }
     }
-    .ticket-information-container {
+    #ticket-information-container {
         width: $maxWidth;
-        max-width: 130px;
-        border-radius: 25px;
-        float: left;
-        input[type="radio"] {
-            width: 100%;
+        .ticket-information {
+            width: $maxWidth;
+            max-width: 130px;
+            border-radius: 25px;
+            float: left;
+            input[type="radio"] {
+                width: 100%;
+            }
         }
     }
 }
