@@ -21,7 +21,7 @@ body {
     font-family: $main-font;
 }
 #add-a-flight-form,
-#add-a-flight-form>div {
+#form-container {
     margin: auto;
     width: $maxWidth;
 }
@@ -31,6 +31,7 @@ body {
     max-width: 650px;
     padding: 1% 0%;
     #form-container {
+        max-width: 550px;
         div {
             margin-top: 3%;
             label {
