@@ -52,12 +52,17 @@ body {
             max-width: 700px;
             overflow: auto;
             .ticket-information {
+                float: left;
                 width: $maxWidth;
                 max-width: 115px;
-                background: #cfcdcd;
-                border: 1px solid $black-color;
-                border-radius: 25px;
-                float: left;
+                label {
+                    background: #cfcdcd;
+                    width: 100%;
+                    max-width: 115px;
+                    text-align: center;
+                    border: 1px solid $black-color;
+                    border-radius: 25px;
+                }
                 input[type="radio"] {
                     width: 100%;
                 }
