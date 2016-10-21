@@ -37,6 +37,8 @@ body {
         margin-left: 3%; }
         #add-a-flight-form #form-container #ticket-information-container .ticket-information label {
           color: #999999;
+          background: #FFFFFF;
+          padding: 5px 0px;
           width: 100%;
           max-width: 115px;
           text-align: center;
