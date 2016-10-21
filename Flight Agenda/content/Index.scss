@@ -33,7 +33,6 @@ body {
     background-size: 100% 100%;
 }
 #top,
-#user-panel,
 #bottom { 
     max-width: 1000px;
     margin: auto;
@@ -69,30 +68,19 @@ body {
 }
 #top,
 #button-menu,
-#user-panel,
 #bottom {
     height: $maxHeight;
 }
 #button-menu,
-#user-panel,
 #middle,
 #bottom,
 #bottom-text-container {
     width: $maxWidth;
 }
 #button-menu>li>a,
-#user-panel,
 .bottom-texts {
     color: $white-color;
 }
-#user-panel {
-    background: $black-color;
-    p {
-        font-size: 21px;
-        text-indent: 10px;
-    }
-}
-#user-panel,
 #bottom {
     min-height: 50px;
     line-height: 50px;
