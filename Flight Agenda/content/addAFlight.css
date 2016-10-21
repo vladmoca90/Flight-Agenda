@@ -13,7 +13,8 @@ body {
 #main-flight-info-container,
 #ticket-information-container,
 .ticket-information,
-.ticket-information > label {
+.ticket-information > label,
+input[type="radio"] {
   width: 100%; }
 
 #add-a-flight-form,
@@ -51,6 +52,4 @@ body {
         text-align: center;
         border: 1px solid #999999;
         border-radius: 25px; }
-      #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
-        width: 100%; }
 
