@@ -21,7 +21,8 @@ body {
     font-family: $main-font;
 }
 #add-a-flight-form,
-#form-container {
+#form-container,
+main-flight-info-container {
     margin: auto;
     width: $maxWidth;
 }
@@ -32,6 +33,9 @@ body {
     padding: 1% 0%;
     #form-container {
         max-width: 550px;
+        #main-flight-info-container {
+            max-width: 330px;
+        }
         div {
             margin-top: 3%;
             label {

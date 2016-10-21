@@ -4,7 +4,8 @@ body {
   font-family: Calibri; }
 
 #add-a-flight-form,
-#form-container {
+#form-container,
+main-flight-info-container {
   margin: auto;
   width: 100%; }
 
@@ -15,6 +16,8 @@ body {
   padding: 1% 0%; }
   #add-a-flight-form #form-container {
     max-width: 550px; }
+    #add-a-flight-form #form-container #main-flight-info-container {
+      max-width: 330px; }
     #add-a-flight-form #form-container div {
       margin-top: 3%; }
       #add-a-flight-form #form-container div label {
