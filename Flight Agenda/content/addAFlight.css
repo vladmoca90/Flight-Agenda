@@ -9,41 +9,42 @@ body {
   margin: auto;
   width: 100%; }
 
+#add-a-flight-form,
+#form-container,
+#ticket-information-container {
+  max-width: 700px; }
+
 #add-a-flight-form {
   background: rgba(246, 247, 248, 0.85);
   margin: 3% auto;
-  max-width: 700px;
   padding: 1% 0%; }
-  #add-a-flight-form #form-container {
-    max-width: 700px; }
-    #add-a-flight-form #form-container #main-flight-info-container {
-      max-width: 330px; }
-    #add-a-flight-form #form-container div {
-      margin-top: 3%; }
-      #add-a-flight-form #form-container div label {
-        display: inline-block;
-        margin: 3px 0px;
-        font-size: 18px; }
-      #add-a-flight-form #form-container div input {
-        float: right; }
-    #add-a-flight-form #form-container #ticket-information-container {
+  #add-a-flight-form #form-container #main-flight-info-container {
+    max-width: 330px; }
+  #add-a-flight-form #form-container div {
+    margin-top: 3%; }
+    #add-a-flight-form #form-container div label {
+      display: inline-block;
+      margin: 3px 0px;
+      font-size: 18px; }
+    #add-a-flight-form #form-container div input {
+      float: right; }
+  #add-a-flight-form #form-container #ticket-information-container {
+    width: 100%;
+    overflow: auto; }
+    #add-a-flight-form #form-container #ticket-information-container .ticket-information {
+      float: left;
       width: 100%;
-      max-width: 700px;
-      overflow: auto; }
-      #add-a-flight-form #form-container #ticket-information-container .ticket-information {
-        float: left;
+      max-width: 115px;
+      margin-left: 3%; }
+      #add-a-flight-form #form-container #ticket-information-container .ticket-information label {
+        color: #999999;
+        background: #FFFFFF;
+        padding: 5px 0px;
         width: 100%;
         max-width: 115px;
-        margin-left: 3%; }
-        #add-a-flight-form #form-container #ticket-information-container .ticket-information label {
-          color: #999999;
-          background: #FFFFFF;
-          padding: 5px 0px;
-          width: 100%;
-          max-width: 115px;
-          text-align: center;
-          border: 1px solid #999999;
-          border-radius: 25px; }
-        #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
-          width: 100%; }
+        text-align: center;
+        border: 1px solid #999999;
+        border-radius: 25px; }
+      #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
+        width: 100%; }
 

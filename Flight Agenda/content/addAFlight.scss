@@ -26,13 +26,16 @@ body {
     margin: auto;
     width: $maxWidth;
 }
+#add-a-flight-form,
+#form-container,
+#ticket-information-container {
+    max-width: 700px;
+}
 #add-a-flight-form {
     background: rgba(246,247,248,0.85) ;
     margin: 3% auto;
-    max-width: 700px;
     padding: 1% 0%;
     #form-container {
-        max-width: 700px;
         #main-flight-info-container {
             max-width: 330px;
         }
@@ -49,7 +52,6 @@ body {
         }
         #ticket-information-container {
             width: $maxWidth;
-            max-width: 700px;
             overflow: auto;
             .ticket-information {
                 float: left;
