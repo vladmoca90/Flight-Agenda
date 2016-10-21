@@ -24,6 +24,13 @@ body {
 #form-container,
 #main-flight-info-container {
     margin: auto;
+}
+#add-a-flight-form,
+#form-container,
+#main-flight-info-container,
+#ticket-information-container,
+.ticket-information,
+.ticket-information>label {
     width: $maxWidth;
 }
 #add-a-flight-form,
@@ -55,17 +62,14 @@ body {
             }
         }
         #ticket-information-container {
-            width: $maxWidth;
             overflow: auto;
             .ticket-information {
                 float: left;
-                width: $maxWidth;
                 margin-left: 3%;
                 label {
                     color: #999999;
                     background: $white-color;
                     padding: 5px 0px;
-                    width: 100%;
                     text-align: center;
                     border: 1px solid #999999;
                     border-radius: 25px;

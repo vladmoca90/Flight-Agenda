@@ -6,7 +6,14 @@ body {
 #add-a-flight-form,
 #form-container,
 #main-flight-info-container {
-  margin: auto;
+  margin: auto; }
+
+#add-a-flight-form,
+#form-container,
+#main-flight-info-container,
+#ticket-information-container,
+.ticket-information,
+.ticket-information > label {
   width: 100%; }
 
 #add-a-flight-form,
@@ -33,17 +40,14 @@ body {
     #add-a-flight-form #form-container div input {
       float: right; }
   #add-a-flight-form #form-container #ticket-information-container {
-    width: 100%;
     overflow: auto; }
     #add-a-flight-form #form-container #ticket-information-container .ticket-information {
       float: left;
-      width: 100%;
       margin-left: 3%; }
       #add-a-flight-form #form-container #ticket-information-container .ticket-information label {
         color: #999999;
         background: #FFFFFF;
         padding: 5px 0px;
-        width: 100%;
         text-align: center;
         border: 1px solid #999999;
         border-radius: 25px; }
