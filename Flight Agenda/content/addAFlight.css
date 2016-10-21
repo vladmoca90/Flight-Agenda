@@ -36,11 +36,11 @@ body {
         max-width: 115px;
         margin-left: 3%; }
         #add-a-flight-form #form-container #ticket-information-container .ticket-information label {
-          background: #cfcdcd;
+          color: #999999;
           width: 100%;
           max-width: 115px;
           text-align: center;
-          border: 1px solid #000000;
+          border: 1px solid #999999;
           border-radius: 25px; }
         #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
           width: 100%; }
