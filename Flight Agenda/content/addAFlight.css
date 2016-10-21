@@ -12,10 +12,10 @@ body {
 #add-a-flight-form {
   background: rgba(246, 247, 248, 0.85);
   margin: 3% auto;
-  max-width: 650px;
+  max-width: 700px;
   padding: 1% 0%; }
   #add-a-flight-form #form-container {
-    max-width: 550px; }
+    max-width: 600px; }
     #add-a-flight-form #form-container #main-flight-info-container {
       max-width: 330px; }
     #add-a-flight-form #form-container div {
@@ -28,11 +28,12 @@ body {
         float: right; }
     #add-a-flight-form #form-container #ticket-information-container {
       width: 100%;
-      max-width: 550px;
+      max-width: 600px;
       margin: auto; }
       #add-a-flight-form #form-container #ticket-information-container .ticket-information {
         width: 100%;
         max-width: 130px;
+        background: red;
         border-radius: 25px;
         float: left; }
         #add-a-flight-form #form-container #ticket-information-container .ticket-information input[type="radio"] {
