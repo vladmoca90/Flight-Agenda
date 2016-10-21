@@ -38,82 +38,84 @@
     </header>
     <section id="middle">
         <form role="form" id="add-a-flight-form">
-            <div id="main-flight-info-container">
-                <div><label for="departure">Departure code:</label><input type="text" name="departure" id="departure" /></div>
-                <div><label for="arrival">Arrival code:</label><input type="text" name="arrival" id="arrival" /></div>
-                <div><label for="departureDate">Departure date:</label><input type="date" name="departureDate" id="departureDate" /></div>
-                <div><label for="arrivalDate">Arrival date:</label><input type="date" name="arrivalDate" id="arrivalDate" /></div>
-                <div><label for="departureTime">Departure time:</label><input type="time" name="departureTime" id="departureTime" /></div>
-                <div><label for="arrivalTime">Arrival time:</label><input type="time" name="arrivalTime" id="arrivalTime" /></div>
-                <div><label for="flightDuration">Flight duration:</label><input type="time" name="flightDuration" id="flightDuration" /></div>
-                <div><label for="airline">Airline:</label><input type="text" name="airline" id="airline" /></div>
-                <div><label for="aircraftType">Aircraft type:</label><input type="text" name="aircraftType" id="aircraftType" /></div>
-                <div><label for="aircraftRegistration">Aircraft registration:</label><input type="text" name="aircraftRegistration" id="aircraftRegistration" /></div>
-            </div>
-            <div>
-                <div id="ticket-information-container">
-                    <div class="ticket-information">
-                        <label for="economyClass">Economy</label>
-                        <input type="radio" name="classInformation" id="economyClass" value="economyClass" />
+            <div id="form-container">
+                <div id="main-flight-info-container">
+                    <div><label for="departure">Departure code:</label><input type="text" name="departure" id="departure" /></div>
+                    <div><label for="arrival">Arrival code:</label><input type="text" name="arrival" id="arrival" /></div>
+                    <div><label for="departureDate">Departure date:</label><input type="date" name="departureDate" id="departureDate" /></div>
+                    <div><label for="arrivalDate">Arrival date:</label><input type="date" name="arrivalDate" id="arrivalDate" /></div>
+                    <div><label for="departureTime">Departure time:</label><input type="time" name="departureTime" id="departureTime" /></div>
+                    <div><label for="arrivalTime">Arrival time:</label><input type="time" name="arrivalTime" id="arrivalTime" /></div>
+                    <div><label for="flightDuration">Flight duration:</label><input type="time" name="flightDuration" id="flightDuration" /></div>
+                    <div><label for="airline">Airline:</label><input type="text" name="airline" id="airline" /></div>
+                    <div><label for="aircraftType">Aircraft type:</label><input type="text" name="aircraftType" id="aircraftType" /></div>
+                    <div><label for="aircraftRegistration">Aircraft registration:</label><input type="text" name="aircraftRegistration" id="aircraftRegistration" /></div>
+                </div>
+                <div>
+                    <div id="ticket-information-container">
+                        <div class="ticket-information">
+                            <label for="economyClass">Economy</label>
+                            <input type="radio" name="classInformation" id="economyClass" value="economyClass" />
+                        </div>
+                        <div class="ticket-information">
+                            <label for="economyPlusClass">Economy Plus</label>
+                            <input type="radio" name="classInformation" id="economyPlusClass" value="economyPlusClass" />
+                        </div>
+                        <div class="ticket-information">
+                            <label for="businessClass">Business</label>
+                            <input type="radio" name="classInformation" id="businessClass" value="businessClass" />
+                        </div>
+                        <div class="ticket-information">
+                            <label for="firstClass">First</label>
+                            <input type="radio" name="classInformation" id="firstClass" value="firstClass" />
+                        </div>
+                        <div class="ticket-information">
+                            <label for="privateClass">Private</label>
+                            <input type="radio" name="classInformation" id="privateClass" value="privateClass" />
+                        </div>
                     </div>
-                    <div class="ticket-information">
-                        <label for="economyPlusClass">Economy Plus</label>
-                        <input type="radio" name="classInformation" id="economyPlusClass" value="economyPlusClass" />
+                </div>
+                <div>
+                    <div class="seat-container">
+                        <label for="windowSeat">Window</label>
+                        <input type="radio" name="seatInformation" id="windowSeat" value="windowSeat" />
                     </div>
-                    <div class="ticket-information">
-                        <label for="businessClass">Business</label>
-                        <input type="radio" name="classInformation" id="businessClass" value="businessClass" />
+                    <div class="seat-container">
+                        <label for="middleSeat">Middle</label>
+                        <input type="radio" name="seatInformation" id="middleSeat" value="middleSeat" />
                     </div>
-                    <div class="ticket-information">
-                        <label for="firstClass">First</label>
-                        <input type="radio" name="classInformation" id="firstClass" value="firstClass" />
+                    <div class="seat-container">
+                        <label for="aisleSeat">Aisle</label>
+                        <input type="radio" name="seatInformation" id="aisleSeat" value="aisleSeat" />
                     </div>
-                    <div class="ticket-information">
-                        <label for="privateClass">Private</label>
-                        <input type="radio" name="classInformation" id="privateClass" value="privateClass" />
+                    <div class="seat-container">
+                        <label for="seat">Seat</label>
+                        <input type="text" name="seat" id="seat" />
                     </div>
                 </div>
-            </div>
-            <div>
-                <div class="seat-container">
-                    <label for="windowSeat">Window</label>
-                    <input type="radio" name="seatInformation" id="windowSeat" value="windowSeat" />
+                <div>
+                    <div class="flight-reason-container">
+                        <label for="leisureReason">Leisure</label>
+                        <input type="radio" name="reasonInformation" id="leisureReason" value="leisureReason" />
+                    </div>
+                    <div class="flight-reason-container">
+                        <label for="businessReason">Business</label>
+                        <input type="radio" name="reasonInformation" id="businessReason" value="businessReason" />
+                    </div>
+                    <div class="flight-reason-container">
+                        <label for="crewReason">Crew</label>
+                        <input type="radio" name="reasonInformation" id="crewReason" value="crewReason" />
+                    </div>
+                    <div class="flight-reason-container">
+                        <label for="otherReason">Other</label>
+                        <input type="radio" name="reasonInformation" id="otherReason" value="otherSeat" />
+                    </div>
                 </div>
-                <div class="seat-container">
-                    <label for="middleSeat">Middle</label>
-                    <input type="radio" name="seatInformation" id="middleSeat" value="middleSeat" />
+                <hr />
+                <div id="personal-note-container">
+                    <label for="personalNote">Personal Note</label>
+                    <textarea cols="50" rows="6"></textarea>
                 </div>
-                <div class="seat-container">
-                    <label for="aisleSeat">Aisle</label>
-                    <input type="radio" name="seatInformation" id="aisleSeat" value="aisleSeat" />
-                </div>
-                <div class="seat-container">
-                    <label for="seat">Seat</label>
-                    <input type="text" name="seat" id="seat" />
-                </div>
-            </div>
-            <div>
-                <div class="flight-reason-container">
-                    <label for="leisureReason">Leisure</label>
-                    <input type="radio" name="reasonInformation" id="leisureReason" value="leisureReason" />
-                </div>
-                <div class="flight-reason-container">
-                    <label for="businessReason">Business</label>
-                    <input type="radio" name="reasonInformation" id="businessReason" value="businessReason" />
-                </div>
-                <div class="flight-reason-container">
-                    <label for="crewReason">Crew</label>
-                    <input type="radio" name="reasonInformation" id="crewReason" value="crewReason" />
-                </div>
-                <div class="flight-reason-container">
-                    <label for="otherReason">Other</label>
-                    <input type="radio" name="reasonInformation" id="otherReason" value="otherSeat" />
-                </div>
-            </div>
-            <hr />
-            <div id="personal-note-container">
-                <label for="personalNote">Personal Note</label>
-                <textarea cols="50" rows="6"></textarea>
             </div>
         </form>
     </section>
