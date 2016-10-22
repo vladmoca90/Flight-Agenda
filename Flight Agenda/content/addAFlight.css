@@ -55,6 +55,9 @@ input[type="radio"] {
 hr {
   border-top: 1px dashed #cdcdcd; }
 
+h3 {
+  margin: 5px 0px; }
+
 #form-containerlabel,
 .seat-number-text {
   display: inline-block; }
