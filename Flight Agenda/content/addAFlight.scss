@@ -41,9 +41,6 @@ input[type="radio"],
 #personal-note-container>textarea {
     width: $maxWidth;
 }
-#personal-note-container>textarea {
-    height: $maxHeight;
-}
 #flight-form,
 #form-container {
     max-width: 700px;
@@ -112,10 +109,12 @@ input[type="radio"],
 }
 #personal-note-container {
     label {
+        font-weight: bold !important;
         display: block !important;
     }
     textarea {
         max-width: 400px;
-        max-height: 80px;
+        height: $maxHeight;
+        max-height: 150px;
     }
 }
