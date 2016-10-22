@@ -11,7 +11,7 @@ body {
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
     padding: 9px;
-    border: 1px solid #ccc; }
+    border: 1px solid #CCCCCC; }
   .flight-list thead {
     background: #851C0F; }
     .flight-list thead tr > th {

@@ -28,7 +28,7 @@ body {
     thead>tr>th, 
     tbody>tr>td {
         padding: 9px;
-        border: 1px solid #ccc;
+        border: 1px solid #CCCCCC;
     }
     thead {
         background: #851C0F;
@@ -42,8 +42,7 @@ body {
         text-align: center;
         td {
             img {
-                width: $maxWidth;
-                height: $maxHeight;
+                @include maxWidthHeight;
                 max-width: 65px;
                 max-height: 25px;
             }
