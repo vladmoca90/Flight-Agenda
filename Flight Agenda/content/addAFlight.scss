@@ -67,7 +67,6 @@ input[type="radio"] {
         }
         label {
             margin: 3px 0px;
-            font-weight: lighter;
         }
         input {
             float: right;
@@ -77,6 +76,7 @@ input[type="radio"] {
 #form-container label,
 .containers-title,
 .seat-number-text {
+    font-weight: bold;
     font-size: 17px;
 }
 hr {
@@ -89,10 +89,6 @@ h3 {
 .containers-title {
     text-align: left;
     text-indent: 10px;
-}
-.containers-title,
-.seat-number-text {
-    font-weight: bold;
 }
 #form-containerlabel,
 .seat-number-text {
