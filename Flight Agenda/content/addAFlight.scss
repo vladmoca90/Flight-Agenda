@@ -76,14 +76,11 @@ input[type="radio"] {
         }
     }
 }
-#seat-container,
-#flight-reason-container {
-    margin-top: 5% !important;
-}
 #ticket-information-container,
 #seat-container,
 #flight-reason-container {
     overflow: auto;
+    margin-top: 7%;
 }
 .add-a-flight-information {
     float: left;
