@@ -62,7 +62,9 @@ input[type="radio"] {
     border: 1px solid #999999;
     border-radius: 25px; }
   .add-a-flight-information label.seat-number {
-    font-weight: bold;
+    font-weight: bold !important;
     background: none;
     border: none; }
+    .add-a-flight-information label.seat-number input[name$="seat"] {
+      width: 55%; }
 
