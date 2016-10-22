@@ -85,10 +85,8 @@ input[type="radio"] {
         border: 1px solid #999999;
         border-radius: 25px;
     }
-    label.seat-number {
-        font-weight: bold !important;
-        background: none;
-        border: none;
+    h4 {
+        font-weight: bold;
     }
     input[name="seat"] {
         width: 70% !important;
