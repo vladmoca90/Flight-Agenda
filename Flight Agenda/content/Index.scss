@@ -24,6 +24,7 @@ body {
     margin: 1% 0% 0% 5%;
 }
 #top,
+nav[role="navigation"],
 #button-menu {
     min-height: 80px;
 }
@@ -41,9 +42,11 @@ body {
 #bottom-icons-container>img {
     @include maxWidthHeight;
 }
-#button-menu {
+nav[role="navigation"] {
     max-width: 625px;
     float: right;
+}
+#button-menu {
     li {
         list-style-type: none;
         font-size: 18px;
@@ -67,10 +70,12 @@ body {
     float: left;
 }
 #top,
+nav[role="navigation"],
 #button-menu,
 #bottom {
     height: $maxHeight;
 }
+nav[role="navigation"],
 #button-menu,
 #middle,
 #bottom,
