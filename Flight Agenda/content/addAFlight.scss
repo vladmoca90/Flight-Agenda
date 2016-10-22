@@ -89,9 +89,9 @@ input[type="radio"] {
         font-weight: bold !important;
         background: none;
         border: none;
-        +input[name="seat"] {
-            width: 65% !important;
-            height: 37px;
-        }
+    }
+    input[name="seat"] {
+        width: 65% !important;
+        height: 37px;
     }
 }
