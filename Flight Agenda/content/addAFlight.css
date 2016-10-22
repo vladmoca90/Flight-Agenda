@@ -53,7 +53,8 @@ input[type="radio"] {
     float: right; }
 
 hr {
-  border-top: 1px dashed #cdcdcd; }
+  border-top: 1px dashed #cdcdcd;
+  margin-top: 0px; }
 
 h3 {
   margin: 5px 0px; }
