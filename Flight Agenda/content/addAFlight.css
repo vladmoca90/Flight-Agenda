@@ -62,3 +62,6 @@ input[type="radio"] {
     border: 1px solid #999999;
     border-radius: 25px; }
 
+.seat-number {
+  font-weight: bold; }
+
