@@ -47,7 +47,7 @@ input[type="radio"] {
       margin-top: 3%; }
   #flight-form #form-container label {
     margin: 3px 0px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: lighter; }
   #flight-form #form-container input {
     float: right; }
@@ -62,7 +62,7 @@ h3 {
 .containers-title {
   text-align: left;
   text-indent: 10px;
-  font-size: 16px; }
+  font-size: 17px; }
 
 .containers-title,
 .seat-number-text {
