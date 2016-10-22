@@ -50,6 +50,12 @@ input[type="radio"] {
   #flight-form #form-container input {
     float: right; }
 
+input[type="time"] {
+  margin-right: 27%; }
+
+input[type="date"] {
+  margin-right: 3%; }
+
 #form-container label,
 .containers-title,
 .seat-number-text {
