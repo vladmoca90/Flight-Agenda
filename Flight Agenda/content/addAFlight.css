@@ -66,7 +66,7 @@ input[type="radio"] {
     background: none;
     border: none; }
   .add-a-flight-information input[name="seat"] {
-    width: 65% !important;
+    width: 70% !important;
     height: 35px;
     margin-top: 3px; }
 
