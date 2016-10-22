@@ -37,8 +37,7 @@ body {
 #flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information>label,
-input[type="radio"],
-#personal-note-container>textarea {
+input[type="radio"] {
     width: $maxWidth;
 }
 #flight-form,
@@ -62,20 +61,24 @@ input[type="radio"],
     #form-container {
         #main-flight-info-container {
             max-width: 330px;
+            div {
+                margin-top: 3%;
+            }
         }
-        div {
-            margin-top: 3%;
-            label {
-                display: inline-block;
-                margin: 3px 0px;
-                font-size: 18px;
-                font-weight: lighter;
-            }
-            input {
-                float: right;
-            }
+        label {
+            display: inline-block;
+            margin: 3px 0px;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+        input {
+            float: right;
         }
     }
+}
+#seat-container,
+#flight-reason-container {
+    margin-top: 5% !important;
 }
 #ticket-information-container,
 #seat-container,
@@ -111,10 +114,5 @@ input[type="radio"],
     label {
         font-weight: bold !important;
         display: block !important;
-    }
-    textarea {
-        max-width: 400px;
-        height: $maxHeight;
-        max-height: 150px;
     }
 }
