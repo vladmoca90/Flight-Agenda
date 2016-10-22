@@ -61,7 +61,8 @@ hr {
 
 #ticket-information-container,
 #seat-container,
-#flight-reason-container {
+#flight-reason-container,
+#personal-note-container {
   overflow: auto;
   margin-top: 4%; }
 
