@@ -47,10 +47,14 @@ input[type="radio"] {
       margin-top: 3%; }
   #flight-form #form-container label {
     margin: 3px 0px;
-    font-size: 17px;
     font-weight: lighter; }
   #flight-form #form-container input {
     float: right; }
+
+#form-container label,
+.containers-title,
+.seat-number-text {
+  font-size: 17px; }
 
 hr {
   border-top: 1px dashed #cdcdcd;
@@ -61,8 +65,7 @@ h3 {
 
 .containers-title {
   text-align: left;
-  text-indent: 10px;
-  font-size: 17px; }
+  text-indent: 10px; }
 
 .containers-title,
 .seat-number-text {
@@ -95,8 +98,7 @@ h3 {
   line-height: 38px;
   margin-left: 5%; }
   .seat-number .seat-number-text {
-    text-align: right;
-    font-size: 17px; }
+    text-align: right; }
   .seat-number input[name="seat"] {
     width: 75px !important;
     height: 35px;
