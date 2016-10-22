@@ -20,8 +20,7 @@ body {
 #flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information > label,
-input[type="radio"],
-input[name="seat"] {
+input[type="radio"] {
   width: 100%; }
 
 #flight-form,
@@ -81,11 +80,10 @@ input[name="seat"] {
   .seat-number .seat-number-text {
     font-weight: bold;
     text-align: right;
-    font-size: 16px; }
+    font-size: 17px; }
   .seat-number input[name="seat"] {
-    max-width: 75px !important;
-    height: 100%;
-    max-height: 35px;
+    width: 75px !important;
+    height: 35px;
     margin-top: 3px; }
 
 #personal-note-container label {
