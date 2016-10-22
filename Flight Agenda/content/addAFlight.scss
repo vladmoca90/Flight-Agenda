@@ -37,7 +37,8 @@ body {
 #flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information>label,
-input[type="radio"] {
+input[type="radio"],
+input[name="seat"] {
     width: $maxWidth;
 }
 #flight-form,
@@ -107,8 +108,9 @@ input[type="radio"] {
         font-size: 16px;
     }
     input[name="seat"] {
-        width: 75px !important;
-        height: 35px;
+        max-width: 75px !important;
+        height: $maxHeight;
+        max-height: 35px;
         margin-top: 3px;
     }
 }
