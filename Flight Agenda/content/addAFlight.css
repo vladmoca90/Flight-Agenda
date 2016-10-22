@@ -52,6 +52,9 @@ input[type="radio"] {
   #flight-form #form-container input {
     float: right; }
 
+hr {
+  border-top: 1px dotted #eee; }
+
 #form-containerlabel,
 .seat-number-text {
   display: inline-block; }
