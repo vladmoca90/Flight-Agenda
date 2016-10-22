@@ -46,12 +46,15 @@ input[type="radio"] {
     #flight-form #form-container #main-flight-info-container div {
       margin-top: 3%; }
   #flight-form #form-container label {
-    display: inline-block;
     margin: 3px 0px;
     font-size: 18px;
     font-weight: lighter; }
   #flight-form #form-container input {
     float: right; }
+
+#form-containerlabel,
+.seat-number-text {
+  display: inline-block; }
 
 #ticket-information-container,
 #seat-container,
@@ -77,8 +80,7 @@ input[type="radio"] {
   .seat-number .seat-number-text {
     font-weight: bold;
     text-align: right;
-    font-size: 16px;
-    display: inline-block; }
+    font-size: 16px; }
   .seat-number input[name="seat"] {
     width: 75px !important;
     height: 35px;

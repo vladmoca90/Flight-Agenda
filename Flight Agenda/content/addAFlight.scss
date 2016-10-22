@@ -66,7 +66,6 @@ input[type="radio"] {
             }
         }
         label {
-            display: inline-block;
             margin: 3px 0px;
             font-size: 18px;
             font-weight: lighter;
@@ -75,6 +74,10 @@ input[type="radio"] {
             float: right;
         }
     }
+}
+#form-containerlabel,
+.seat-number-text {
+    display: inline-block;
 }
 #ticket-information-container,
 #seat-container,
@@ -102,7 +105,6 @@ input[type="radio"] {
         font-weight: bold;
         text-align: right;
         font-size: 16px;
-        display: inline-block;
     }
     input[name="seat"] {
         width: 75px !important;
