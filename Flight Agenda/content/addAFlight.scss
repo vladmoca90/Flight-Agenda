@@ -91,6 +91,7 @@ input[type="radio"] {
         border: none;
         +input[name="seat"] {
             width: 65% !important;
+            height: 37px;
         }
     }
 }

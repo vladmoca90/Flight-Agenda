@@ -66,5 +66,6 @@ input[type="radio"] {
     background: none;
     border: none; }
     .add-a-flight-information label.seat-number + input[name="seat"] {
-      width: 65% !important; }
+      width: 65% !important;
+      height: 37px; }
 
