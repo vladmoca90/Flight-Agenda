@@ -6,7 +6,7 @@ body {
 .flight-list {
   width: 100%;
   max-width: 1000px;
-  margin: auto;
+  margin: 1% auto;
   font-size: 15px; }
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
