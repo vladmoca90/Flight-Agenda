@@ -70,9 +70,10 @@ body {
   margin-left: 2%; }
   #bottom #bottom-text-container .bottom-texts {
     font-size: 16px;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0px; }
     #bottom #bottom-text-container .bottom-texts a {
-      padding: 0px 10px; }
+      padding: 0px 5px; }
       #bottom #bottom-text-container .bottom-texts a:hover {
         color: white; }
 
