@@ -71,7 +71,9 @@ input[type="radio"] {
     border-radius: 25px; }
 
 .seat-number {
-  max-width: 170px !important; }
+  max-width: 170px !important;
+  line-height: 38px;
+  margin-left: 11%; }
   .seat-number .seat-number-text {
     font-weight: bold;
     text-align: right;
