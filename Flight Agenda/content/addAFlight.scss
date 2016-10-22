@@ -37,8 +37,12 @@ body {
 #flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information>label,
-input[type="radio"] {
+input[type="radio"],
+#personal-note-container>textarea {
     width: $maxWidth;
+}
+#personal-note-container>textarea {
+    height: $maxHeight;
 }
 #flight-form,
 #form-container {
@@ -109,5 +113,9 @@ input[type="radio"] {
 #personal-note-container {
     label {
         display: block !important;
+    }
+    textarea {
+        max-width: 400px;
+        max-height: 80px;
     }
 }
