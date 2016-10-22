@@ -68,3 +68,6 @@ input[type="radio"] {
     height: 35px;
     margin-top: 3px; }
 
+.add-a-flight-information.seat-number {
+  margin-top: 0%; }
+
