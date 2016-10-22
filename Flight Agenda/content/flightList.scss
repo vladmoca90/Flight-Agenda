@@ -42,8 +42,10 @@ body {
         text-align: center;
         td {
             img {
-                width: 65px;
-                height: 25px;
+                width: $maxWidth;
+                height: $maxHeight;
+                max-width: 65px;
+                max-height: 25px;
             }
             i {
                 margin: 3px;
