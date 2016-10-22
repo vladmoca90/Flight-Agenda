@@ -40,8 +40,14 @@ body {
     }
     tbody>tr {
         text-align: center;
-        td>i {
-            margin: 3px;
+        td {
+            img {
+                width: 65px;
+                height: 25px;
+            }
+            i {
+                margin: 3px;
+            }
         }
     }
 }
