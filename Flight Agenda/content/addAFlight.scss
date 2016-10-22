@@ -85,8 +85,10 @@ input[type="radio"] {
         border: 1px solid #999999;
         border-radius: 25px;
     }
-    h4 {
+    .seat-number-text {
         font-weight: bold;
+        text-align: right;
+        font-size: 16px;
     }
     input[name="seat"] {
         width: 70% !important;
@@ -95,5 +97,5 @@ input[type="radio"] {
     }
 }
 .seat-number {
-    margin-top: -2.5% !important;
+    margin-top: -1.5% !important;
 }
