@@ -61,7 +61,8 @@ input[type="radio"] {
     text-align: center;
     border: 1px solid #999999;
     border-radius: 25px; }
-
-.seat-number {
-  font-weight: bold; }
+  .add-a-flight-information label.seat-number {
+    font-weight: bold;
+    background: none;
+    border: none; }
 
