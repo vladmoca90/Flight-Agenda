@@ -21,7 +21,7 @@ body {
     font-family: $main-font;
 }
 .logo {
-    margin: 1% 0% 0% 5%;
+    margin: 1% 0% 0% 2%;
 }
 #top,
 nav[role="navigation"],
@@ -43,18 +43,18 @@ nav[role="navigation"],
     @include maxWidthHeight;
 }
 nav[role="navigation"] {
-    max-width: 625px;
+    max-width: 700px;
     float: right;
 }
 #button-menu {
     margin-bottom: 0px !important;
     li {
         list-style-type: none;
-        font-size: 18px;
+        font-size: 17px;
         margin-left: 2.5%;
         line-height: 80px;
         a {
-            padding: 7px;
+            padding: 5px;
             &:hover {
                 text-decoration: none;
                 background: rgba(0,47,93,0.9);
