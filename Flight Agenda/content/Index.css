@@ -12,9 +12,13 @@ nav,
   min-height: 50px; }
 
 #top,
+#profile-container,
 #bottom {
-  max-width: 1000px;
   margin: auto; }
+
+#top,
+#bottom {
+  max-width: 1000px; }
 
 #bottom-icons-container,
 #bottom-icons-container > img {

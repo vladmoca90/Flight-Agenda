@@ -29,9 +29,13 @@ nav,
     min-height: 50px;
 }
 #top,
+#profile-container,
+#bottom { 
+    margin: auto;
+}
+#top,
 #bottom { 
     max-width: 1000px;
-    margin: auto;
 }
 #bottom-icons-container,
 #bottom-icons-container>img {
