@@ -28,11 +28,6 @@ nav[role="navigation"],
 #button-menu {
     min-height: 50px;
 }
-#top, 
-#bottom {
-    background-image: url("../images/background.jpg");
-    background-size: 100% 100%;
-}
 #top,
 #bottom { 
     max-width: 1000px;
@@ -42,7 +37,8 @@ nav[role="navigation"],
 #bottom-icons-container>img {
     @include maxWidthHeight;
 }
-nav[role="navigation"] {
+nav[role="navigation"],
+#bottom {
     background: rgba(0,47,93,0.9);
 }
 #button-menu {
