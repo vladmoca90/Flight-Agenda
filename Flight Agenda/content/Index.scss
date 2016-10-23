@@ -43,7 +43,7 @@ nav[role="navigation"],
     @include maxWidthHeight;
 }
 nav[role="navigation"] {
-    background: red;
+    background: rgba(0,47,93,0.9);
 }
 #button-menu {
     margin-top: 10px;
@@ -55,7 +55,7 @@ nav[role="navigation"] {
         margin-left: 1.55%;
         line-height: 50px;
         &:hover {
-            background: rgba(0,47,93,0.9);
+            background: #005A9F;
         }
         a {
             padding-left: 10px;
