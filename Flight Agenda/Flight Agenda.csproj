@@ -100,7 +100,9 @@
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\tarom.png" />
     <Content Include="images\twitter.png" />
+    <Content Include="images\wizzair.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -141,6 +143,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\flightAgenda.js" />
+    <Content Include="scripts\maps.js" />
     <Content Include="site\addAFlight.html" />
     <Content Include="site\flightList.html" />
     <Content Include="site\Index.html" />
