@@ -42,10 +42,6 @@ nav[role="navigation"],
 #bottom-icons-container>img {
     @include maxWidthHeight;
 }
-nav[role="navigation"] {
-    max-width: 700px;
-    float: right;
-}
 #button-menu {
     margin-bottom: 0px !important;
     li {
