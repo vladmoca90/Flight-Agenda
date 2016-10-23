@@ -26,7 +26,7 @@ body {
 #top,
 nav[role="navigation"],
 #button-menu {
-    min-height: 80px;
+    min-height: 50px;
 }
 #top, 
 #bottom {
@@ -46,9 +46,9 @@ nav[role="navigation"],
     margin-bottom: 0px !important;
     li {
         list-style-type: none;
-        font-size: 17px;
+        font-size: 18px;
         margin-left: 2.5%;
-        line-height: 80px;
+        line-height: 50px;
         a {
             padding: 5px;
             &:hover {
