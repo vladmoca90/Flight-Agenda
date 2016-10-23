@@ -59,6 +59,7 @@ nav,
 nav,
 #button-menu,
 #middle,
+#profile-container,
 #bottom,
 #bottom-text-container {
   width: 100%; }
@@ -66,6 +67,9 @@ nav,
 #button-menu > li > a,
 .bottom-texts > a {
   color: #FFFFFF; }
+
+#profile-container {
+  max-width: 950px; }
 
 #bottom {
   min-height: 50px;
