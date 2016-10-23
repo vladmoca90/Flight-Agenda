@@ -75,17 +75,17 @@ nav,
 #bottom-icons-container {
     float: left;
 }
-#top,
-nav,
-#button-menu,
-#bottom {
+#top {
     height: $maxHeight;
 }
 nav,
 #button-menu,
+#flightsMap,
+#bottom {
+    @include maxWidthHeight;
+}
 #middle,
 #profile-container,
-#bottom,
 #bottom-text-container {
     width: $maxWidth;
 }
