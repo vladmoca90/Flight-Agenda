@@ -53,8 +53,10 @@ nav[role="navigation"] {
         font-size: 18px;
         margin-left: 2.5%;
         line-height: 50px;
+        &:hover {
+            background: rgba(0,47,93,0.9);
+        }
         a {
-            padding: 5px;
             &:hover {
                 text-decoration: none;
                 background: rgba(0,47,93,0.9);
