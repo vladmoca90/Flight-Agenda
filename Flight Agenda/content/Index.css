@@ -35,13 +35,13 @@ nav[role="navigation"] {
   #button-menu li {
     list-style-type: none;
     font-size: 18px;
-    margin-left: 2.5%;
+    margin-left: 1.55%;
     line-height: 50px; }
     #button-menu li:hover {
       background: rgba(0, 47, 93, 0.9); }
     #button-menu li a {
-      padding-left: 5px;
-      padding-right: 5px; }
+      padding-left: 10px;
+      padding-right: 10px; }
       #button-menu li a:hover {
         text-decoration: none; }
       #button-menu li a .button-list-texts {
