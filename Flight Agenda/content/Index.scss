@@ -57,9 +57,10 @@ nav[role="navigation"] {
             background: rgba(0,47,93,0.9);
         }
         a {
+            padding-left: 5px;
+            padding-right: 5px;
             &:hover {
                 text-decoration: none;
-                background: rgba(0,47,93,0.9);
             }
             .button-list-texts {
                 margin-left: 7px;
