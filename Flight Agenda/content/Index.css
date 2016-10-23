@@ -13,6 +13,7 @@ nav,
 
 #top,
 #profile-container,
+#flightsMap,
 #bottom {
   margin: auto; }
 
@@ -75,6 +76,10 @@ nav,
 
 #profile-container {
   max-width: 950px; }
+
+#flightsMap {
+  max-height: 300px;
+  max-width: 900px; }
 
 #bottom {
   min-height: 50px;
