@@ -24,7 +24,7 @@ body {
     margin: 1% 0% 0% 2%;
 }
 #top,
-nav[role="navigation"],
+nav,
 #button-menu {
     min-height: 50px;
 }
@@ -37,7 +37,7 @@ nav[role="navigation"],
 #bottom-icons-container>img {
     @include maxWidthHeight;
 }
-nav[role="navigation"],
+nav,
 #bottom {
     background: rgba(0,47,93,0.9);
     box-shadow: 1px 0px 1px rgba(0,47,93,0.9);
@@ -72,12 +72,12 @@ nav[role="navigation"],
     float: left;
 }
 #top,
-nav[role="navigation"],
+nav,
 #button-menu,
 #bottom {
     height: $maxHeight;
 }
-nav[role="navigation"],
+nav,
 #button-menu,
 #middle,
 #bottom,
