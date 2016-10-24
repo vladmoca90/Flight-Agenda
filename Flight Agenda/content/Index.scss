@@ -29,7 +29,10 @@ nav,
     min-height: 50px;
 }
 .logo,
-#connection-button-container {
+#connection-button-container,
+#button-menu>li,
+#bottom-text-container,
+#bottom-icons-container {
     float: left;
 }
 nav {
@@ -77,11 +80,6 @@ nav,
             }
         }
     }
-}
-#button-menu>li,
-#bottom-text-container,
-#bottom-icons-container {
-    float: left;
 }
 #top {
     height: $maxHeight;

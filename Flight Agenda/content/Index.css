@@ -12,7 +12,10 @@ nav,
   min-height: 50px; }
 
 .logo,
-#connection-button-container {
+#connection-button-container,
+#button-menu > li,
+#bottom-text-container,
+#bottom-icons-container {
   float: left; }
 
 nav {
@@ -56,11 +59,6 @@ nav,
         text-decoration: none; }
       #button-menu li a .button-list-texts {
         margin-left: 7px; }
-
-#button-menu > li,
-#bottom-text-container,
-#bottom-icons-container {
-  float: left; }
 
 #top {
   height: 100%; }
