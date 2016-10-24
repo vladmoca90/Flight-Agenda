@@ -45,7 +45,8 @@ nav,
 
 #connection-button-container {
   max-width: 300px;
-  min-height: 30px; }
+  min-height: 30px;
+  line-height: 30px; }
   #connection-button-container #facebook-sign-in {
     max-width: 194px;
     min-height: 28px;
