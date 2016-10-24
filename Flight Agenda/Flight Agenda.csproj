@@ -95,11 +95,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\background.jpg" />
+    <Content Include="images\connect-with-facebook.png" />
     <Content Include="images\facebook.png" />
     <Content Include="images\google.png" />
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\start-sign-in-button.png" />
     <Content Include="images\tarom.png" />
     <Content Include="images\twitter.png" />
     <Content Include="images\wizzair.png" />
