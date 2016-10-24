@@ -46,6 +46,10 @@ nav,
 #connection-button-container,
 #facebook-sign-in,
 .sign-in-button,
+nav,
+#button-menu,
+#flightsMap,
+#bottom,
 #bottom-icons-container,
 #bottom-icons-container > img {
   width: 100%;
@@ -89,13 +93,6 @@ nav,
         margin-left: 7px; }
 
 #top {
-  height: 100%; }
-
-nav,
-#button-menu,
-#flightsMap,
-#bottom {
-  width: 100%;
   height: 100%; }
 
 #middle,

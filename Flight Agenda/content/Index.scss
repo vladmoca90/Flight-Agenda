@@ -65,6 +65,10 @@ nav,
 #connection-button-container,
 #facebook-sign-in,
 .sign-in-button,
+nav,
+#button-menu,
+#flightsMap,
+#bottom,
 #bottom-icons-container,
 #bottom-icons-container>img {
     @include maxWidthHeight;
@@ -113,12 +117,6 @@ nav,
 }
 #top {
     height: $maxHeight;
-}
-nav,
-#button-menu,
-#flightsMap,
-#bottom {
-    @include maxWidthHeight;
 }
 #middle,
 #profile-container,
