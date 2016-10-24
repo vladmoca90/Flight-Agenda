@@ -34,7 +34,8 @@ nav,
     width: 69px;
     height: 26px;
     background: url(../images/start-sign-in-button.png) no-repeat;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 3%; }
 
 nav {
   clear: left; }
