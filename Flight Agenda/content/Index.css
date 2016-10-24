@@ -123,6 +123,12 @@ nav,
 #profile-container {
   max-width: 950px; }
 
+.statistics {
+  max-width: 250px; }
+  .statistics h5, .statistics p {
+    text-align: left;
+    text-indent: 10px; }
+
 #flightsMap {
   max-height: 300px;
   max-width: 900px; }
