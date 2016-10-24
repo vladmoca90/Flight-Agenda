@@ -32,8 +32,19 @@ nav,
 #connection-button-container,
 #button-menu>li,
 #bottom-text-container,
-#bottom-icons-container {
+#bottom-icons-container,
+#connection-button-container>a {
     float: left;
+}
+#connection-button-container {
+    width: 300px;
+    a {
+        width: 194px;
+        height: 28px;
+        background: url(../images/connect-with-facebook.png) no-repeat;
+        display: block;
+        margin: 10px 0 0 0;
+    }
 }
 nav {
     clear: left;
