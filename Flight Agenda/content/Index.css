@@ -60,11 +60,13 @@ nav,
     min-height: 28px;
     background: url(../images/connect-with-facebook.png) no-repeat;
     display: block; }
+  #connection-button-container p {
+    margin-left: 10px;
+    margin-right: 10px; }
   #connection-button-container .sign-in-button {
     max-width: 69px;
     min-height: 26px;
-    background: url(../images/start-sign-in-button.png) no-repeat;
-    margin-left: 3%; }
+    background: url(../images/start-sign-in-button.png) no-repeat; }
 
 #facebook-sign-in,
 .sign-in-button {

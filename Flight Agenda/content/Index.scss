@@ -77,11 +77,14 @@ nav,
         background: url(../images/connect-with-facebook.png) no-repeat;
         display: block;
     }
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .sign-in-button {
         max-width: 69px;
         min-height: 26px;
         background: url(../images/start-sign-in-button.png) no-repeat;
-        margin-left: 3%;
     }
 }
 #facebook-sign-in,
