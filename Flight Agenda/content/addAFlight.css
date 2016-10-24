@@ -103,7 +103,8 @@ h3 {
     text-align: right; }
   .seat-number input[name="seat"] {
     width: 75px !important;
-    height: 35px;
+    height: 100%;
+    min-height: 35px;
     margin-top: 3px; }
 
 #personal-note-container label {
