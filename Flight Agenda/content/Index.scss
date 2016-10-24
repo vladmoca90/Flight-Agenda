@@ -48,6 +48,7 @@ nav,
 .sign-in-button {
     float: left;
 }
+#account-connection,
 #connection-button-container,
 #facebook-sign-in,
 .sign-in-button,
@@ -58,6 +59,10 @@ nav,
 #bottom-icons-container,
 #bottom-icons-container>img {
     @include maxWidthHeight;
+}
+#account-connection {
+    max-width: 375px;
+    min-height: 100px;
 }
 #connection-button-container {
     max-width: 300px;
