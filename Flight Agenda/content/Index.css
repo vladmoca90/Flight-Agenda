@@ -34,8 +34,11 @@ nav,
     width: 69px;
     height: 26px;
     background: url(../images/start-sign-in-button.png) no-repeat;
-    cursor: pointer;
     margin-left: 3%; }
+
+.sign-in-button,
+#bottom-icons-container img:hover {
+  cursor: pointer; }
 
 nav {
   clear: left; }
@@ -128,6 +131,4 @@ nav,
     max-height: 30px;
     max-width: 30px;
     margin-left: 3%; }
-    #bottom #bottom-icons-container img:hover {
-      cursor: pointer; }
 
