@@ -45,15 +45,17 @@ nav,
         max-height: 28px;
         background: url(../images/connect-with-facebook.png) no-repeat;
         display: block;
-        margin: 10px 0 0 0;
     }
     .sign-in-button {
-        margin: 10px 0 0 0;
         max-width: 69px;
         max-height: 26px;
         background: url(../images/start-sign-in-button.png) no-repeat;
         margin-left: 3%;
     }
+}
+#facebook-sign-in,
+.sign-in-button {
+    margin: 10px 0 0 0;
 }
 .sign-in-button,
 #bottom-icons-container img:hover {
