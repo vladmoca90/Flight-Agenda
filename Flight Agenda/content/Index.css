@@ -16,19 +16,25 @@ nav,
 #button-menu > li,
 #bottom-text-container,
 #bottom-icons-container,
-#connection-button-container > a,
+#facebook-sign-in,
 .sign-in-button {
   float: left; }
 
 #connection-button-container {
   width: 300px;
   height: 30px; }
-  #connection-button-container a {
+  #connection-button-container #facebook-sign-in {
     width: 194px;
     height: 28px;
     background: url(../images/connect-with-facebook.png) no-repeat;
     display: block;
     margin: 10px 0 0 0; }
+  #connection-button-container .sign-in-button {
+    margin: 10px 0 0 0;
+    width: 69px;
+    height: 26px;
+    background: url(../img/start-sign-in-button.png) no-repeat;
+    cursor: pointer; }
 
 nav {
   clear: left; }
