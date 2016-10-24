@@ -33,7 +33,8 @@ nav,
 #button-menu>li,
 #bottom-text-container,
 #bottom-icons-container,
-#connection-button-container>a {
+#connection-button-container>a,
+.sign-in-button {
     float: left;
 }
 #connection-button-container {
@@ -45,6 +46,9 @@ nav,
         background: url(../images/connect-with-facebook.png) no-repeat;
         display: block;
         margin: 10px 0 0 0;
+    }
+    .sign-in-button {
+
     }
 }
 nav {

@@ -16,7 +16,8 @@ nav,
 #button-menu > li,
 #bottom-text-container,
 #bottom-icons-container,
-#connection-button-container > a {
+#connection-button-container > a,
+.sign-in-button {
   float: left; }
 
 #connection-button-container {
