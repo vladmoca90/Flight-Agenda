@@ -82,7 +82,6 @@ nav,
   box-shadow: 1px 0px 1px rgba(0, 47, 93, 0.9); }
 
 #button-menu {
-  margin-top: 10px;
   margin-bottom: 0px !important;
   padding-left: 0px; }
   #button-menu li {
@@ -103,6 +102,7 @@ nav,
 #top {
   height: 100%; }
 
+nav,
 #middle,
 #profile-container,
 #bottom-text-container {
