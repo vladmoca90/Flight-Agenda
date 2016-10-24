@@ -135,6 +135,9 @@ nav,
 .bottom-texts>a {
     color: $white-color;
 }
+#middle {
+    overflow: auto;
+}
 #profile-container {
     max-width: 950px;
 }
