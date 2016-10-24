@@ -15,6 +15,9 @@ nav,
 #connection-button-container {
   float: left; }
 
+nav {
+  clear: left; }
+
 #top,
 #profile-container,
 #flightsMap,
