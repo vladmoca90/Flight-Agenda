@@ -28,6 +28,16 @@ nav,
 #button-menu {
     min-height: 50px;
 }
+#top,
+#profile-container,
+#flightsMap,
+#bottom { 
+    margin: auto;
+}
+#top,
+#bottom { 
+    max-width: 1000px;
+}
 .logo,
 #connection-button-container,
 #connection-button-container p,
@@ -37,6 +47,17 @@ nav,
 #facebook-sign-in,
 .sign-in-button {
     float: left;
+}
+#connection-button-container,
+#facebook-sign-in,
+.sign-in-button,
+nav,
+#button-menu,
+#flightsMap,
+#bottom,
+#bottom-icons-container,
+#bottom-icons-container>img {
+    @include maxWidthHeight;
 }
 #connection-button-container {
     max-width: 300px;
@@ -62,29 +83,8 @@ nav,
 #bottom-icons-container img:hover {
     cursor: pointer;
 }
-#connection-button-container,
-#facebook-sign-in,
-.sign-in-button,
-nav,
-#button-menu,
-#flightsMap,
-#bottom,
-#bottom-icons-container,
-#bottom-icons-container>img {
-    @include maxWidthHeight;
-}
 nav {
     clear: left;
-}
-#top,
-#profile-container,
-#flightsMap,
-#bottom { 
-    margin: auto;
-}
-#top,
-#bottom { 
-    max-width: 1000px;
 }
 nav,
 #bottom {
