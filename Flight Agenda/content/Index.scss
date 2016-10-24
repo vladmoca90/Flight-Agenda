@@ -39,16 +39,16 @@ nav,
 }
 #connection-button-container {
     max-width: 300px;
-    max-height: 30px;
+    min-height: 30px;
     #facebook-sign-in {
         max-width: 194px;
-        max-height: 28px;
+        min-height: 28px;
         background: url(../images/connect-with-facebook.png) no-repeat;
         display: block;
     }
     .sign-in-button {
         max-width: 69px;
-        max-height: 26px;
+        min-height: 26px;
         background: url(../images/start-sign-in-button.png) no-repeat;
         margin-left: 3%;
     }
