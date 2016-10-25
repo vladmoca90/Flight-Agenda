@@ -129,8 +129,7 @@ nav,
 .statistics {
   max-width: 235px; }
   .statistics h2, .statistics p {
-    text-align: left;
-    text-indent: 10px; }
+    text-align: center; }
 
 #flightsMap {
   max-height: 300px;
