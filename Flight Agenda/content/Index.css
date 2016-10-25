@@ -128,7 +128,7 @@ nav,
 
 .statistics {
   max-width: 225px; }
-  .statistics h5, .statistics p {
+  .statistics h2, .statistics p {
     text-align: left;
     text-indent: 10px; }
 
