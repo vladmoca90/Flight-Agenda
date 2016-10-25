@@ -153,6 +153,7 @@
     <Content Include="scripts\flightAgenda.js" />
     <Content Include="content\font-awesome.css" />
     <Content Include="content\font-awesome.min.css" />
+    <Content Include="scripts\jquery-3.1.1.min.js" />
     <Content Include="scripts\maps.js" />
     <Content Include="site\addAFlight.html" />
     <Content Include="site\flightList.html" />
