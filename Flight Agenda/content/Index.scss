@@ -34,6 +34,9 @@ nav,
 #bottom { 
     max-width: 1000px;
 }
+#top {
+    height: $maxHeight;
+}
 #account-connection,
 .logo,
 #connection-button-container,
@@ -100,6 +103,18 @@ nav,
     background: rgba(0,47,93,0.9);
     box-shadow: 1px 0px 1px rgba(0,47,93,0.9);
 }
+nav,
+#middle,
+#profile-container,
+#flights-statistics,
+.statistics,
+#bottom-text-container {
+    width: $maxWidth;
+}
+#button-menu>li>a,
+.bottom-texts>a {
+    color: $white-color;
+}
 #button-menu {
     margin-bottom: 0px !important;
     padding-left: 0px;
@@ -122,21 +137,6 @@ nav,
             }
         }
     }
-}
-#top {
-    height: $maxHeight;
-}
-nav,
-#middle,
-#profile-container,
-#flights-statistics,
-.statistics,
-#bottom-text-container {
-    width: $maxWidth;
-}
-#button-menu>li>a,
-.bottom-texts>a {
-    color: $white-color;
 }
 #middle {
     overflow: auto;
