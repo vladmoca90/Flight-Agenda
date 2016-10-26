@@ -124,10 +124,11 @@ nav,
   overflow: auto; }
 
 #profile-container {
-  max-width: 950px; }
+  max-width: 940px; }
 
 .statistics {
-  max-width: 235px; }
+  max-width: 235px;
+  border-left: 1px solid #000000; }
   .statistics h2, .statistics p {
     text-align: center; }
 

@@ -146,10 +146,11 @@ nav,
     overflow: auto;
 }
 #profile-container {
-    max-width: 950px;
+    max-width: 940px;
 }
 .statistics {
     max-width: 235px;
+    border-left: 1px solid $black-color;
     h2, p {
         text-align: center;
     }
