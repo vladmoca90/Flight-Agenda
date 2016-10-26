@@ -131,6 +131,8 @@ nav,
   border-left: 1px solid #000000; }
   .statistics h2, .statistics p {
     text-align: center; }
+  .statistics h2 {
+    margin-top: 10px; }
   .statistics p {
     font-size: 16px;
     margin: 0px; }
