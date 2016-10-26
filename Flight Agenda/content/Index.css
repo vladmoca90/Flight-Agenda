@@ -128,7 +128,8 @@ nav,
 
 .statistics {
   max-width: 235px;
-  border-left: 1px solid #000000; }
+  border-left: 1px solid #000000;
+  padding: 10px; }
   .statistics h2, .statistics p {
     text-align: center; }
   .statistics h2 {
