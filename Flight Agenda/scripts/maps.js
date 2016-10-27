@@ -7,7 +7,7 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    var map = new google.maps.Map(document.getElementById("flightsMap"), mapProp);
+    var map = new google.maps.Map(document.getElementById("goggleMap"), mapProp);
 
     var marker = new google.maps.Marker({
         position: myCenter,
