@@ -150,6 +150,8 @@
     </Content>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\contactGoogleMap.es5.js" />
+    <Content Include="scripts\contactGoogleMap.es5.min.js" />
     <Content Include="scripts\flightAgenda.js" />
     <Content Include="content\font-awesome.css" />
     <Content Include="content\font-awesome.min.css" />
