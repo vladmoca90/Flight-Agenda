@@ -152,19 +152,20 @@ figure > .diagrams-img,
     text-align: center; }
   .statistics h2 {
     margin-top: 0px; }
-  .statistics figure > .diagrams-img {
-    max-width: 110px; }
 
-.diagramsStatistics {
+.statistics-container figure > .diagrams-img {
+  max-width: 110px; }
+
+.statistics-container .diagramsStatistics {
   min-height: 180px; }
 
-figure > .diagrams-img,
-.diagrams-texts {
+.statistics-container figure > .diagrams-img,
+.statistics-container .diagrams-texts {
   margin-top: 1.5%; }
 
-.diagrams-texts {
+.statistics-container .diagrams-texts {
   max-width: 100px; }
-  .diagrams-texts p {
+  .statistics-container .diagrams-texts p {
     font-size: 14px;
     margin: 0px;
     text-align: left; }

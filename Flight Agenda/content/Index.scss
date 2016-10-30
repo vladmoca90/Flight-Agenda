@@ -176,23 +176,25 @@ figure>.diagrams-img,
     h2 {
         margin-top: 0px;
     }
+}
+.statistics-container {
     figure>.diagrams-img {
         max-width: 110px;
     }
-}
-.diagramsStatistics {
-    min-height: 180px;
-}
-figure>.diagrams-img,
-.diagrams-texts {
-    margin-top: 1.5%;
-}
-.diagrams-texts {
-    max-width: 100px;
-    p {
-        font-size: 14px;
-        margin: 0px;
-        text-align: left;
+    .diagramsStatistics {
+        min-height: 180px;
+    }
+    figure>.diagrams-img,
+    .diagrams-texts {
+        margin-top: 1.5%;
+    }
+    .diagrams-texts {
+        max-width: 100px;
+        p {
+            font-size: 14px;
+            margin: 0px;
+            text-align: left;
+        }
     }
 }
 #bottom {
