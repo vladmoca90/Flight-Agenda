@@ -163,7 +163,8 @@ figure > .diagrams-img,
 
 .statistics-container {
   max-width: 215px;
-  margin: 0 auto; }
+  margin: auto;
+  padding-top: 10px; }
   .statistics-container figure > .diagrams-img {
     max-width: 110px; }
   .statistics-container figure > .diagrams-img {

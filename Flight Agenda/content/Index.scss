@@ -188,7 +188,8 @@ figure>.diagrams-img,
 }
 .statistics-container {
     max-width: 215px;
-    margin: 0 auto;
+    margin: auto;
+    padding-top: 10px;
     figure>.diagrams-img {
         max-width: 110px;
     }
