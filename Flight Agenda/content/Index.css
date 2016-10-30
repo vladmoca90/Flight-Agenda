@@ -133,6 +133,10 @@ figure > .diagrams-img,
 #profile-container {
   max-width: 1000px; }
 
+#googleMap {
+  max-height: 300px;
+  max-width: 900px; }
+
 .statistics {
   max-width: 250px;
   padding: 10px;
@@ -143,15 +147,13 @@ figure > .diagrams-img,
     margin-top: 0px; }
   .statistics figure > .diagrams-img {
     max-width: 100px; }
-  .statistics .diagrams-texts {
-    max-width: 120px; }
-    .statistics .diagrams-texts p {
-      font-size: 15px;
-      margin: 0px; }
 
-#googleMap {
-  max-height: 300px;
-  max-width: 900px; }
+.diagrams-texts {
+  max-width: 120px; }
+  .diagrams-texts p {
+    font-size: 15px;
+    margin: 0px;
+    text-align: left; }
 
 #bottom {
   min-height: 50px;
