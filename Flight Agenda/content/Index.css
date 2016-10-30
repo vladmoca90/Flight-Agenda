@@ -154,13 +154,16 @@ figure > .diagrams-img,
   .statistics h2 {
     margin-top: 0px; }
 
+.diagramsStatistics {
+  min-height: 180px; }
+  .diagramsStatistics h3 {
+    text-transform: uppercase; }
+
 .statistics-container {
   max-width: 215px;
   margin: 0 auto; }
   .statistics-container figure > .diagrams-img {
     max-width: 110px; }
-  .statistics-container .diagramsStatistics {
-    min-height: 180px; }
   .statistics-container figure > .diagrams-img,
   .statistics-container .diagrams-texts {
     margin-top: 1.5%; }

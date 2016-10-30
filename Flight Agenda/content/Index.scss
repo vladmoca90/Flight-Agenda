@@ -178,14 +178,17 @@ figure>.diagrams-img,
         margin-top: 0px;
     }
 }
+.diagramsStatistics {
+    min-height: 180px;
+    h3 {
+        text-transform: uppercase;
+    }
+}
 .statistics-container {
     max-width: 215px;
     margin: 0 auto;
     figure>.diagrams-img {
         max-width: 110px;
-    }
-    .diagramsStatistics {
-        min-height: 180px;
     }
     figure>.diagrams-img,
     .diagrams-texts {
