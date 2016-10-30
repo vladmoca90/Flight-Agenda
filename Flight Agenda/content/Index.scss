@@ -192,12 +192,15 @@ figure>.diagrams-img,
     figure>.diagrams-img {
         max-width: 110px;
     }
-    figure>.diagrams-img,
-    .diagrams-texts {
+    figure>.diagrams-img {
         margin-top: 1.5%;
     }
     .diagrams-texts {
         max-width: 100px;
+        margin-top: 9%;
+        &.continents {
+            margin-top: 1.5%;
+        }
         p {
             font-size: 14px;
             margin: 0px;
