@@ -73,7 +73,11 @@ nav,
 }
 #account-connection, 
 figure>.diagrams-img,
-.diagrams-texts {
+.diagrams-texts,
+#top-airports,
+#top-airlines,
+#top-routes,
+#top-aircrafts {
     float: right;
 }
 #connection-button-container {
@@ -215,6 +219,12 @@ figure>.diagrams-img,
             text-align: left;
         }
     }
+}
+#top-airports,
+#top-airlines,
+#top-routes,
+#top-aircrafts {
+    max-width: 500px;
 }
 #bottom {
     min-height: 50px;
