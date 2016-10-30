@@ -37,7 +37,7 @@ input[type="radio"] {
 
 #flight-form {
   background: rgba(246, 247, 248, 0.85);
-  margin: 1% auto;
+  margin: 2% auto;
   padding: 1% 0%; }
   #flight-form #form-container #main-flight-info-container {
     max-width: 330px; }
