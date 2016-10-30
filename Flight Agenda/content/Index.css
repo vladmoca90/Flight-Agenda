@@ -28,13 +28,17 @@ nav,
 .logo,
 #connection-button-container,
 #connection-button-container p,
+#facebook-sign-in,
+.sign-in-button,
 nav,
 #button-menu > li,
 #bottom-text-container,
 #bottom-icons-container,
-#facebook-sign-in,
-.sign-in-button,
-.statistics {
+.statistics,
+#top-airports,
+#top-airlines,
+#top-routes,
+#top-aircrafts {
   float: left; }
 
 #account-connection,
@@ -59,11 +63,7 @@ nav,
 
 #account-connection,
 figure > .diagrams-img,
-.diagrams-texts,
-#top-airports,
-#top-airlines,
-#top-routes,
-#top-aircrafts {
+.diagrams-texts {
   float: right; }
 
 #connection-button-container {
@@ -177,9 +177,8 @@ figure > .diagrams-img,
   margin: auto;
   padding-top: 10px; }
   .statistics-container figure > .diagrams-img {
+    margin-top: 1.5%;
     max-width: 110px; }
-  .statistics-container figure > .diagrams-img {
-    margin-top: 1.5%; }
   .statistics-container .diagrams-texts {
     max-width: 100px;
     margin-top: 9%; }
@@ -201,7 +200,9 @@ figure > .diagrams-img,
   background: #000000;
   color: #FFFFFF;
   padding: 3px 0px;
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+  width: 80%; }
 
 #bottom {
   min-height: 50px;
