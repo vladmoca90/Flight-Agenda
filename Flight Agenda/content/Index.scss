@@ -19,7 +19,6 @@ body {
 .logo {
     margin: 1% 0% 0% 2%;
 }
-#top,
 nav,
 #button-menu {
     min-height: 50px;
@@ -36,6 +35,7 @@ nav,
 }
 #top {
     height: $maxHeight;
+    min-height: 125px;
 }
 #account-connection,
 .logo,
