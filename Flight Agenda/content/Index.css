@@ -54,6 +54,7 @@ nav,
   margin-top: 1.4%; }
 
 #account-connection,
+figure > .diagrams-img,
 .diagrams-texts {
   float: right; }
 
@@ -141,7 +142,7 @@ figure > .diagrams-img,
   .statistics h2 {
     margin-top: 0px; }
   .statistics figure > .diagrams-img {
-    max-width: 65px; }
+    max-width: 100px; }
   .statistics .diagrams-texts {
     max-width: 120px; }
     .statistics .diagrams-texts p {
