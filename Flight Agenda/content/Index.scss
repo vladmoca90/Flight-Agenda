@@ -226,6 +226,15 @@ figure>.diagrams-img,
 #top-aircrafts {
     max-width: 500px;
 }
+#top-airports {
+    h3 {
+        text-transform: uppercase;
+        background: $black-color;
+        color: $white-color;
+        padding: 3px 0px;
+        text-align: center;
+    }
+}
 #bottom {
     min-height: 50px;
     line-height: 50px;
