@@ -41,6 +41,7 @@ nav,
 nav,
 #button-menu,
 #flightsMap,
+.profile-color-border,
 #bottom,
 #bottom-icons-container,
 #bottom-icons-container > img {
@@ -136,6 +137,9 @@ figure > .diagrams-img,
 #googleMap {
   max-height: 300px;
   max-width: 900px; }
+
+.profile-color-border {
+  max-height: 9px; }
 
 .statistics {
   max-width: 250px;
