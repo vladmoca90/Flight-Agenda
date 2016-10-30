@@ -102,6 +102,8 @@
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\pie-chart.png" />
+    <Content Include="images\profile-color-border.png" />
     <Content Include="images\start-sign-in-button.png" />
     <Content Include="images\tarom.png" />
     <Content Include="images\twitter.png" />
