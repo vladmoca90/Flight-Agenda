@@ -157,7 +157,8 @@ figure > .diagrams-img,
 .diagramsStatistics {
   min-height: 180px; }
   .diagramsStatistics h3 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
 
 .statistics-container {
   max-width: 215px;
