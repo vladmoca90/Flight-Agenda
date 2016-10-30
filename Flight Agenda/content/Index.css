@@ -146,12 +146,12 @@ figure > .diagrams-img,
 #middle {
   overflow: auto; }
 
-#profile-container {
+#profile-container,
+#map {
   max-width: 1000px; }
 
-#googleMap {
-  max-height: 300px;
-  max-width: 900px; }
+#map {
+  min-height: 450px; }
 
 .profile-color-border {
   max-height: 9px; }

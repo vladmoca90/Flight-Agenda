@@ -14,8 +14,6 @@
 
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
 
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-
     <script src="../scripts/jquery-3.1.1.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../content/font-awesome.min.css" />
@@ -25,6 +23,14 @@
     <link rel="stylesheet" type="text/css" href="../content/Index.css" />
 
     <script src="../scripts/flightAgenda.js"></script>
+
+    <script src="../scripts/maps.js"></script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 </head>
 <body>
@@ -52,7 +58,7 @@
     </header>
     <section role="main" id="middle">
         <div id="profile-container">
-            <div id="googleMap"></div>
+            <div id="map"></div>
             <div id="flights-total">
                 <div class="statistics">
                     <h2 role="heading">59 flights</h2>
