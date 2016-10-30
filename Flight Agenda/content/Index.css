@@ -22,7 +22,6 @@ nav,
   height: 100%;
   min-height: 125px; }
 
-#account-connection,
 .logo,
 #connection-button-container,
 #connection-button-container p,
@@ -52,7 +51,8 @@ nav,
   max-width: 475px;
   min-height: 45px;
   line-height: 45px;
-  margin: 1.4% 0% 0% 20%; }
+  margin: 1.4% 0% 0% 20%;
+  float: right; }
 
 #connection-button-container {
   max-width: 300px;
