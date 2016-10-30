@@ -95,6 +95,7 @@ nav,
 #flights-total,
 #flights-diagrams,
 .statistics,
+figure > .diagrams-img,
 .diagrams-texts,
 #bottom-text-container {
   width: 100%; }
@@ -139,6 +140,8 @@ nav,
     text-align: center; }
   .statistics h2 {
     margin-top: 0px; }
+  .statistics figure > .diagrams-img {
+    max-width: 65px; }
   .statistics .diagrams-texts {
     max-width: 120px; }
     .statistics .diagrams-texts p {

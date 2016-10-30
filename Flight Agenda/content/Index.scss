@@ -112,6 +112,7 @@ nav,
 #flights-total,
 #flights-diagrams,
 .statistics,
+figure>.diagrams-img,
 .diagrams-texts,
 #bottom-text-container {
     width: $maxWidth;
@@ -162,6 +163,9 @@ nav,
     }
     h2 {
         margin-top: 0px;
+    }
+    figure>.diagrams-img {
+        max-width: 65px;
     }
     .diagrams-texts {
         max-width: 120px;
