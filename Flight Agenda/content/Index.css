@@ -237,6 +237,9 @@ nav,
       font-size: 14px;
       margin: 0px;
       text-align: left; }
+      @media screen and (max-width: 800px) {
+        .statistics-container .diagrams-texts p {
+          text-align: center; } }
 
 .main-flights-boxes,
 #bottom-text-container {

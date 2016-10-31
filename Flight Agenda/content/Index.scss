@@ -269,6 +269,9 @@ nav,
             font-size: 14px;
             margin: 0px;
             text-align: left;
+            @media screen and (max-width: 800px) {
+                text-align: center;
+            }
         }
     }
 }
