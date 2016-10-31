@@ -239,12 +239,9 @@ nav,
     .statistics-container .diagrams-texts.continents {
       margin-top: 1.5%; }
     .statistics-container .diagrams-texts p {
-      font-size: 14px;
+      font-size: 16px;
       margin: 0px;
       text-align: left; }
-      @media screen and (max-width: 600px) {
-        .statistics-container .diagrams-texts p {
-          font-size: 16px; } }
       @media screen and (max-width: 800px) {
         .statistics-container .diagrams-texts p {
           text-align: center; } }
