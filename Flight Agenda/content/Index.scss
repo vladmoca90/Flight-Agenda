@@ -211,7 +211,12 @@ nav,
     max-height: 9px;
 }
 .main-flights-boxes figure,
-.statistics-container figure {
+.statistics-container figure,
+.statistics,
+.flights-table,
+.diagrams-texts,
+.diagrams-img,
+.graph-img {
     @media screen and (max-width: 800px) {
         @include margin-float-group;
     }
@@ -233,15 +238,6 @@ nav,
 .main-flights-boxes,
 #flights-per-year {
     box-shadow: 0px 1px 2px #858585;
-}
-.statistics,
-.flights-table,
-.diagrams-texts,
-.diagrams-img,
-.graph-img {
-    @media screen and (max-width: 800px) {
-        @include margin-float-group;
-    }
 }
 .statistics {
     max-width: 250px;
