@@ -210,7 +210,8 @@ nav,
 .profile-color-border {
     max-height: 9px;
 }
-.main-flights-boxes {
+.main-flights-boxes,
+#flights-per-year {
     padding-top: 10px;
 }
 .main-flights-boxes,
@@ -261,6 +262,7 @@ nav,
 .flights-container,
 .statistics h3,
 #flights-top h3,
+#flights-per-year,
 #flights-per-year>.graph-img,
 .flights-per-year-container {
     clear: both;
