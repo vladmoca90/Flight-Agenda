@@ -196,9 +196,16 @@ nav,
         background: $black-color;
         color: $white-color;
         padding: 3px 0px;
-        text-align: center;
         width: 80%;
     }
+}
+#flights-top h3,
+.statistics h2,
+.statistics p,
+.diagramsStatistics h3,
+table>thead>tr>th,
+table>tbody>tr>td {
+    text-align: center;
 }
 #profile-container,
 #map {
@@ -224,9 +231,6 @@ nav,
 .statistics {
     max-width: 250px;
     padding: 5px;
-    h2, p {
-        text-align: center;
-    }
     h2 {
         margin-top: 0px;
     }
@@ -236,7 +240,6 @@ nav,
     h3 {
         margin-top: 5px;
         text-transform: uppercase;
-        text-align: center;
     }
 }
 .statistics-container {
@@ -271,7 +274,6 @@ nav,
     table>thead>tr>th,
     table>tbody>tr>td {
         padding: 5px 10px;
-        text-align: center;
     }
     table>thead>tr>th {
         font-weight: bold;

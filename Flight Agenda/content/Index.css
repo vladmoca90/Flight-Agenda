@@ -173,8 +173,15 @@ nav,
   background: #000000;
   color: #FFFFFF;
   padding: 3px 0px;
-  text-align: center;
   width: 80%; }
+
+#flights-top h3,
+.statistics h2,
+.statistics p,
+.diagramsStatistics h3,
+table > thead > tr > th,
+table > tbody > tr > td {
+  text-align: center; }
 
 #profile-container,
 #map {
@@ -200,8 +207,6 @@ nav,
 .statistics {
   max-width: 250px;
   padding: 5px; }
-  .statistics h2, .statistics p {
-    text-align: center; }
   .statistics h2 {
     margin-top: 0px; }
 
@@ -209,8 +214,7 @@ nav,
   min-height: 190px; }
   .diagramsStatistics h3 {
     margin-top: 5px;
-    text-transform: uppercase;
-    text-align: center; }
+    text-transform: uppercase; }
 
 .statistics-container {
   max-width: 215px;
@@ -253,8 +257,7 @@ nav,
   #flights-weekday table > tbody > tr > td,
   #flights-monthly table > thead > tr > th,
   #flights-monthly table > tbody > tr > td {
-    padding: 5px 10px;
-    text-align: center; }
+    padding: 5px 10px; }
   #top-airports table > thead > tr > th,
   #top-airlines table > thead > tr > th,
   #top-routes table > thead > tr > th,
