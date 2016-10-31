@@ -230,9 +230,7 @@ nav,
 .flights-container,
 .statistics h3,
 #flights-top h3,
-#flights-per-year,
-#flights-per-year > .graph-img,
-.flights-per-year-container {
+#flights-per-year {
   clear: both; }
 
 .flights-container,
