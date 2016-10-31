@@ -196,7 +196,7 @@ nav,
     float: none; } }
 
 @media screen and (max-width: 800px) {
-  .main-flights-boxes figure {
+  .main-flights-boxes .diagrams-fig {
     width: 200px; } }
 
 @media screen and (max-width: 800px) {

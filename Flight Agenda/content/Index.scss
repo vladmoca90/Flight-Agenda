@@ -221,7 +221,7 @@ nav,
         @include margin-float-group;
     }
 }
-.main-flights-boxes figure {
+.main-flights-boxes .diagrams-fig {
     @media screen and (max-width: 800px) {
         width: 200px;
     }
