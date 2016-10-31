@@ -192,11 +192,16 @@ nav,
 .statistics,
 #flights-top {
     h3 {
-        text-transform: uppercase;
         background: $black-color;
         color: $white-color;
         padding: 3px 0px;
         width: 80%;
+    }
+}
+#flights-top,
+.diagramsStatistics {
+    h3 {
+        text-transform: uppercase;
     }
 }
 #flights-top h3,
@@ -239,7 +244,6 @@ table>tbody>tr>td {
     min-height: 190px;
     h3 {
         margin-top: 5px;
-        text-transform: uppercase;
     }
 }
 .statistics-container {
