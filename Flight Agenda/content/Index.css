@@ -185,16 +185,18 @@ nav,
   max-height: 9px; }
 
 @media screen and (max-width: 800px) {
-  .main-flights-boxes figure {
-    width: 200px;
+  .main-flights-boxes figure,
+  .statistics-container figure {
     margin: auto;
     float: none; } }
 
 @media screen and (max-width: 800px) {
+  .main-flights-boxes figure {
+    width: 200px; } }
+
+@media screen and (max-width: 800px) {
   .statistics-container figure {
-    width: 110px;
-    margin: auto;
-    float: none; } }
+    width: 110px; } }
 
 .main-flights-boxes,
 #flights-per-year {

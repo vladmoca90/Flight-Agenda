@@ -210,16 +210,20 @@ nav,
 .profile-color-border {
     max-height: 9px;
 }
+.main-flights-boxes figure,
+.statistics-container figure {
+    @media screen and (max-width: 800px) {
+        @include margin-float-group;
+    }
+}
 .main-flights-boxes figure {
     @media screen and (max-width: 800px) {
         width: 200px;
-        @include margin-float-group;
     }
 }
 .statistics-container figure {
     @media screen and (max-width: 800px) {
         width: 110px;
-        @include margin-float-group;
     }
 }
 .main-flights-boxes,
