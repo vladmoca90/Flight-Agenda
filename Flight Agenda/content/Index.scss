@@ -24,6 +24,7 @@ nav,
     min-height: 50px;
 }
 #top,
+#middle,
 #profile-container,
 #flightsMap,
 .flights-container,
@@ -36,6 +37,7 @@ nav,
     margin: auto;
 }
 #top,
+#middle,
 #bottom { 
     max-width: 1000px;
 }
@@ -182,6 +184,9 @@ nav,
             }
         }
     }
+}
+#middle {
+    background: url("../images/content-bg.png") repeat-x;
 }
 #middle,
 .flights-container,
