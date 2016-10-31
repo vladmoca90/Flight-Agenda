@@ -131,8 +131,11 @@ nav,
 #bottom-text-container {
   width: 100%; }
 
+.statistics h3,
+#flights-top h3,
 #button-menu > li > a,
-.bottom-texts > a {
+.bottom-texts > a,
+.bottom-texts a:hover {
   color: #FFFFFF; }
 
 #button-menu {
@@ -170,7 +173,6 @@ nav,
 .statistics h3,
 #flights-top h3 {
   background: #000000;
-  color: #FFFFFF;
   padding: 3px 0px;
   width: 80%; }
 
@@ -314,8 +316,6 @@ table > tbody > tr > td {
     margin: 0px; }
     #bottom #bottom-text-container .bottom-texts a {
       padding: 0px 5px; }
-      #bottom #bottom-text-container .bottom-texts a:hover {
-        color: white; }
 
 #bottom #bottom-icons-container {
   max-width: 200px;

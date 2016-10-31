@@ -148,8 +148,11 @@ nav,
 #bottom-text-container {
     width: $maxWidth;
 }
+.statistics h3,
+#flights-top h3,
 #button-menu>li>a,
-.bottom-texts>a {
+.bottom-texts>a,
+.bottom-texts a:hover {
     color: $white-color;
 }
 #button-menu {
@@ -193,7 +196,6 @@ nav,
 #flights-top {
     h3 {
         background: $black-color;
-        color: $white-color;
         padding: 3px 0px;
         width: 80%;
     }
@@ -324,9 +326,6 @@ table>tbody>tr>td {
             margin: 0px;
             a {
                 padding: 0px 5px;
-                &:hover {
-                    color: white;
-                }   
             }
         }
     }
