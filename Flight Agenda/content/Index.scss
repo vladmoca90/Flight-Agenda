@@ -305,8 +305,15 @@ nav,
 .flights-per-year-container {
     padding-bottom: 1%;
 }
+
 .flights-container {
     padding: 10px;
+    .flights-table {
+        font-size: 16px;
+        @media screen and (max-width: 800px) {
+            font-size: 18px;
+        }
+    }
     .flights-table>thead>tr>th,
     .flights-table>tbody>tr>td {
         padding: 5px 10px;
@@ -341,7 +348,7 @@ nav,
         max-width: 200px;
         margin-left: 24%;
         @media screen and (max-width: 800px) {
-            margin-left: auto
+            margin-left: auto;
         }
         img {
             max-height: 30px;
