@@ -42,7 +42,9 @@ nav,
 #top-aircrafts,
 .flights-table,
 #longest-flights,
-#distance-per-airline {
+#distance-per-airline,
+#flights-weekday,
+#flights-monthly {
   float: left; }
 
 #account-connection,
@@ -119,6 +121,7 @@ nav,
 #longest-flights,
 #distance-per-airline,
 .flights-container,
+.graph-img,
 #bottom-text-container {
   width: 100%; }
 
@@ -212,14 +215,18 @@ nav,
 #top-routes,
 #top-aircrafts,
 #longest-flights,
-#distance-per-airline {
+#distance-per-airline,
+#flights-weekday,
+#flights-monthly {
   max-width: 500px; }
   #top-airports h3,
   #top-airlines h3,
   #top-routes h3,
   #top-aircrafts h3,
   #longest-flights h3,
-  #distance-per-airline h3 {
+  #distance-per-airline h3,
+  #flights-weekday h3,
+  #flights-monthly h3 {
     text-transform: uppercase;
     background: #000000;
     color: #FFFFFF;
@@ -238,7 +245,11 @@ nav,
   #longest-flights table > thead > tr > th,
   #longest-flights table > tbody > tr > td,
   #distance-per-airline table > thead > tr > th,
-  #distance-per-airline table > tbody > tr > td {
+  #distance-per-airline table > tbody > tr > td,
+  #flights-weekday table > thead > tr > th,
+  #flights-weekday table > tbody > tr > td,
+  #flights-monthly table > thead > tr > th,
+  #flights-monthly table > tbody > tr > td {
     padding: 5px 10px;
     text-align: center; }
   #top-airports table > thead > tr > th,
@@ -246,20 +257,28 @@ nav,
   #top-routes table > thead > tr > th,
   #top-aircrafts table > thead > tr > th,
   #longest-flights table > thead > tr > th,
-  #distance-per-airline table > thead > tr > th {
+  #distance-per-airline table > thead > tr > th,
+  #flights-weekday table > thead > tr > th,
+  #flights-monthly table > thead > tr > th {
     font-weight: bold; }
   #top-airports .diagrams-img,
   #top-airlines .diagrams-img,
   #top-routes .diagrams-img,
   #top-aircrafts .diagrams-img,
   #longest-flights .diagrams-img,
-  #distance-per-airline .diagrams-img {
+  #distance-per-airline .diagrams-img,
+  #flights-weekday .diagrams-img,
+  #flights-monthly .diagrams-img {
     margin-top: 4%;
     max-width: 200px; }
 
 #flights-top,
 .flights-container {
   clear: both; }
+
+#flights-weekday .graph-img,
+#flights-monthly .graph-img {
+  max-width: 450px; }
 
 .flights-container {
   max-width: 450px;

@@ -57,7 +57,9 @@ nav,
 #top-aircrafts,
 .flights-table,
 #longest-flights,
-#distance-per-airline {
+#distance-per-airline,
+#flights-weekday,
+#flights-monthly {
     float: left;
 }
 #account-connection,
@@ -136,6 +138,7 @@ nav,
 #longest-flights,
 #distance-per-airline,
 .flights-container,
+.graph-img,
 #bottom-text-container {
     width: $maxWidth;
 }
@@ -241,7 +244,9 @@ nav,
 #top-routes,
 #top-aircrafts,
 #longest-flights,
-#distance-per-airline {
+#distance-per-airline,
+#flights-weekday,
+#flights-monthly {
     max-width: 500px;
     h3 {
         text-transform: uppercase;
@@ -268,6 +273,12 @@ nav,
 #flights-top,
 .flights-container {
     clear: both;
+}
+#flights-weekday,
+#flights-monthly {
+    .graph-img {
+        max-width: 450px;
+    }
 }
 .flights-container {
     max-width: 450px;
