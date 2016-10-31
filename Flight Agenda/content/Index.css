@@ -215,6 +215,27 @@ figure > .diagrams-img,
     text-align: center;
     margin: auto;
     width: 80%; }
+  #top-airports table > thead > tr > th,
+  #top-airports table > tbody > tr > td,
+  #top-airlines table > thead > tr > th,
+  #top-airlines table > tbody > tr > td,
+  #top-routes table > thead > tr > th,
+  #top-routes table > tbody > tr > td,
+  #top-aircrafts table > thead > tr > th,
+  #top-aircrafts table > tbody > tr > td,
+  #longest-flights table > thead > tr > th,
+  #longest-flights table > tbody > tr > td,
+  #distance-per-airline table > thead > tr > th,
+  #distance-per-airline table > tbody > tr > td {
+    padding: 5px 10px;
+    text-align: center; }
+  #top-airports table > thead > tr > th,
+  #top-airlines table > thead > tr > th,
+  #top-routes table > thead > tr > th,
+  #top-aircrafts table > thead > tr > th,
+  #longest-flights table > thead > tr > th,
+  #distance-per-airline table > thead > tr > th {
+    font-weight: bold; }
 
 #flights-top,
 .flights-container {
