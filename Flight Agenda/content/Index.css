@@ -185,6 +185,7 @@ nav,
   max-height: 9px; }
 
 @media screen and (max-width: 800px) {
+  #button-menu li,
   .main-flights-boxes figure,
   .statistics-container figure,
   .statistics,

@@ -152,6 +152,9 @@ nav,
         font-size: 18px;
         margin-left: 1.6%;
         line-height: 50px;
+        @media screen and (max-width: 800px) {
+            
+        }
         &:hover {
             background: #005A9F;
             transition: background 0.4s ease-out;
@@ -210,6 +213,7 @@ nav,
 .profile-color-border {
     max-height: 9px;
 }
+#button-menu li,
 .main-flights-boxes figure,
 .statistics-container figure,
 .statistics,
