@@ -340,6 +340,9 @@ nav,
     #bottom-icons-container {
         max-width: 200px;
         margin-left: 24%;
+        @media screen and (max-width: 800px) {
+            margin-left: auto
+        }
         img {
             max-height: 30px;
             max-width: 30px;
