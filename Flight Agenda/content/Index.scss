@@ -314,6 +314,9 @@ nav,
                 padding: 0px 5px;
             }
         }
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
     }
     #bottom-icons-container {
         max-width: 200px;
