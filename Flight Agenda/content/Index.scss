@@ -53,7 +53,8 @@ nav,
 #top-airports,
 #top-airlines,
 #top-routes,
-#top-aircrafts {
+#top-aircrafts,
+.flights-table {
     float: left;
 }
 #account-connection,
@@ -76,7 +77,7 @@ nav,
     margin-top: 1.4%;
 }
 #account-connection, 
-figure>.diagrams-img,
+.diagrams-img,
 .diagrams-texts {
     float: right;
 }
@@ -122,7 +123,7 @@ nav,
 #flights-diagrams,
 .statistics,
 .statistics-container,
-figure>.diagrams-img,
+.diagrams-img,
 .diagrams-texts,
 #flights-total,
 #top-airports,
@@ -207,7 +208,7 @@ figure>.diagrams-img,
     max-width: 215px;
     margin: auto;
     padding-top: 10px;
-    figure>.diagrams-img {
+    .diagrams-img {
         margin-top: 1.5%;
         max-width: 110px;
     }
@@ -250,6 +251,10 @@ figure>.diagrams-img,
     }
     table>tbody>tr>td {
 
+    }
+    .diagrams-img {
+        margin-top: 1.5%;
+        max-width: 225px;
     }
 }
 #flights-top,
