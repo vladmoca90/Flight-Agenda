@@ -165,7 +165,8 @@ figure>.diagrams-img,
         }
     }
 }
-#middle {
+#middle,
+#flights-total {
     overflow: auto;
 }
 #profile-container,
@@ -221,10 +222,10 @@ figure>.diagrams-img,
 #top-airports,
 #top-airlines,
 #top-routes,
-#top-aircrafts {
+#top-aircrafts,
+#longest-flights,
+#distance-per-airline {
     max-width: 500px;
-}
-#top-airports {
     h3 {
         text-transform: uppercase;
         background: $black-color;
@@ -234,6 +235,12 @@ figure>.diagrams-img,
         margin: auto;
         width: 80%;
     }
+    .flights-container {
+        clear: both;
+    }
+}
+#top-airports {
+    
 }
 #bottom {
     min-height: 50px;

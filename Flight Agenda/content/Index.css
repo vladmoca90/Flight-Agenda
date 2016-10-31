@@ -143,7 +143,8 @@ figure > .diagrams-img,
       #button-menu li a .button-list-texts {
         margin-left: 7px; }
 
-#middle {
+#middle,
+#flights-total {
   overflow: auto; }
 
 #profile-container,
@@ -192,17 +193,30 @@ figure > .diagrams-img,
 #top-airports,
 #top-airlines,
 #top-routes,
-#top-aircrafts {
+#top-aircrafts,
+#longest-flights,
+#distance-per-airline {
   max-width: 500px; }
-
-#top-airports h3 {
-  text-transform: uppercase;
-  background: #000000;
-  color: #FFFFFF;
-  padding: 3px 0px;
-  text-align: center;
-  margin: auto;
-  width: 80%; }
+  #top-airports h3,
+  #top-airlines h3,
+  #top-routes h3,
+  #top-aircrafts h3,
+  #longest-flights h3,
+  #distance-per-airline h3 {
+    text-transform: uppercase;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 3px 0px;
+    text-align: center;
+    margin: auto;
+    width: 80%; }
+  #top-airports .flights-container,
+  #top-airlines .flights-container,
+  #top-routes .flights-container,
+  #top-aircrafts .flights-container,
+  #longest-flights .flights-container,
+  #distance-per-airline .flights-container {
+    clear: both; }
 
 #bottom {
   min-height: 50px;
