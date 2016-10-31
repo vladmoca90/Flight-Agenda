@@ -284,18 +284,6 @@ nav,
 #bottom-text-container {
     max-width: 500px;
 }
-.flights-table>thead>tr>th,
-.flights-table>tbody>tr>td {
-    padding: 5px 10px;
-}
-.flights-table>thead>tr>th {
-    font-weight: bold;
-    border-bottom: 1px solid $black-color;
-}
-.diagrams-img {
-    margin-top: 4%;
-    max-width: 200px;
-}
 #flights-top div h3 {
     width: 90%;
 }
@@ -321,6 +309,18 @@ nav,
 }
 .flights-container {
     padding: 10px;
+    .flights-table>thead>tr>th,
+    .flights-table>tbody>tr>td {
+        padding: 5px 10px;
+    }
+    .flights-table>thead>tr>th {
+        font-weight: bold;
+        border-bottom: 1px solid $black-color;
+    }
+    .diagrams-img {
+        margin-top: 4%;
+        max-width: 200px;
+    }
 }
 #bottom {
     min-height: 50px;
