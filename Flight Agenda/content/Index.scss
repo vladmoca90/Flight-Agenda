@@ -218,14 +218,18 @@ nav,
 #flights-per-year {
     box-shadow: 0px 1px 2px #858585;
 }
+.statistics,
+.flights-table,
+.diagrams-img {
+    @media screen and (max-width: 800px) {
+        @include margin-float-group;
+    }
+}
 .statistics {
     max-width: 250px;
     padding: 5px;
     h2 {
         margin-top: 0px;
-    }
-    @media screen and (max-width: 800px) {
-        @include margin-float-group;
     }
 }
 .diagramsStatistics {

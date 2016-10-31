@@ -192,15 +192,18 @@ nav,
 #flights-per-year {
   box-shadow: 0px 1px 2px #858585; }
 
+@media screen and (max-width: 800px) {
+  .statistics,
+  .flights-table,
+  .diagrams-img {
+    margin: auto;
+    float: none; } }
+
 .statistics {
   max-width: 250px;
   padding: 5px; }
   .statistics h2 {
     margin-top: 0px; }
-  @media screen and (max-width: 800px) {
-    .statistics {
-      margin: auto;
-      float: none; } }
 
 .diagramsStatistics {
   min-height: 190px; }
