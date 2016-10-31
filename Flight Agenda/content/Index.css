@@ -163,7 +163,8 @@ nav,
 #distance-per-airline {
   overflow: auto; }
 
-#flights-total h3 {
+.statistics h3,
+#flights-top h3 {
   text-transform: uppercase;
   background: #000000;
   color: #FFFFFF;
@@ -278,7 +279,9 @@ nav,
     max-width: 200px; }
 
 #flights-top,
-.flights-container {
+.flights-container,
+.statistics h3,
+#flights-top h3 {
   clear: both; }
 
 #flights-weekday .graph-img,
