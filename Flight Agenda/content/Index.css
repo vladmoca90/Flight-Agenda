@@ -288,6 +288,9 @@ nav,
     margin-top: 4%;
     max-width: 200px; }
 
+#flights-top div h3 {
+  width: 90%; }
+
 #flights-top,
 .flights-container,
 .statistics h3,
