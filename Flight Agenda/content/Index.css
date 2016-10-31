@@ -122,6 +122,9 @@ nav,
 #distance-per-airline,
 .flights-container,
 .graph-img,
+#flights-weekday,
+#flights-monthly,
+#flights-per-year,
 #bottom-text-container {
   width: 100%; }
 
@@ -175,7 +178,11 @@ nav,
 #top-airlines,
 #top-routes,
 #top-aircrafts,
-#longest-flights {
+#longest-flights,
+#distance-per-airline,
+#flights-weekday,
+#flights-monthly,
+#flights-per-year {
   box-shadow: 0px 1px 2px #858585; }
 
 .statistics {
@@ -217,7 +224,8 @@ nav,
 #longest-flights,
 #distance-per-airline,
 #flights-weekday,
-#flights-monthly {
+#flights-monthly,
+#flights-per-year {
   max-width: 500px; }
   #top-airports h3,
   #top-airlines h3,
@@ -226,7 +234,8 @@ nav,
   #longest-flights h3,
   #distance-per-airline h3,
   #flights-weekday h3,
-  #flights-monthly h3 {
+  #flights-monthly h3,
+  #flights-per-year h3 {
     text-transform: uppercase;
     background: #000000;
     color: #FFFFFF;
@@ -249,7 +258,9 @@ nav,
   #flights-weekday table > thead > tr > th,
   #flights-weekday table > tbody > tr > td,
   #flights-monthly table > thead > tr > th,
-  #flights-monthly table > tbody > tr > td {
+  #flights-monthly table > tbody > tr > td,
+  #flights-per-year table > thead > tr > th,
+  #flights-per-year table > tbody > tr > td {
     padding: 5px 10px;
     text-align: center; }
   #top-airports table > thead > tr > th,
@@ -259,7 +270,8 @@ nav,
   #longest-flights table > thead > tr > th,
   #distance-per-airline table > thead > tr > th,
   #flights-weekday table > thead > tr > th,
-  #flights-monthly table > thead > tr > th {
+  #flights-monthly table > thead > tr > th,
+  #flights-per-year table > thead > tr > th {
     font-weight: bold; }
   #top-airports .diagrams-img,
   #top-airlines .diagrams-img,
@@ -268,7 +280,8 @@ nav,
   #longest-flights .diagrams-img,
   #distance-per-airline .diagrams-img,
   #flights-weekday .diagrams-img,
-  #flights-monthly .diagrams-img {
+  #flights-monthly .diagrams-img,
+  #flights-per-year .diagrams-img {
     margin-top: 4%;
     max-width: 200px; }
 
