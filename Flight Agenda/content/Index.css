@@ -248,45 +248,21 @@ nav,
 #longest-flights,
 #distance-per-airline,
 #flights-weekday,
-#flights-monthly {
+#flights-monthly,
+#bottom-text-container {
   max-width: 500px; }
-  #top-airports .flights-table > thead > tr > th,
-  #top-airports .flights-table > tbody > tr > td,
-  #top-airlines .flights-table > thead > tr > th,
-  #top-airlines .flights-table > tbody > tr > td,
-  #top-routes .flights-table > thead > tr > th,
-  #top-routes .flights-table > tbody > tr > td,
-  #top-aircrafts .flights-table > thead > tr > th,
-  #top-aircrafts .flights-table > tbody > tr > td,
-  #longest-flights .flights-table > thead > tr > th,
-  #longest-flights .flights-table > tbody > tr > td,
-  #distance-per-airline .flights-table > thead > tr > th,
-  #distance-per-airline .flights-table > tbody > tr > td,
-  #flights-weekday .flights-table > thead > tr > th,
-  #flights-weekday .flights-table > tbody > tr > td,
-  #flights-monthly .flights-table > thead > tr > th,
-  #flights-monthly .flights-table > tbody > tr > td {
-    padding: 5px 10px; }
-  #top-airports .flights-table > thead > tr > th,
-  #top-airlines .flights-table > thead > tr > th,
-  #top-routes .flights-table > thead > tr > th,
-  #top-aircrafts .flights-table > thead > tr > th,
-  #longest-flights .flights-table > thead > tr > th,
-  #distance-per-airline .flights-table > thead > tr > th,
-  #flights-weekday .flights-table > thead > tr > th,
-  #flights-monthly .flights-table > thead > tr > th {
-    font-weight: bold;
-    border-bottom: 1px solid #000000; }
-  #top-airports .diagrams-img,
-  #top-airlines .diagrams-img,
-  #top-routes .diagrams-img,
-  #top-aircrafts .diagrams-img,
-  #longest-flights .diagrams-img,
-  #distance-per-airline .diagrams-img,
-  #flights-weekday .diagrams-img,
-  #flights-monthly .diagrams-img {
-    margin-top: 4%;
-    max-width: 200px; }
+
+.flights-table > thead > tr > th,
+.flights-table > tbody > tr > td {
+  padding: 5px 10px; }
+
+.flights-table > thead > tr > th {
+  font-weight: bold;
+  border-bottom: 1px solid #000000; }
+
+.diagrams-img {
+  margin-top: 4%;
+  max-width: 200px; }
 
 #flights-top div h3 {
   width: 90%; }
@@ -318,7 +294,6 @@ nav,
   min-height: 50px;
   line-height: 50px; }
   #bottom #bottom-text-container {
-    max-width: 500px;
     margin-left: 2%; }
     #bottom #bottom-text-container .bottom-texts {
       font-size: 16px;
