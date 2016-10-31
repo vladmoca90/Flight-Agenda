@@ -143,7 +143,13 @@ figure > .diagrams-img,
       #button-menu li a .button-list-texts {
         margin-left: 7px; }
 
-#middle {
+#middle,
+#top-airports,
+#top-airlines,
+#top-routes,
+#top-aircrafts,
+#longest-flights,
+#distance-per-airline {
   overflow: auto; }
 
 #profile-container,

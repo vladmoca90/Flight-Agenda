@@ -165,7 +165,13 @@ figure>.diagrams-img,
         }
     }
 }
-#middle {
+#middle,
+#top-airports,
+#top-airlines,
+#top-routes,
+#top-aircrafts,
+#longest-flights,
+#distance-per-airline {
     overflow: auto;
 }
 #profile-container,
