@@ -264,8 +264,7 @@ nav,
 #longest-flights,
 #distance-per-airline,
 #flights-weekday,
-#flights-monthly,
-#flights-per-year {
+#flights-monthly {
     max-width: 500px;
     table>thead>tr>th,
     table>tbody>tr>td {
@@ -291,6 +290,12 @@ nav,
     .graph-img {
         max-width: 450px;
     }
+}
+#flights-per-year>.graph-img,
+.flights-per-year-container {
+    max-width: 900px;
+    margin: auto;
+    clear: both;
 }
 .flights-container {
     max-width: 450px;
