@@ -143,8 +143,7 @@ figure > .diagrams-img,
       #button-menu li a .button-list-texts {
         margin-left: 7px; }
 
-#middle,
-#flights-total {
+#middle {
   overflow: auto; }
 
 #profile-container,
@@ -210,13 +209,10 @@ figure > .diagrams-img,
     text-align: center;
     margin: auto;
     width: 80%; }
-  #top-airports .flights-container,
-  #top-airlines .flights-container,
-  #top-routes .flights-container,
-  #top-aircrafts .flights-container,
-  #longest-flights .flights-container,
-  #distance-per-airline .flights-container {
-    clear: both; }
+
+#flights-top,
+.flights-container {
+  clear: both; }
 
 #bottom {
   min-height: 50px;

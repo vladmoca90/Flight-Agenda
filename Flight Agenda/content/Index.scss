@@ -165,8 +165,7 @@ figure>.diagrams-img,
         }
     }
 }
-#middle,
-#flights-total {
+#middle {
     overflow: auto;
 }
 #profile-container,
@@ -235,12 +234,16 @@ figure>.diagrams-img,
         margin: auto;
         width: 80%;
     }
-    .flights-container {
-        clear: both;
+    table>thead>tr>th {
+
+    }
+    table>tbody>tr>td {
+
     }
 }
-#top-airports {
-    
+#flights-top,
+.flights-container {
+    clear: both;
 }
 #bottom {
     min-height: 50px;
