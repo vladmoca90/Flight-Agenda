@@ -210,8 +210,8 @@ nav,
 .statistics h2,
 .statistics p,
 .diagramsStatistics h3,
-table>thead>tr>th,
-table>tbody>tr>td {
+.flights-table>thead>tr>th,
+.flights-table>tbody>tr>td {
     text-align: center;
 }
 #profile-container,
@@ -277,11 +277,11 @@ table>tbody>tr>td {
 #flights-weekday,
 #flights-monthly {
     max-width: 500px;
-    table>thead>tr>th,
-    table>tbody>tr>td {
+    .flights-table>thead>tr>th,
+    .flights-table>tbody>tr>td {
         padding: 5px 10px;
     }
-    table>thead>tr>th {
+    .flights-table>thead>tr>th {
         font-weight: bold;
         border-bottom: 1px solid $black-color;
     }
