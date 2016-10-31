@@ -266,6 +266,9 @@ nav,
     .diagrams-texts {
         max-width: 100px;
         margin-top: 9%;
+        @media screen and (max-width: 768px) {
+            max-width: 150px;
+        }
         &.continents {
             margin-top: 1.5%;
         }
