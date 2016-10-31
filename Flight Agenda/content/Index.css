@@ -263,7 +263,8 @@ nav,
   #distance-per-airline table > thead > tr > th,
   #flights-weekday table > thead > tr > th,
   #flights-monthly table > thead > tr > th {
-    font-weight: bold; }
+    font-weight: bold;
+    border-bottom: 1px solid #000000; }
   #top-airports .diagrams-img,
   #top-airlines .diagrams-img,
   #top-routes .diagrams-img,
