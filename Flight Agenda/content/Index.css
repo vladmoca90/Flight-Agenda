@@ -291,6 +291,7 @@ table > tbody > tr > td {
 .flights-per-year-container {
   clear: both; }
 
+.flights-container,
 #flights-weekday .graph-img,
 #flights-monthly .graph-img {
   max-width: 450px; }
@@ -300,7 +301,6 @@ table > tbody > tr > td {
   max-width: 900px; }
 
 .flights-container {
-  max-width: 450px;
   padding: 10px; }
 
 #bottom {
