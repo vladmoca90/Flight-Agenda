@@ -135,6 +135,10 @@ nav,
     font-size: 18px;
     margin-left: 1.6%;
     line-height: 50px; }
+    @media screen and (max-width: 767px) {
+      #button-menu li {
+        margin: auto;
+        float: none; } }
     #button-menu li:hover {
       background: #005A9F;
       transition: background 0.4s ease-out;
@@ -185,7 +189,6 @@ nav,
   max-height: 9px; }
 
 @media screen and (max-width: 800px) {
-  #button-menu li,
   .main-flights-boxes figure,
   .statistics-container figure,
   .statistics,
