@@ -157,8 +157,15 @@ nav,
 .flights-container {
   overflow: auto; }
 
-.statistics h3,
-#flights-top h3 {
+#profile-container,
+#map {
+  max-width: 1000px; }
+
+#map {
+  min-height: 450px; }
+
+#flights-top h3,
+.statistics h3 {
   background: #000000;
   padding: 3px 0px; }
 
@@ -173,13 +180,6 @@ nav,
 .flights-table > thead > tr > th,
 .flights-table > tbody > tr > td {
   text-align: center; }
-
-#profile-container,
-#map {
-  max-width: 1000px; }
-
-#map {
-  min-height: 450px; }
 
 .profile-color-border {
   max-height: 9px; }
