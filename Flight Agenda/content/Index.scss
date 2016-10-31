@@ -270,9 +270,12 @@ nav,
             margin-top: 1.5%;
         }
         p {
-            font-size: 16px;
+            font-size: 14px;
             margin: 0px;
             text-align: left;
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
             @media screen and (max-width: 800px) {
                 text-align: center;
             }
