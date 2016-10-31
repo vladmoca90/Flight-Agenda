@@ -167,6 +167,7 @@ nav,
     }
 }
 #middle,
+.flights-container,
 #top-airports,
 #top-airlines,
 #top-routes,
@@ -253,13 +254,16 @@ nav,
 
     }
     .diagrams-img {
-        margin-top: 1.5%;
-        max-width: 225px;
+        margin-top: 4%;
+        max-width: 200px;
     }
 }
 #flights-top,
 .flights-container {
     clear: both;
+}
+.flights-container {
+    padding: 10px;
 }
 #bottom {
     min-height: 50px;
