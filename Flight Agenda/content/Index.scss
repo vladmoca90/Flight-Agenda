@@ -26,6 +26,7 @@ nav,
 #top,
 #profile-container,
 #flightsMap,
+.flights-container,
 #bottom { 
     margin: auto;
 }
@@ -134,6 +135,7 @@ nav,
 #top-aircrafts,
 #longest-flights,
 #distance-per-airline,
+.flights-container,
 #bottom-text-container {
     width: $maxWidth;
 }
@@ -258,9 +260,6 @@ nav,
     table>thead>tr>th {
         font-weight: bold;
     }
-    table>tbody>tr>td {
-
-    }
     .diagrams-img {
         margin-top: 4%;
         max-width: 200px;
@@ -271,6 +270,7 @@ nav,
     clear: both;
 }
 .flights-container {
+    max-width: 450px;
     padding: 10px;
 }
 #bottom {
