@@ -195,7 +195,9 @@ nav,
 @media screen and (max-width: 800px) {
   .statistics,
   .flights-table,
-  .diagrams-img {
+  .diagrams-texts,
+  .diagrams-img,
+  .graph-img {
     margin: auto;
     float: none; } }
 
