@@ -210,6 +210,12 @@ nav,
 .profile-color-border {
     max-height: 9px;
 }
+.main-flights-boxes figure {
+    @media screen and (max-width: 800px) {
+        width: 200px;
+        @include margin-float-group;
+    }
+}
 .main-flights-boxes,
 #flights-per-year {
     padding-top: 10px;
