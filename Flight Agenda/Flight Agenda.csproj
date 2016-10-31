@@ -99,6 +99,7 @@
     <Content Include="images\connect-with-facebook.png" />
     <Content Include="images\facebook.png" />
     <Content Include="images\google.png" />
+    <Content Include="images\graph-img.png" />
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\logo.png" />
