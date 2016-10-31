@@ -113,7 +113,6 @@ nav,
 .statistics-container,
 .diagrams-img,
 .diagrams-texts,
-#flights-total,
 #top-airports,
 #top-airlines,
 #top-routes,
@@ -163,6 +162,15 @@ nav,
 #longest-flights,
 #distance-per-airline {
   overflow: auto; }
+
+#flights-total h3 {
+  text-transform: uppercase;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 3px 0px;
+  text-align: center;
+  margin: auto;
+  width: 80%; }
 
 #profile-container,
 #map {
@@ -227,22 +235,6 @@ nav,
 #flights-monthly,
 #flights-per-year {
   max-width: 500px; }
-  #top-airports h3,
-  #top-airlines h3,
-  #top-routes h3,
-  #top-aircrafts h3,
-  #longest-flights h3,
-  #distance-per-airline h3,
-  #flights-weekday h3,
-  #flights-monthly h3,
-  #flights-per-year h3 {
-    text-transform: uppercase;
-    background: #000000;
-    color: #FFFFFF;
-    padding: 3px 0px;
-    text-align: center;
-    margin: auto;
-    width: 80%; }
   #top-airports table > thead > tr > th,
   #top-airports table > tbody > tr > td,
   #top-airlines table > thead > tr > th,
