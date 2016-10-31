@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 }
-@mixin margin-float-group {     
+@mixin margin-float-group {
     margin: auto;
     float: none;
 }
@@ -223,6 +223,9 @@ nav,
     padding: 5px;
     h2 {
         margin-top: 0px;
+    }
+    @media screen and (max-width: 800px) {
+        @include margin-float-group;
     }
 }
 .diagramsStatistics {

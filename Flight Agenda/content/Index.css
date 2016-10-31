@@ -197,6 +197,10 @@ nav,
   padding: 5px; }
   .statistics h2 {
     margin-top: 0px; }
+  @media screen and (max-width: 800px) {
+    .statistics {
+      margin: auto;
+      float: none; } }
 
 .diagramsStatistics {
   min-height: 190px; }
