@@ -27,6 +27,10 @@ nav,
 #profile-container,
 #flightsMap,
 .flights-container,
+.statistics-container,
+#flights-top h3,
+#flights-per-year>.graph-img,
+.flights-per-year-container,
 #bottom { 
     margin: auto;
 }
@@ -193,7 +197,6 @@ nav,
         color: $white-color;
         padding: 3px 0px;
         text-align: center;
-        margin: auto;
         width: 80%;
     }
 }
@@ -238,7 +241,6 @@ nav,
 }
 .statistics-container {
     max-width: 215px;
-    margin: auto;
     padding-top: 10px;
     .diagrams-img {
         margin-top: 1.5%;
@@ -294,7 +296,6 @@ nav,
 #flights-per-year>.graph-img,
 .flights-per-year-container {
     max-width: 900px;
-    margin: auto;
     clear: both;
 }
 .flights-container {
