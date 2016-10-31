@@ -191,7 +191,8 @@ nav,
   .flights-table,
   .diagrams-texts,
   .diagrams-img,
-  .graph-img {
+  .graph-img,
+  #bottom #bottom-icons-container {
     margin: auto;
     float: none; } }
 

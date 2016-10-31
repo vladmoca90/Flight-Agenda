@@ -216,7 +216,8 @@ nav,
 .flights-table,
 .diagrams-texts,
 .diagrams-img,
-.graph-img {
+.graph-img,
+#bottom #bottom-icons-container {
     @media screen and (max-width: 800px) {
         @include margin-float-group;
     }
