@@ -83,7 +83,8 @@ nav,
     #connection-button-container #facebook-sign-in:hover {
       background-position: 0 -28px; }
   #connection-button-container p {
-    margin: 0px 10px; }
+    margin: 0px 10px;
+    line-height: 30px; }
   #connection-button-container .sign-in-button {
     max-width: 69px;
     min-height: 27px;
