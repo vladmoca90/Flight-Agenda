@@ -291,7 +291,8 @@ nav,
   padding-bottom: 1%; }
 
 .flights-container {
-  padding: 10px; }
+  padding: 10px;
+  background: #FFFFFF; }
   .flights-container .flights-table {
     font-size: 16px; }
     @media screen and (max-width: 768px) {
