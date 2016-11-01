@@ -64,8 +64,7 @@ nav,
 #account-connection {
   max-width: 325px;
   min-height: 45px;
-  line-height: 45px;
-  margin-top: 1.4%; }
+  line-height: 45px; }
 
 #account-connection,
 .diagrams-img,
@@ -103,8 +102,7 @@ nav,
 #flights-top h3,
 .statistics h3,
 #bottom {
-  background: rgba(0, 47, 93, 0.9);
-  box-shadow: 1px 0px 1px rgba(0, 47, 93, 0.9); }
+  background: rgba(0, 47, 93, 0.9); }
 
 nav,
 #middle,
