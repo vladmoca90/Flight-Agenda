@@ -255,11 +255,17 @@ nav,
 .statistics-container {
     max-width: 215px;
     padding-top: 10px;
+    figure {
+        @media screen and (max-width: 768px) {
+            max-width: 150px;
+        }
+    }
     .diagrams-img {
         margin-top: 1.5%;
         max-width: 110px;
         @media screen and (max-width: 768px) {
-            max-width: 140px;
+            max-width: 145px;
+            margin: auto;
         }
     }
     .diagrams-texts {
@@ -267,6 +273,7 @@ nav,
         margin-top: 9%;
         @media screen and (max-width: 768px) {
             margin-top: 5%;
+            max-width: 140px;
         }
         &.continents {
             margin-top: 1.5%;
@@ -280,12 +287,6 @@ nav,
                 text-align: center;
             }
         }
-    }
-}
-.statistics-container figure,
-.diagrams-texts {
-    @media screen and (max-width: 768px) {
-        max-width: 150px;
     }
 }
 .main-flights-boxes,
