@@ -205,10 +205,6 @@ nav,
   .main-flights-boxes .diagrams-fig {
     width: 200px; } }
 
-@media screen and (max-width: 768px) {
-  .statistics-container figure {
-    max-width: 150px; } }
-
 .main-flights-boxes,
 #flights-per-year {
   padding-top: 10px; }
@@ -249,6 +245,7 @@ nav,
           text-align: center; } }
 
 @media screen and (max-width: 768px) {
+  .statistics-container figure,
   .diagrams-img,
   .diagrams-texts {
     max-width: 150px; } }
