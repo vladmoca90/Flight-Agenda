@@ -73,6 +73,9 @@ h3 {
 .containers-title {
   text-align: left;
   text-indent: 10px; }
+  @media screen and (max-width: 767px) {
+    .containers-title {
+      text-align: center; } }
 
 #form-containerlabel,
 .seat-number-text {
