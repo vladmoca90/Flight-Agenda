@@ -24,7 +24,8 @@
       max-width: 70px;
       max-height: 25px; }
     .flight-list tbody > tr td i {
-      margin: 3px 2px; }
+      margin: 3px 2px;
+      font-size: 20px; }
 
 .moneySymbol {
   color: #21B234; }
