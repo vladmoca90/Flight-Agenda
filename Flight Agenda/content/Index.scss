@@ -92,16 +92,19 @@ nav,
     #facebook-sign-in {
         max-width: 194px;
         min-height: 28px;
-        background: url(../images/connect-with-facebook.png) no-repeat;
+        background: url(../images/connect-with-facebook.png) 0 -28px no-repeat;
         display: block;
+        &:hover {
+            background-position: 0 -28px;
+        }
     }
     p {
         margin: 0px 10px;
     }
     .sign-in-button {
         max-width: 69px;
-        min-height: 26px;
-        background: url(../images/start-sign-in-button.png) no-repeat;
+        min-height: 27px;
+        background: url(../images/start-sign-in-button.png) 0 -26px no-repeat;
     }
 }
 #facebook-sign-in,
