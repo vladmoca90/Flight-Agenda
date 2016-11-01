@@ -112,3 +112,7 @@ h3 {
   font-weight: bold !important;
   display: block !important; }
 
+@media screen and (max-width: 767px) {
+  #personal-note-container {
+    padding-left: 10px; } }
+
