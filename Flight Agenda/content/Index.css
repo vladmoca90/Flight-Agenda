@@ -315,7 +315,8 @@ nav,
   min-height: 50px;
   line-height: 50px; }
   #bottom #bottom-text-container {
-    margin-left: 2%; }
+    margin-left: 2%;
+    max-height: 50px; }
     #bottom #bottom-text-container .bottom-texts {
       font-size: 16px;
       display: inline-block;
