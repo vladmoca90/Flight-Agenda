@@ -128,6 +128,7 @@ nav,
 #flights-diagrams,
 .statistics,
 .statistics-container,
+.statistics-container figure,
 .diagrams-img,
 .diagrams-texts,
 .main-flights-boxes,
@@ -231,8 +232,8 @@ nav,
     }
 }
 .statistics-container figure {
-    @media screen and (max-width: 800px) {
-        width: 110px;
+    @media screen and (max-width: 768px) {
+        max-width: 150px;
     }
 }
 .main-flights-boxes,
@@ -266,9 +267,6 @@ nav,
     .diagrams-texts {
         max-width: 100px;
         margin-top: 9%;
-        @media screen and (max-width: 768px) {
-            max-width: 150px;
-        }
         &.continents {
             margin-top: 1.5%;
         }
@@ -283,6 +281,12 @@ nav,
                 text-align: center;
             }
         }
+    }
+}
+.diagrams-img,
+.diagrams-texts {
+    @media screen and (max-width: 768px) {
+        max-width: 150px;
     }
 }
 .main-flights-boxes,
