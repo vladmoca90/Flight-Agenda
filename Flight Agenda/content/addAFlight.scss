@@ -96,6 +96,7 @@ h3 {
     text-indent: 10px;
     @media screen and (max-width: 767px) {
         text-align: center;
+        text-indent: 0px;
     }
 }
 #form-containerlabel,
@@ -129,6 +130,9 @@ h3 {
     max-width: 170px !important;
     line-height: 38px;
     margin-left: 5%;
+    @media screen and (max-width: 767px) {
+        margin: auto;
+    }
     .seat-number-text {
         text-align: right;
     }
