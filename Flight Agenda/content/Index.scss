@@ -71,6 +71,7 @@ nav,
 #flightsMap,
 .profile-color-border,
 #bottom,
+#bottom-text-container,
 #bottom-icons-container,
 #bottom-icons-container>img {
     @include maxWidthHeight;
@@ -138,8 +139,7 @@ nav,
 .main-flights-boxes,
 .flights-container,
 .graph-img,
-#flights-per-year,
-#bottom-text-container {
+#flights-per-year {
     width: $maxWidth;
 }
 .statistics h3,
