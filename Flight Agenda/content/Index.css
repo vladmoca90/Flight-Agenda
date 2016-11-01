@@ -255,9 +255,14 @@ nav,
       font-size: 14px;
       margin: 0px;
       text-align: left; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 600px) {
         .statistics-container .diagrams-texts p {
-          font-size: 16px;
+          font-size: 18px; } }
+      @media screen and (min-width: 601px) and (max-width: 767px) {
+        .statistics-container .diagrams-texts p {
+          font-size: 17px; } }
+      @media screen and (max-width: 767px) {
+        .statistics-container .diagrams-texts p {
           text-align: center; } }
 
 .main-flights-boxes,
