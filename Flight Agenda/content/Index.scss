@@ -258,6 +258,9 @@ nav,
     .diagrams-img {
         margin-top: 1.5%;
         max-width: 110px;
+        @media screen and (max-width: 768px) {
+            max-width: 140px;
+        }
     }
     .diagrams-texts {
         max-width: 100px;
@@ -277,7 +280,6 @@ nav,
     }
 }
 .statistics-container figure,
-.diagrams-img,
 .diagrams-texts {
     @media screen and (max-width: 768px) {
         max-width: 150px;
@@ -326,7 +328,7 @@ nav,
         font-weight: bold;
         border-bottom: 1px solid $black-color;
     }
-    .diagrams-img {
+    .diagrams-fig>.diagrams-img {
         margin-top: 7%;
         max-width: 200px;
     }
