@@ -189,7 +189,7 @@ nav,
 .profile-color-border {
   max-height: 9px; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .main-flights-boxes figure,
   .statistics-container figure,
   .statistics,
@@ -201,7 +201,7 @@ nav,
     margin: auto;
     float: none; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .main-flights-boxes .diagrams-fig {
     width: 200px; } }
 
@@ -245,9 +245,7 @@ nav,
       text-align: left; }
       @media screen and (max-width: 768px) {
         .statistics-container .diagrams-texts p {
-          font-size: 16px; } }
-      @media screen and (max-width: 800px) {
-        .statistics-container .diagrams-texts p {
+          font-size: 16px;
           text-align: center; } }
 
 @media screen and (max-width: 768px) {
@@ -285,7 +283,7 @@ nav,
   padding: 10px; }
   .flights-container .flights-table {
     font-size: 16px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
       .flights-container .flights-table {
         font-size: 18px; } }
   .flights-container .flights-table > thead > tr > th,
@@ -309,13 +307,13 @@ nav,
       margin: 0px; }
       #bottom #bottom-text-container .bottom-texts a {
         padding: 0px 5px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
       #bottom #bottom-text-container {
         display: none; } }
   #bottom #bottom-icons-container {
     max-width: 200px;
     margin-left: 24%; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
       #bottom #bottom-icons-container {
         margin-left: auto; } }
     #bottom #bottom-icons-container img {

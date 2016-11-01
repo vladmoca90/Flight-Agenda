@@ -222,12 +222,12 @@ nav,
 .diagrams-img,
 .graph-img,
 #bottom #bottom-icons-container {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
         @include margin-float-group;
     }
 }
 .main-flights-boxes .diagrams-fig {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
         width: 200px;
     }
 }
@@ -276,8 +276,6 @@ nav,
             text-align: left;
             @media screen and (max-width: 768px) {
                 font-size: 16px;
-            }
-            @media screen and (max-width: 800px) {
                 text-align: center;
             }
         }
@@ -320,7 +318,7 @@ nav,
     padding: 10px;
     .flights-table {
         font-size: 16px;
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 768px) {
             font-size: 18px;
         }
     }
@@ -350,14 +348,14 @@ nav,
                 padding: 0px 5px;
             }
         }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 768px) {
             display: none;
         }
     }
     #bottom-icons-container {
         max-width: 200px;
         margin-left: 24%;
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 768px) {
             margin-left: auto;
         }
         img {
