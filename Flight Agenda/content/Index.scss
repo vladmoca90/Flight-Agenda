@@ -333,6 +333,7 @@ nav,
     background: $white-color;
     .flights-table {
         font-size: 16px;
+        margin-left: 10px;
         @media screen and (max-width: 768px) {
             font-size: 18px;
         }
