@@ -236,6 +236,9 @@ nav,
   .statistics-container .diagrams-texts {
     max-width: 100px;
     margin-top: 9%; }
+    @media screen and (max-width: 768px) {
+      .statistics-container .diagrams-texts {
+        margin-top: 5%; } }
     .statistics-container .diagrams-texts.continents {
       margin-top: 1.5%; }
     .statistics-container .diagrams-texts p {
