@@ -26,6 +26,8 @@
     .flight-list tbody > tr td i {
       margin: 3px 2px;
       font-size: 20px; }
+      .flight-list tbody > tr td i:hover {
+        cursor: pointer; }
 
 .moneySymbol {
   color: #21B234; }
