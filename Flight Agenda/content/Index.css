@@ -81,8 +81,7 @@ nav,
     background: url(../images/connect-with-facebook.png) no-repeat;
     display: block; }
   #connection-button-container p {
-    margin-left: 10px;
-    margin-right: 10px; }
+    margin: 0px 10px; }
   #connection-button-container .sign-in-button {
     max-width: 69px;
     min-height: 26px;
