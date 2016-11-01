@@ -298,7 +298,8 @@ nav,
     margin-left: 10px; }
     @media screen and (max-width: 768px) {
       .flights-container .flights-table {
-        font-size: 18px; } }
+        font-size: 18px;
+        margin-left: 0px; } }
   .flights-container .flights-table > thead > tr > th,
   .flights-container .flights-table > tbody > tr > td {
     padding: 5px 10px; }
