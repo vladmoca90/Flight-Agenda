@@ -44,12 +44,11 @@ input[type="radio"] {
     max-width: 330px; }
     #flight-form #form-container #main-flight-info-container div {
       margin-top: 3%; }
+      #flight-form #form-container #main-flight-info-container div label {
+        margin: 3px 0px; }
       #flight-form #form-container #main-flight-info-container div input {
-        height: 30px; }
-  #flight-form #form-container label {
-    margin: 3px 0px; }
-  #flight-form #form-container input {
-    float: right; }
+        height: 30px;
+        float: right; }
 
 input[type="time"] {
   margin-right: 21%; }

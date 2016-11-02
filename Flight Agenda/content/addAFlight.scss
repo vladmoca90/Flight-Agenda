@@ -60,16 +60,14 @@ input[type="radio"] {
             max-width: 330px;
             div {
                 margin-top: 3%;
+                label {
+                    margin: 3px 0px;
+                }
                 input {
                     height: 30px;
+                    float: right;
                 }
             }
-        }
-        label {
-            margin: 3px 0px;
-        }
-        input {
-            float: right;
         }
     }
 }
