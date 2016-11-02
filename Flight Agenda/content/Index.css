@@ -294,12 +294,10 @@ nav,
   padding: 10px;
   background: #FFFFFF; }
   .flights-container .flights-table {
-    font-size: 16px;
-    margin-left: 10px; }
+    font-size: 16px; }
     @media screen and (max-width: 768px) {
       .flights-container .flights-table {
-        font-size: 18px;
-        margin-left: 0px; } }
+        font-size: 18px; } }
   .flights-container .flights-table > thead > tr > th,
   .flights-container .flights-table > tbody > tr > td {
     padding: 5px 10px; }
