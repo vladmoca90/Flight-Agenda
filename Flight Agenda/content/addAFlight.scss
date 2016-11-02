@@ -111,11 +111,15 @@ h3 {
 #personal-note-container {
     overflow: auto;
     margin-top: 4%;
+}
+#ticket-information-container,
+#flight-reason-container {
     @media screen and (max-width: 767px) {
         margin-top: 10%;
     }
 }
-#seat-container {
+#seat-container,
+#personal-note-container {
     @media screen and (max-width: 767px) {
         margin-top: 3%;
     }
