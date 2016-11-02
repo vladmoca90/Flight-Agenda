@@ -157,7 +157,7 @@ nav,
       #button-menu li a .button-list-texts {
         margin-left: 7px; }
 
-#middle {
+.indexBackground {
   background: url("../images/middle.png") repeat-y; }
 
 #middle,
