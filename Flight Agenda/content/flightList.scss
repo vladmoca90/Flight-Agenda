@@ -40,6 +40,8 @@ body {
             background: #F3F3F3
         }
         td {
+            border-left: none;
+            border-right: none;
             img {
                 @include maxWidthHeight;
                 max-width: 70px;
