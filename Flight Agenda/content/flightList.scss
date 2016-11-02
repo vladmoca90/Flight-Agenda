@@ -36,6 +36,9 @@ body {
     }
     tbody>tr {
         text-align: center;
+        &:nth-child(even) {
+            background: #F3F3F3
+        }
         td {
             img {
                 @include maxWidthHeight;
