@@ -115,6 +115,11 @@ h3 {
         margin-top: 10%;
     }
 }
+#seat-container {
+    @media screen and (max-width: 767px) {
+        margin-top: 3%;
+    }
+}
 .add-a-flight-information {
     float: left;
     margin-left: 2%;

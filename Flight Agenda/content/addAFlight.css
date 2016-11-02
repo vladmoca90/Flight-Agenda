@@ -97,6 +97,10 @@ h3 {
     #personal-note-container {
       margin-top: 10%; } }
 
+@media screen and (max-width: 767px) {
+  #seat-container {
+    margin-top: 3%; } }
+
 .add-a-flight-information {
   float: left;
   margin-left: 2%; }
