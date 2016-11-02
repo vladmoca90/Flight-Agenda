@@ -26,7 +26,6 @@ nav,
 #top,
 #middle,
 #profile-container,
-#map,
 #flightsMap,
 .flights-container,
 .statistics-container,
@@ -192,7 +191,7 @@ nav,
     max-width: 1000px;
 }
 #map {
-    padding: 10px 0px;
+    margin: 10px auto;
     min-height: 450px;
     max-width: 950px;
 }
