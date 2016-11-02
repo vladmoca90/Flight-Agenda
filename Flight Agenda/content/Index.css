@@ -192,6 +192,7 @@ nav,
   max-height: 9px; }
 
 @media screen and (max-width: 768px) {
+  .main-flights-boxes,
   .main-flights-boxes figure,
   .statistics-container figure,
   .statistics,
