@@ -34,11 +34,12 @@ body {
             font-weight: bold;
         }
     }
-    tbody>tr {
-        text-align: center;
-        &:nth-child(even) {
-            background: #F3F3F3
-        }
+    tbody {
+        tr {
+            text-align: center;
+            &:nth-child(even) {
+                background: #F3F3F3
+            }
         td {
             border-left: none;
             border-right: none;
@@ -56,6 +57,7 @@ body {
             }
         }
     }
+}
 }
 .moneySymbol {
     color: #21B234;
