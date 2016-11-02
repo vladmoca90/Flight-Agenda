@@ -243,6 +243,9 @@ nav,
 .statistics {
     max-width: 250px;
     padding: 5px;
+    &.stats-border {
+        border-right: 1px solid #888;
+    }
     h2 {
         margin-top: 0px;
     }
@@ -335,7 +338,7 @@ nav,
     background: $white-color;
     .flights-table {
         font-size: 16px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 767px) {
             font-size: 18px;
         }
     }

@@ -216,6 +216,8 @@ nav,
 .statistics {
   max-width: 250px;
   padding: 5px; }
+  .statistics.stats-border {
+    border-right: 1px solid #888; }
   .statistics h2 {
     margin-top: 0px; }
   @media screen and (max-width: 600px) {
@@ -297,7 +299,7 @@ nav,
   background: #FFFFFF; }
   .flights-container .flights-table {
     font-size: 16px; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .flights-container .flights-table {
         font-size: 18px; } }
   .flights-container .flights-table > thead > tr > th,
