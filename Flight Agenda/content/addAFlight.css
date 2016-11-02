@@ -73,7 +73,7 @@ h3 {
 
 .containers-title {
   text-align: left;
-  text-indent: 10px; }
+  text-indent: 3%; }
   @media screen and (max-width: 767px) {
     .containers-title {
       text-align: center;
