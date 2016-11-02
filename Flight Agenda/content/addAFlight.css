@@ -107,7 +107,7 @@ h3 {
   @media screen and (max-width: 767px) {
     .add-a-flight-information {
       float: none;
-      margin: 7% auto; } }
+      margin: 5% auto; } }
   .add-a-flight-information label {
     color: #999999;
     background: #FFFFFF;
