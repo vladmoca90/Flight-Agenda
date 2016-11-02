@@ -244,7 +244,11 @@ nav,
     max-width: 250px;
     padding: 5px;
     &.stats-border {
-        border-right: 1px solid #888;
+        border-right: 1px solid #888888;
+        @media screen and (max-width: 767px) {
+            border-right: none;
+            border-bottom: 1px solid #888888;
+        }
     }
     h2 {
         margin-top: 0px;
