@@ -90,6 +90,12 @@ h3 {
 #personal-note-container {
   overflow: auto;
   margin-top: 4%; }
+  @media screen and (max-width: 767px) {
+    #ticket-information-container,
+    #seat-container,
+    #flight-reason-container,
+    #personal-note-container {
+      margin-top: 10%; } }
 
 .add-a-flight-information {
   float: left;
