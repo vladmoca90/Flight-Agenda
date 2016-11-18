@@ -46,6 +46,7 @@ input[type="radio"] {
     #flight-form #form-container #main-flight-info-container div label {
       margin: 3px 0px; }
     #flight-form #form-container #main-flight-info-container div input {
+      margin-right: 50%;
       float: right; }
 
 #form-container label,
