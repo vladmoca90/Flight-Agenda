@@ -25,6 +25,7 @@ input[type="radio"] {
 #form-container {
   max-width: 750px; }
 
+#main-flight-info-container,
 #ticket-information-container,
 #seat-container,
 #flight-reason-container,
@@ -40,15 +41,13 @@ input[type="radio"] {
   margin: 2% auto;
   padding: 1% 0%;
   color: #888888; }
-  #flight-form #form-container #main-flight-info-container {
-    max-width: 330px; }
-    #flight-form #form-container #main-flight-info-container div {
-      margin-top: 3%; }
-      #flight-form #form-container #main-flight-info-container div label {
-        margin: 3px 0px; }
-      #flight-form #form-container #main-flight-info-container div input {
-        height: 30px;
-        float: right; }
+  #flight-form #form-container #main-flight-info-container div {
+    margin-top: 3%; }
+    #flight-form #form-container #main-flight-info-container div label {
+      margin: 3px 0px; }
+    #flight-form #form-container #main-flight-info-container div input {
+      height: 30px;
+      float: right; }
 
 input[type="time"] {
   margin-right: 21%; }
