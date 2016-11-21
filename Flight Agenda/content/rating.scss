@@ -1,2 +1,18 @@
-﻿body {
+﻿@mixin maxWidthHeight {
+    width: 100%;
+    height: 100%;
+}
+@mixin margin-float-group {     
+    margin: auto;
+    float: none;
+}
+
+$maxWidth: 100%;
+$maxHeight: 100%;
+$white-color: #FFFFFF;
+$black-color: #000000;
+$main-font: Calibri;
+
+#rating-container {
+
 }
