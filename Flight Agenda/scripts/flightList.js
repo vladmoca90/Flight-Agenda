@@ -31,32 +31,37 @@
                 $('tbody').append(tr);
 
                 var distanceTd = $('<td></td>');
-                distanceTd.html(results[i].ScheduledTime.substring(0, 5));
+                distanceTd.html(results[i].Terminal.Name);
                 tr.append(distanceTd);
                 $('tbody').append(tr);
 
                 var departureTd = $('<td></td>');
-                departureTd.html(results[i].FlightStatusTime.substring(0, 5));
+                departureTd.html(results[i].Terminal.Name);
                 tr.append(departureTd);
                 $('tbody').append(tr);
 
                 var arrivalTd = $('<td></td>');
-                arrivalTd.html(results[i].FlightStatusTime.substring(0, 5));
+                arrivalTd.html(results[i].Terminal.Name);
                 tr.append(arrivalTd);
+                $('tbody').append(tr);
+
+                var airlineTd = $('<td></td>');
+                airlineTd.html(results[i].airline.Name);
+                tr.append(airlineTd);
                 $('tbody').append(tr);
 
                 var logoTd = $('<td></td>');
                 var img = $('<img src="" />');
-                img.attr('src', results[i].Airline.Logo);
+                img.attr('src', results[i].airline.Logo);
                 airlineTd.append(img);
 
                 var aircraftTd = $('<td></td>');
-                aircraftTd.html(results[i].FlightStatusTime.substring(0, 5));
+                aircraftTd.html(results[i].Terminal.Name);
                 tr.append(aircraftTd);
                 $('tbody').append(tr);
 
                 var seatTd = $('<td></td>');
-                seatTd.html(results[i].FlightStatusTime.substring(0, 5));
+                seatTd.html(results[i].Terminal.Name);
                 tr.append(seatTd);
                 $('tbody').append(tr);
             }
