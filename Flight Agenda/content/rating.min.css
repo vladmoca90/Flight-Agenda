@@ -1,1 +1,1 @@
-﻿#rating-container,.rating-section{width:100%;max-width:750px;}#rating-container{max-width:900px;background:rgba(246,247,248,.85);margin:2% auto;}
+﻿#rating-container,.rating-section{width:100%;}#rating-container{max-width:900px;background:rgba(246,247,248,.85);margin:2% auto;max-width:750px;}#rating-container .rating-section{max-width:360px;}
