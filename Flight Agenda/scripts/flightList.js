@@ -56,7 +56,12 @@
                 airlineTd.append(img);
 
                 var aircraftTd = $('<td></td>');
-                aircraftTd.html(results[i].Terminal.Name);
+                aircraftTd.html(results[i].aircraft.Name);
+                tr.append(aircraftTd);
+                $('tbody').append(tr);
+
+                var aircraftTd = $('<td></td>');
+                aircraftTd.html(results[i].aircraft.model);
                 tr.append(aircraftTd);
                 $('tbody').append(tr);
 
