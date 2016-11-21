@@ -26,11 +26,6 @@ $(document).ready(function () {
                 tr.append(flightNumberTd);
                 $('tbody').append(tr);
 
-                var logoTd = $('<td></td>');
-                var img = $('<img src="" />');
-                img.attr('src', results[i].Airline.Logo);
-                airlineTd.append(img);
-
                 var toDestinationTd = $('<td></td>');
                 toDestinationTd.html(results[i].Number);
                 tr.append(toDestinationTd);
@@ -54,6 +49,21 @@ $(document).ready(function () {
                 var arrivalTd = $('<td></td>');
                 arrivalTd.html(results[i].FlightStatusTime.substring(0, 5));
                 tr.append(arrivalTd);
+                $('tbody').append(tr);
+
+                var logoTd = $('<td></td>');
+                var img = $('<img src="" />');
+                img.attr('src', results[i].Airline.Logo);
+                airlineTd.append(img);
+
+                var aircraftTd = $('<td></td>');
+                aircraftTd.html(results[i].FlightStatusTime.substring(0, 5));
+                tr.append(aircraftTd);
+                $('tbody').append(tr);
+
+                var seatTd = $('<td></td>');
+                seatTd.html(results[i].FlightStatusTime.substring(0, 5));
+                tr.append(seatTd);
                 $('tbody').append(tr);
             }
 
