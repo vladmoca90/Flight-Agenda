@@ -94,6 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\rating.css">
+      <DependentUpon>rating.scss</DependentUpon>
+    </Content>
+    <Content Include="content\rating.min.css">
+      <DependentUpon>rating.css</DependentUpon>
+    </Content>
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\background.jpg" />
     <Content Include="images\connect-with-facebook.png" />
@@ -126,6 +132,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="content\rating.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -164,6 +171,7 @@
     <Content Include="site\addAFlight.html" />
     <Content Include="site\flightList.html" />
     <Content Include="site\Index.html" />
+    <Content Include="site\Rating.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
