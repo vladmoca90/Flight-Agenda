@@ -14,5 +14,6 @@ $black-color: #000000;
 $main-font: Calibri;
 
 #rating-container {
-
+    width: $maxWidth;
+    margin: 2% auto;
 }
