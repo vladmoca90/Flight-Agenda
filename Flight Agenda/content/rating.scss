@@ -16,10 +16,10 @@ $main-font: Calibri;
 #rating-container,
 .rating-section {
     width: $maxWidth;
+    max-width: 750px;
 }
 #rating-container {
-    width: $maxWidth;
-    max-width: 800px;
+    max-width: 900px;
     background: rgba(246,247,248,0.85) ;
     margin: 2% auto;
     .rating-section {

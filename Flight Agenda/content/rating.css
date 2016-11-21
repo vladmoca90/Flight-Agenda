@@ -1,10 +1,10 @@
 ﻿#rating-container,
 .rating-section {
-  width: 100%; }
+  width: 100%;
+  max-width: 750px; }
 
 #rating-container {
-  width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   background: rgba(246, 247, 248, 0.85);
   margin: 2% auto; }
 
