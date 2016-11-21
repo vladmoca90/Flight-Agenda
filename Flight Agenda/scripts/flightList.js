@@ -5,48 +5,48 @@
     $.ajax(flightsUrl, {
         method: 'GET',
         success: function (results) {
-            console.log("Here be the flights");
+            console.log('Here be the flights');
             console.log(results);
             for (var i = 0; i < results.length; i++) {
                 var tr = $('<tr></tr>');
 
                 var dateTd = $('<td></td>');
-                dateTd.html(results[i].City.Name);
+                dateTd.html(results[i].date);
                 tr.append(dateTd);
                 $('tbody').append(tr);
 
                 var flightNumberTd = $('<td></td>');
-                flightNumberTd.html(results[i].Airline.Name);
+                flightNumberTd.html(results[i].flightNumber);
                 tr.append(flightNumberTd);
                 $('tbody').append(tr);
 
                 var toDestinationTd = $('<td></td>');
-                toDestinationTd.html(results[i].Number);
+                toDestinationTd.html(results[i].toDestination);
                 tr.append(toDestinationTd);
                 $('tbody').append(tr);
 
                 var fromDestinationTd = $('<td></td>');
-                fromDestinationTd.html(results[i].Terminal.Name);
+                fromDestinationTd.html(results[i].fromDestination);
                 tr.append(fromDestinationTd);
                 $('tbody').append(tr);
 
                 var distanceTd = $('<td></td>');
-                distanceTd.html(results[i].Terminal.Name);
+                distanceTd.html(results[i].distance);
                 tr.append(distanceTd);
                 $('tbody').append(tr);
 
                 var departureTd = $('<td></td>');
-                departureTd.html(results[i].Terminal.Name);
+                departureTd.html(results[i].departure);
                 tr.append(departureTd);
                 $('tbody').append(tr);
 
                 var arrivalTd = $('<td></td>');
-                arrivalTd.html(results[i].Terminal.Name);
+                arrivalTd.html(results[i].arrival);
                 tr.append(arrivalTd);
                 $('tbody').append(tr);
 
                 var airlineTd = $('<td></td>');
-                airlineTd.html(results[i].airline.Name);
+                airlineTd.html(results[i].airline);
                 tr.append(airlineTd);
                 $('tbody').append(tr);
 
@@ -66,7 +66,7 @@
                 $('tbody').append(tr);
 
                 var seatTd = $('<td></td>');
-                seatTd.html(results[i].Terminal.Name);
+                seatTd.html(results[i].seat);
                 tr.append(seatTd);
                 $('tbody').append(tr);
             }
