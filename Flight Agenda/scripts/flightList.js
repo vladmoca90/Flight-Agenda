@@ -1,10 +1,4 @@
 ﻿$(document).ready(function () {
-    $(".closeSymbol").click(function () {
-        $(this).parent().remove();
-    })
-})
-
-$(document).ready(function () {
 
     var flightDetailsUrl = 'http://flightmap.azurewebsites.net/api/flights';
 
@@ -66,41 +60,15 @@ $(document).ready(function () {
                 tr.append(seatTd);
                 $('tbody').append(tr);
             }
-
-            $("#departures>tbody>tr").click(function () {
-                var flight = {};
-                var tr = $(this);
-
-                var townName = tr.children("td").eq(0).html();
-
-                var airlineLogo = tr.children("td").eq(1).html();
-
-                var flightNumber = tr.children("td").eq(2).html();
-
-                var terminal = tr.children("td").eq(3).html();
-
-                var scheduledTime = tr.children("td").eq(4).html().substring(0, 5);
-
-                var expectedTime = tr.children("td").eq(5).html().substring(0, 5);
-
-                $("#townName").html(townName);
-
-                $("#airlineLogo").html(airlineLogo);
-
-                $("#flightNumber").html(flightNumber + " Arrival Status");
-
-                $("#flightTerminal").html(terminal);
-
-                $("#scheduledTime").html(scheduledTime);
-
-                $("#expectedTime").html("Expected " + expectedTime);
-
-                $("#background-main").toggle(25);
-            });
         },
         error: function (err) {
             console.log("An error occurred");
             console.log(err);
         }
-    })
+    });
+
+    $(".closeSymbol").click(function () {
+        $(this).parent().remove();
+    });
+
 });
