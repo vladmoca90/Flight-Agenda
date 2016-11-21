@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    var flightDetailsUrl = 'http://flightmap.azurewebsites.net/api/flights';
+    var flightListUrl = 'http://flightmap.azurewebsites.net/api/flights';
 
     $.ajax(flightsUrl, {
         method: 'GET',
