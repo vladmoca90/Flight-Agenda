@@ -41,14 +41,19 @@ $(document).ready(function () {
                 tr.append(fromDestinationTd);
                 $('tbody').append(tr);
 
-                var timeTd = $('<td></td>');
-                timeTd.html(results[i].ScheduledTime.substring(0, 5));
-                tr.append(timeTd);
+                var distanceTd = $('<td></td>');
+                distanceTd.html(results[i].ScheduledTime.substring(0, 5));
+                tr.append(distanceTd);
                 $('tbody').append(tr);
 
-                var timeTd = $('<td></td>');
-                timeTd.html(results[i].FlightStatusTime.substring(0, 5));
-                tr.append(timeTd);
+                var departureTd = $('<td></td>');
+                departureTd.html(results[i].FlightStatusTime.substring(0, 5));
+                tr.append(departureTd);
+                $('tbody').append(tr);
+
+                var arrivalTd = $('<td></td>');
+                arrivalTd.html(results[i].FlightStatusTime.substring(0, 5));
+                tr.append(arrivalTd);
                 $('tbody').append(tr);
             }
 
