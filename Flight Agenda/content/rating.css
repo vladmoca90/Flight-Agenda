@@ -1,4 +1,8 @@
-﻿#rating-container {
+﻿#rating-container,
+.rating-section {
+  width: 100%; }
+
+#rating-container {
   width: 100%;
   max-width: 800px;
   background: rgba(246, 247, 248, 0.85);
