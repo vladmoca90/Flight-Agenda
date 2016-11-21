@@ -16,14 +16,14 @@ $(document).ready(function () {
             for (var i = 0; i < results.length; i++) {
                 var tr = $('<tr></tr>');
 
-                var destinationTd = $('<td></td>');
-                destinationTd.html(results[i].City.Name);
-                tr.append(destinationTd);
+                var dateTd = $('<td></td>');
+                dateTd.html(results[i].City.Name);
+                tr.append(dateTd);
                 $('tbody').append(tr);
 
-                var airlineTd = $('<td></td>');
-                airlineTd.html(results[i].Airline.Name);
-                tr.append(airlineTd);
+                var flightNumberTd = $('<td></td>');
+                flightNumberTd.html(results[i].Airline.Name);
+                tr.append(flightNumberTd);
                 $('tbody').append(tr);
 
                 var logoTd = $('<td></td>');
@@ -31,14 +31,14 @@ $(document).ready(function () {
                 img.attr('src', results[i].Airline.Logo);
                 airlineTd.append(img);
 
-                var flightNumberTd = $('<td></td>');
-                flightNumberTd.html(results[i].Number);
-                tr.append(flightNumberTd);
+                var toDestinationTd = $('<td></td>');
+                toDestinationTd.html(results[i].Number);
+                tr.append(toDestinationTd);
                 $('tbody').append(tr);
 
-                var terminalNumberTd = $('<td></td>');
-                terminalNumberTd.html(results[i].Terminal.Name);
-                tr.append(terminalNumberTd);
+                var fromDestinationTd = $('<td></td>');
+                fromDestinationTd.html(results[i].Terminal.Name);
+                tr.append(fromDestinationTd);
                 $('tbody').append(tr);
 
                 var timeTd = $('<td></td>');
