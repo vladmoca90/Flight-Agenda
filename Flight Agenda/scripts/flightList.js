@@ -2,7 +2,7 @@
 
     var flightListUrl = 'http://flightmap.azurewebsites.net/api/flights';
 
-    $.ajax(flightsUrl, {
+    $.ajax(flightsListUrl, {
         method: 'GET',
         success: function (results) {
             console.log('Here be the flights');
