@@ -100,12 +100,8 @@ h3 {
   #personal-note-container {
     margin-top: 3%; } }
 
-.add-a-flight-information,
-#personal-note-container,
-#next-button {
-  float: left; }
-
 .add-a-flight-information {
+  float: left;
   margin-left: 2%; }
   @media screen and (max-width: 767px) {
     .add-a-flight-information {
