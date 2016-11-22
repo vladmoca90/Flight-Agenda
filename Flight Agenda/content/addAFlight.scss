@@ -75,10 +75,13 @@ input[type="radio"] {
 #form-container label,
 .containers-title,
 .seat-number-text {
-    font: {
-        weight: bold;
-        size: 17px;
-    }
+    font-size: 17px;
+}
+#form-container label,
+.containers-title,
+.seat-number-text,
+#next-button>button {
+    font-weight: bold;
 }
 hr {
     border-top: 1px dashed #CDCDCD;
@@ -172,10 +175,7 @@ h3 {
     border-radius: 30px;
     color: $white-color;
     padding: 10px 25px;
-    font : {
-        size: 18px;
-        weight: bold;
-    }
+    font-weight: bold;
     span {
         font-size: 16px;
     }
