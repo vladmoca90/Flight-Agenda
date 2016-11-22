@@ -40,7 +40,8 @@ input[type="radio"] {
   background: rgba(246, 247, 248, 0.85);
   margin: 2% auto;
   padding: 1% 0%;
-  color: #888888; }
+  color: #888888;
+  overflow: hidden; }
   #flight-form #form-container #main-flight-info-container div {
     margin-top: 3%; }
     #flight-form #form-container #main-flight-info-container div label {
