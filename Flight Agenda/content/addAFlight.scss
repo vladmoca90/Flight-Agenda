@@ -177,6 +177,10 @@ h3 {
         margin: 4% 5% 2% 0%;
         a {
             color: $white-color;
+            &:hover {
+                text-decoration: none;
+                color: $white-color;
+            }
             span {
                 font-size: 16px;
                 padding-left: 5px;
