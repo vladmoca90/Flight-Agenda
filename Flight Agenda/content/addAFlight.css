@@ -139,5 +139,6 @@ h3 {
 #next-button > button {
   background: #25CD60;
   border-radius: 50%;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding: 10px 15px; }
 
