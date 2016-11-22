@@ -166,10 +166,6 @@ h3 {
         padding-left: 10px;
     }
 }
-#next-button>button a:hover,
-#next-button>button span {
-    color: $white-color;
-}
 #next-container {
     #next-button>button {
         background: #25CD60;
@@ -180,6 +176,7 @@ h3 {
         font-size: 18px;
         margin: 4% 5% 2% 0%;
         a {
+            color: $white-color;
             &:hover {
                 text-decoration: none;
             }

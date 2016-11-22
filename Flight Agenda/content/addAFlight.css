@@ -138,10 +138,6 @@ h3 {
   #personal-note-container {
     padding-left: 10px; } }
 
-#next-button > button a:hover,
-#next-button > button span {
-  color: #FFFFFF; }
-
 #next-container #next-button > button {
   background: #25CD60;
   border-radius: 30px;
@@ -150,9 +146,11 @@ h3 {
   float: right;
   font-size: 18px;
   margin: 4% 5% 2% 0%; }
-  #next-container #next-button > button a:hover {
-    text-decoration: none; }
-  #next-container #next-button > button a span {
-    font-size: 16px;
-    padding-left: 5px; }
+  #next-container #next-button > button a {
+    color: #FFFFFF; }
+    #next-container #next-button > button a:hover {
+      text-decoration: none; }
+    #next-container #next-button > button a span {
+      font-size: 16px;
+      padding-left: 5px; }
 
