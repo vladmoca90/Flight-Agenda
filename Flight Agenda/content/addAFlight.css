@@ -138,11 +138,13 @@ h3 {
   #personal-note-container {
     padding-left: 10px; } }
 
-#next-button > button {
-  background: #25CD60;
-  border-radius: 30px;
-  color: #FFFFFF;
-  padding: 10px 25px; }
-  #next-button > button span {
-    font-size: 16px; }
+#next-container {
+  background: #FFFFFF; }
+  #next-container #next-button > button {
+    background: #25CD60;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 10px 25px; }
+    #next-container #next-button > button span {
+      font-size: 16px; }
 
