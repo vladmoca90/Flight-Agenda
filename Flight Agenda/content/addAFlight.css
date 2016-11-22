@@ -144,7 +144,9 @@ h3 {
   border: 0px;
   color: #FFFFFF;
   padding: 10px 25px;
-  float: right; }
+  float: right;
+  font-size: 18px; }
   #next-container #next-button > button span {
-    font-size: 16px; }
+    font-size: 16px;
+    padding-left: 5px; }
 
