@@ -74,8 +74,10 @@ input[type="radio"] {
 #form-container label,
 .containers-title,
 .seat-number-text {
-    font-weight: bold;
-    font-size: 17px;
+    font: {
+        weight: bold;
+        size: 17px;
+    }
 }
 hr {
     border-top: 1px dashed #CDCDCD;
