@@ -108,15 +108,12 @@ h3 {
       float: none;
       margin: 5% auto; } }
   .add-a-flight-information label {
+    background: #FFFFFF;
     color: #999999;
     padding: 5px 0px;
     text-align: center;
     border: 1px solid #999999;
     border-radius: 25px; }
-
-.add-a-flight-information label,
-#next-container {
-  background: #FFFFFF; }
 
 .seat-number {
   max-width: 170px !important;
@@ -144,8 +141,10 @@ h3 {
 #next-container #next-button > button {
   background: #25CD60;
   border-radius: 30px;
+  border: 0px;
   color: #FFFFFF;
-  padding: 10px 25px; }
+  padding: 10px 25px;
+  float: right; }
   #next-container #next-button > button span {
     font-size: 16px; }
 
