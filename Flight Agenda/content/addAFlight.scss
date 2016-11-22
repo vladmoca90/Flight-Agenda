@@ -171,14 +171,16 @@ h3 {
         background: #25CD60;
         border-radius: 30px;
         border: 0px;
-        color: $white-color;
         padding: 10px 25px;
         float: right;
         font-size: 18px;
         margin: 4% 5% 2% 0%;
-        span {
-            font-size: 16px;
-            padding-left: 5px;
+        a {
+            color: $white-color;
+            span {
+                font-size: 16px;
+                padding-left: 5px;
+            }
         }
     }
 }
