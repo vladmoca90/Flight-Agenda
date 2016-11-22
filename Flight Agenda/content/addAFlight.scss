@@ -118,8 +118,12 @@ h3 {
         margin-top: 3%;
     }
 }
-.add-a-flight-information {
+.add-a-flight-information,
+#personal-note-container,
+#next-button {
     float: left;
+}
+.add-a-flight-information {
     margin-left: 2%;
     @media screen and (max-width: 767px) {
         float: none;
