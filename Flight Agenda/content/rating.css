@@ -28,5 +28,6 @@
         height: 25px;
         background: url(../images/star.png) 0 0 no-repeat;
         padding-right: 7px;
-        cursor: pointer; }
+        cursor: pointer;
+        margin-left: 7px; }
 
