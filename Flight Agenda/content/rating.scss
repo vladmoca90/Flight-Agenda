@@ -34,7 +34,7 @@ $main-font: Calibri;
         max-width: 800px;
         .rating-section {
             max-width: 360px;
-            max-height: 320px;
+            min-height: 320px;
             margin-left: 1.75%;
             overflow: hidden;
             img {

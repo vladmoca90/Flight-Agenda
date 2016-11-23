@@ -18,7 +18,7 @@
   max-width: 800px; }
   #flight-form #main-flight-info-container .rating-section {
     max-width: 360px;
-    max-height: 320px;
+    min-height: 320px;
     margin-left: 1.75%;
     overflow: hidden; }
     #flight-form #main-flight-info-container .rating-section img {
