@@ -29,6 +29,8 @@ $main-font: Calibri;
         .rating-section {
             max-width: 360px;
             margin-left: 1.75%;
+            clear: both;
+            overflow: hidden;
             img {
                 width: $maxHeight;
                 max-width: 350px;
