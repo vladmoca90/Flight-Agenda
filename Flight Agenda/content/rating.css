@@ -5,6 +5,10 @@
 .rating-stars {
   width: 100%; }
 
+.rating-section img,
+.rating-stars li {
+  height: 100%; }
+
 .rating-section,
 .rating-stars li {
   float: left; }
@@ -16,7 +20,6 @@
     margin-left: 1.75%;
     overflow: hidden; }
     #flight-form #main-flight-info-container .rating-section img {
-      width: 100%;
       max-width: 350px;
       min-height: 235px; }
     #flight-form #main-flight-info-container .rating-section p {
@@ -26,6 +29,7 @@
     #flight-form #main-flight-info-container .rating-section .rating-stars {
       list-style-type: none;
       max-width: 205px;
+      min-height: 30px;
       margin: auto; }
       #flight-form #main-flight-info-container .rating-section .rating-stars li {
         width: 25px;

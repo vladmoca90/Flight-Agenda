@@ -20,6 +20,10 @@ $main-font: Calibri;
 .rating-stars {
     width: $maxWidth;
 }
+.rating-section img,
+.rating-stars li {
+    height: $maxHeight;
+}
 .rating-section,
 .rating-stars li {
     float: left;
@@ -32,7 +36,6 @@ $main-font: Calibri;
             margin-left: 1.75%;
             overflow: hidden;
             img {
-                width: $maxHeight;
                 max-width: 350px;
                 min-height: 235px;
             }
@@ -46,6 +49,7 @@ $main-font: Calibri;
             .rating-stars {
                 list-style-type: none;
                 max-width: 205px;
+                min-height: 30px;
                 margin: auto;
                 li {
                     width: 25px;
