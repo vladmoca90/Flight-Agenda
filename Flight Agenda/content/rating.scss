@@ -15,7 +15,8 @@ $main-font: Calibri;
 
 #flight-form,
 #main-flight-info-container,
-.rating-section {
+.rating-section,
+.rating-section img {
     width: $maxWidth;
 }
 #flight-form {
@@ -24,6 +25,9 @@ $main-font: Calibri;
         .rating-section {
             max-width: 360px;
             float: left;
+            img {
+                max-width: 360px;
+            }
             p {
                 text-align: center;
                 font : {

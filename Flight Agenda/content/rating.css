@@ -1,6 +1,7 @@
 ﻿#flight-form,
 #main-flight-info-container,
-.rating-section {
+.rating-section,
+.rating-section img {
   width: 100%; }
 
 #flight-form #main-flight-info-container {
@@ -8,6 +9,8 @@
   #flight-form #main-flight-info-container .rating-section {
     max-width: 360px;
     float: left; }
+    #flight-form #main-flight-info-container .rating-section img {
+      max-width: 360px; }
     #flight-form #main-flight-info-container .rating-section p {
       text-align: center;
       font-size: 21px;
