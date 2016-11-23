@@ -20,7 +20,7 @@ $main-font: Calibri;
     width: $maxWidth;
 }
 .rating-section,
-.rating-stars {
+.rating-stars li {
     float: left;
 }
 #flight-form {
@@ -43,6 +43,13 @@ $main-font: Calibri;
             }
             .rating-stars {
                 list-style-type: none;
+                li {
+                    width: 25px;
+                    height: 25px;
+                    background: url(../images/star.png) 0 0 no-repeat;
+                    padding-right: 7px;
+                    cursor: pointer;
+                }
             }
         }
     }
