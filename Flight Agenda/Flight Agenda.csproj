@@ -115,6 +115,7 @@
     <Content Include="images\OTP-rating.jpg" />
     <Content Include="images\pie-chart.png" />
     <Content Include="images\profile-color-border.png" />
+    <Content Include="images\star.png" />
     <Content Include="images\start-sign-in-button.png" />
     <Content Include="images\TAROM-rating.jpeg" />
     <Content Include="images\tarom.png" />
