@@ -25,10 +25,12 @@ $main-font: Calibri;
         .rating-section {
             max-width: 360px;
             float: left;
+            margin-left: 1.75%;
             img {
                 width: $maxHeight;
                 max-width: 350px;
                 min-height: 235px;
+                padding: 5px;
             }
             p {
                 text-align: center;
