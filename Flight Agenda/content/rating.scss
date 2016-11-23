@@ -26,7 +26,9 @@ $main-font: Calibri;
             max-width: 360px;
             float: left;
             img {
+                width: $maxHeight;
                 max-width: 360px;
+                max-height: 300px;
             }
             p {
                 text-align: center;
