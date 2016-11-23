@@ -14,12 +14,15 @@ $black-color: #000000;
 $main-font: Calibri;
 
 #flight-form,
+#main-flight-info-container,
 .rating-section {
     width: $maxWidth;
 }
 #flight-form {
-    .rating-section {
-        max-width: 360px;
-        float: left;
+    #main-flight-info-container {
+        .rating-section {
+            max-width: 360px;
+            float: left;
+        }
     }
 }

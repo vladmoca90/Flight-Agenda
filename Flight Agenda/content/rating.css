@@ -1,8 +1,9 @@
 ﻿#flight-form,
+#main-flight-info-container,
 .rating-section {
   width: 100%; }
 
-#flight-form .rating-section {
+#flight-form #main-flight-info-container .rating-section {
   max-width: 360px;
   float: left; }
 
