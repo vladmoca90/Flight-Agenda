@@ -58,7 +58,10 @@ $main-font: Calibri;
                     height: 25px;
                     background: url(../images/star.png) 0 0 no-repeat;
                     cursor: pointer;
-                    margin-left: 7px;
+                    margin-left: 5px;
+                    &:first-child {
+                        margin-left: 0px;
+                    }
                 }
             }
         }
