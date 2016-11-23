@@ -19,12 +19,15 @@ $main-font: Calibri;
 .rating-section img {
     width: $maxWidth;
 }
+.rating-section,
+.rating-stars {
+    float: left;
+}
 #flight-form {
     #main-flight-info-container {
         max-width: 800px;
         .rating-section {
             max-width: 360px;
-            float: left;
             margin-left: 1.75%;
             img {
                 width: $maxHeight;
@@ -41,7 +44,6 @@ $main-font: Calibri;
             }
             .rating-stars {
                 list-style-type: none;
-                float: left;
             }
         }
     }

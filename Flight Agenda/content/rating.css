@@ -4,11 +4,14 @@
 .rating-section img {
   width: 100%; }
 
+.rating-section,
+.rating-stars {
+  float: left; }
+
 #flight-form #main-flight-info-container {
   max-width: 800px; }
   #flight-form #main-flight-info-container .rating-section {
     max-width: 360px;
-    float: left;
     margin-left: 1.75%; }
     #flight-form #main-flight-info-container .rating-section img {
       width: 100%;
@@ -20,6 +23,5 @@
       font-size: 21px;
       font-weight: bold; }
     #flight-form #main-flight-info-container .rating-section .rating-stars {
-      list-style-type: none;
-      float: left; }
+      list-style-type: none; }
 
