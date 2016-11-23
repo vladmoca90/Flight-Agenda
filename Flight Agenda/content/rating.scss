@@ -39,6 +39,10 @@ $main-font: Calibri;
                     weight: bold;
                 }
             }
+            .rating-stars {
+                list-style-type: none;
+                float: left;
+            }
         }
     }
 }

@@ -19,4 +19,7 @@
       text-align: center;
       font-size: 21px;
       font-weight: bold; }
+    #flight-form #main-flight-info-container .rating-section .rating-stars {
+      list-style-type: none;
+      float: left; }
 
