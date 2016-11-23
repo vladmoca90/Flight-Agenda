@@ -101,18 +101,22 @@
       <DependentUpon>rating.css</DependentUpon>
     </Content>
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\airbusA318-rating.jpg" />
     <Content Include="images\background.jpg" />
     <Content Include="images\connect-with-facebook.png" />
     <Content Include="images\facebook.png" />
     <Content Include="images\google.png" />
     <Content Include="images\graph-img.png" />
     <Content Include="images\instagram.png" />
+    <Content Include="images\LHR-rating.jpg" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\middle.png" />
+    <Content Include="images\OTP-rating.jpg" />
     <Content Include="images\pie-chart.png" />
     <Content Include="images\profile-color-border.png" />
     <Content Include="images\start-sign-in-button.png" />
+    <Content Include="images\TAROM-rating.jpeg" />
     <Content Include="images\tarom.png" />
     <Content Include="images\twitter.png" />
     <Content Include="images\wizzair.png" />
