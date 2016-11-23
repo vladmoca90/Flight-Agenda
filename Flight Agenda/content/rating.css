@@ -5,6 +5,7 @@
 .rating-stars {
   width: 100%; }
 
+.rating-section,
 .rating-section img,
 .rating-stars li {
   height: 100%; }
@@ -17,6 +18,7 @@
   max-width: 800px; }
   #flight-form #main-flight-info-container .rating-section {
     max-width: 360px;
+    max-height: 320px;
     margin-left: 1.75%;
     overflow: hidden; }
     #flight-form #main-flight-info-container .rating-section img {
