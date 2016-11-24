@@ -15,7 +15,8 @@ $main-font: Calibri;
 
 #flight-form,
 #main-flight-info-container,
-#title-container {
+#title-container,
+.rating-section img {
     width: $maxWidth;
 }
 #title-container,
@@ -23,7 +24,6 @@ $main-font: Calibri;
     margin: auto;
 }
 .rating-section,
-.rating-section img,
 .rating-stars {
     @include maxWidthHeight;
 }
@@ -52,7 +52,7 @@ $main-font: Calibri;
             }
             img {
                 max-width: 360px;
-                max-height: 235px;
+                height: 235px;
             }
             p {
                 text-align: center;
