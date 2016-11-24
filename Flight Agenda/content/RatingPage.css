@@ -3,6 +3,10 @@
 #title-container {
   width: 100%; }
 
+#title-container,
+.rating-stars {
+  margin: auto; }
+
 .rating-section,
 .rating-section img,
 .rating-stars {
@@ -34,7 +38,6 @@
       list-style-type: none;
       max-width: 150px;
       min-height: 30px;
-      margin: auto;
       padding: 0px; }
       #flight-form #main-flight-info-container .rating-section .rating-stars li {
         width: 25px;

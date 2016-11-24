@@ -18,6 +18,10 @@ $main-font: Calibri;
 #title-container {
     width: $maxWidth;
 }
+#title-container,
+.rating-stars {
+    margin: auto;
+}
 .rating-section,
 .rating-section img,
 .rating-stars {
@@ -54,7 +58,6 @@ $main-font: Calibri;
                 list-style-type: none;
                 max-width: 150px;
                 min-height: 30px;
-                margin: auto;
                 padding: 0px;
                 li {
                     width: 25px;
