@@ -148,6 +148,10 @@ h3 {
   float: right;
   font-size: 18px;
   margin: 4% 0% 2% 0%; }
+  @media screen and (max-width: 767px) {
+    #next-container #next-button > button {
+      margin: auto;
+      float: none; } }
   #next-container #next-button > button a {
     color: #FFFFFF; }
     #next-container #next-button > button a:hover {
