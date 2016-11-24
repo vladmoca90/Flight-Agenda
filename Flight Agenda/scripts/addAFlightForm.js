@@ -1,5 +1,6 @@
 ﻿function flightForm() {
-    var addAFlight = ;
+
+    var addAFlight = document.getElementsByTagName("input").value = "";
 
     if() {
 
