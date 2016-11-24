@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\rating.css">
-      <DependentUpon>rating.scss</DependentUpon>
+      <DependentUpon>Rating.scss</DependentUpon>
     </Content>
     <Content Include="content\rating.min.css">
       <DependentUpon>rating.css</DependentUpon>
@@ -137,7 +137,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="content\rating.scss" />
+    <None Include="content\Rating.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
