@@ -1,5 +1,6 @@
 ﻿#flight-form,
-#main-flight-info-container {
+#main-flight-info-container,
+#title-container {
   width: 100%; }
 
 .rating-section,
@@ -14,9 +15,8 @@
 
 #flight-form #main-flight-info-container {
   max-width: 800px; }
-  #flight-form #main-flight-info-container h3,
-  #flight-form #main-flight-info-container hr {
-    width: 650px; }
+  #flight-form #main-flight-info-container #title-container {
+    max-width: 650px; }
   #flight-form #main-flight-info-container .rating-section {
     max-width: 360px;
     min-height: 320px;

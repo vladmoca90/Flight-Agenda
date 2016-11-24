@@ -14,7 +14,8 @@ $black-color: #000000;
 $main-font: Calibri;
 
 #flight-form,
-#main-flight-info-container {
+#main-flight-info-container,
+#title-container {
     width: $maxWidth;
 }
 .rating-section,
@@ -28,10 +29,9 @@ $main-font: Calibri;
 }
 #flight-form {
     #main-flight-info-container {
-        max-width: 800px;
-        h3, 
-        hr {
-            width: 650px;
+        max-width: 800px; 
+        #title-container {
+            max-width: 650px;
         }
         .rating-section {
             max-width: 360px;
