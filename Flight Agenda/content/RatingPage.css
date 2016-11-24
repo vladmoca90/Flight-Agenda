@@ -30,7 +30,8 @@
     @media screen and (max-width: 768px) {
       #flight-form #main-flight-info-container .rating-section {
         margin: auto;
-        float: none; } }
+        float: none;
+        margin-top: 1.5%; } }
     #flight-form #main-flight-info-container .rating-section:nth-child(4), #flight-form #main-flight-info-container .rating-section:last-child {
       margin-top: 1.5%; }
     #flight-form #main-flight-info-container .rating-section img {
