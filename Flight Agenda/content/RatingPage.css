@@ -28,7 +28,7 @@
     overflow: hidden;
     border: 1px solid #CCC;
     background: #FFFFFF; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       #flight-form #main-flight-info-container .rating-section {
         margin: auto;
         float: none;
