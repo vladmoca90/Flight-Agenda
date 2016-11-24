@@ -42,8 +42,9 @@ $main-font: Calibri;
             min-height: 320px;
             margin: 0% 0% 0% 1.75%;
             overflow: hidden;
+            border: 1px solid #CCC;
             img {
-                max-width: 350px;
+                max-width: 360px;
                 max-height: 235px;
             }
             p {
