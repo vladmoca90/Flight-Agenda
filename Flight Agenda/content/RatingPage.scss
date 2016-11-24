@@ -29,10 +29,14 @@ $main-font: Calibri;
 #flight-form {
     #main-flight-info-container {
         max-width: 800px;
+        h3, 
+        hr {
+            width: 650px;
+        }
         .rating-section {
             max-width: 360px;
             min-height: 320px;
-            margin-left: 1.75%;
+            margin: 2.5% 0% 0% 1.75%;
             overflow: hidden;
             img {
                 max-width: 350px;
