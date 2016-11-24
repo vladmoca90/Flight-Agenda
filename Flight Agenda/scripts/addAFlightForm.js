@@ -1,3 +1,10 @@
 ﻿function flightForm() {
-    var addAFlight = 
+    var addAFlight = ;
+
+    if() {
+
+    }
+    else {
+
+    }
 }
