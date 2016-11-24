@@ -43,6 +43,7 @@ $main-font: Calibri;
             margin-left: 1.35%;
             overflow: hidden;
             border: 1px solid #CCC;
+            background: $white-color;
             @media screen and (max-width: 768px) {
                 @include margin-float-group;
                 margin-top: 1.5%;

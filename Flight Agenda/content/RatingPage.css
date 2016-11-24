@@ -26,7 +26,8 @@
     min-height: 320px;
     margin-left: 1.35%;
     overflow: hidden;
-    border: 1px solid #CCC; }
+    border: 1px solid #CCC;
+    background: #FFFFFF; }
     @media screen and (max-width: 768px) {
       #flight-form #main-flight-info-container .rating-section {
         margin: auto;
