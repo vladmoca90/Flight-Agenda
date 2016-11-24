@@ -36,7 +36,8 @@
       list-style-type: none;
       max-width: 190px;
       min-height: 30px;
-      margin: auto; }
+      margin: auto;
+      padding: 0px; }
       #flight-form #main-flight-info-container .rating-section .rating-stars li {
         width: 25px;
         height: 25px;
