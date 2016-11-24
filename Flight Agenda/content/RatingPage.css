@@ -30,6 +30,7 @@
       max-height: 235px; }
     #flight-form #main-flight-info-container .rating-section p {
       text-align: center;
+      padding-top: 5px;
       font-size: 21px;
       font-weight: bold; }
     #flight-form #main-flight-info-container .rating-section .rating-stars {
