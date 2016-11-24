@@ -1,4 +1,8 @@
-﻿#flight-form,
+﻿mixin maxWidthHeight {
+  width: 100%;
+  height: 100%; }
+
+#flight-form,
 #main-flight-info-container,
 .rating-section,
 .rating-section img,
