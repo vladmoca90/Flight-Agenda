@@ -14,5 +14,9 @@
   {
     "outputFile": "content/rating.css",
     "inputFile": "content/rating.scss"
+  },
+  {
+    "outputFile": "content/RatingPage.css",
+    "inputFile": "content/RatingPage.scss"
   }
 ]
