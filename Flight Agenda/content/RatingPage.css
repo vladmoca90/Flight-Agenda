@@ -34,7 +34,7 @@
       font-weight: bold; }
     #flight-form #main-flight-info-container .rating-section .rating-stars {
       list-style-type: none;
-      max-width: 190px;
+      max-width: 150px;
       min-height: 30px;
       margin: auto;
       padding: 0px; }
