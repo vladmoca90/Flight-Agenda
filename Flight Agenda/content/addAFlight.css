@@ -18,7 +18,8 @@
 #flight-reason-container,
 .add-a-flight-information,
 .add-a-flight-information > label,
-input[type="radio"] {
+input[type="radio"],
+#next-container {
   width: 100%; }
 
 #flight-form,
@@ -29,7 +30,8 @@ input[type="radio"] {
 #ticket-information-container,
 #seat-container,
 #flight-reason-container,
-#personal-note-container {
+#personal-note-container,
+#next-container {
   max-width: 650px; }
 
 .add-a-flight-information,
