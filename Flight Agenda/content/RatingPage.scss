@@ -14,16 +14,14 @@ $black-color: #000000;
 $main-font: Calibri;
 
 #flight-form,
-#main-flight-info-container,
-.rating-section,
-.rating-section img,
-.rating-stars {
+#main-flight-info-container {
     width: $maxWidth;
 }
 .rating-section,
 .rating-section img,
+.rating-stars,
 .rating-stars li {
-    height: $maxHeight;
+    @include maxWidthHeight;
 }
 .rating-section,
 .rating-stars li {
@@ -56,8 +54,8 @@ $main-font: Calibri;
                 margin: auto;
                 padding: 0px;
                 li {
-                    width: 25px;
-                    height: 25px;
+                    max-width: 25px;
+                    max-height: 25px;
                     background: url(../images/star.png) 0 0 no-repeat;
                     cursor: pointer;
                     margin-left: 5px;
