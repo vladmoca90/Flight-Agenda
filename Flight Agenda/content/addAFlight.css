@@ -1,6 +1,11 @@
 ﻿body {
   font-family: Calibri; }
 
+#sign-up-section,
+#sign-in-section {
+  position: absolute;
+  z-index: 1; }
+
 #flight-form,
 #form-container,
 #main-flight-info-container,
