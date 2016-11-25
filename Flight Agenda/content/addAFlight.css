@@ -13,6 +13,9 @@
   #sign-up-section .sign-in-group,
   #sign-in-section .sign-in-group {
     margin-top: 10px; }
+    #sign-up-section .sign-in-group input,
+    #sign-in-section .sign-in-group input {
+      float: right; }
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
       color: #000000; }
