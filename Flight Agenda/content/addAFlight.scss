@@ -20,6 +20,7 @@ body {
 #sign-in-section {
     form {
         margin-top: 10%;
+        font-size: 15px;
     }
 }
 #sign-up-section,
@@ -32,7 +33,7 @@ body {
     border-radius: 10px;
     color: $white-color;
     background: #333333;
-    max-width: 250px;
+    max-width: 265px;
     padding: 10px 15px;
     h3 {
         text-align: center;
