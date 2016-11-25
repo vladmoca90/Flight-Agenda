@@ -18,7 +18,6 @@
   right: 13%;
   display: block;
   border-radius: 10px;
-  color: #FFFFFF;
   background: #333333;
   max-width: 265px;
   padding: 10px 15px; }
@@ -77,8 +76,7 @@
     #sign-in-section .sign-in-group a,
     #sign-in-section #sign-up-section .sign-up-group a, #sign-up-section
     #sign-in-section .sign-up-group a {
-      padding: 2px 0px 2px 5px;
-      color: #FFFFFF; }
+      padding: 2px 0px 2px 5px; }
 
 #sign-up-section {
   display: none; }
@@ -87,6 +85,13 @@
   max-width: 300px; }
   #sign-up-section .sign-up-group textarea + p {
     padding-bottom: 10px; }
+
+#sign-up-section,
+#sign-in-section,
+#sign-up-section a,
+#sign-in-section a,
+#next-button > button a {
+  color: #FFFFFF; }
 
 #flight-form,
 #form-container,
@@ -242,11 +247,9 @@ h3 {
     #next-container #next-button > button {
       margin: auto;
       float: none; } }
-  #next-container #next-button > button a {
-    color: #FFFFFF; }
-    #next-container #next-button > button a:hover {
-      text-decoration: none; }
-    #next-container #next-button > button a span {
-      font-size: 16px;
-      padding-left: 5px; }
+  #next-container #next-button > button a:hover {
+    text-decoration: none; }
+  #next-container #next-button > button a span {
+    font-size: 16px;
+    padding-left: 5px; }
 

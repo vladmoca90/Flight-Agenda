@@ -34,7 +34,6 @@ body {
     right: 13%;
     display: block;
     border-radius: 10px;
-    color: $white-color;
     background: #333333;
     max-width: 265px;
     padding: 10px 15px;
@@ -73,7 +72,6 @@ body {
         }
         a {
             padding: 2px 0px 2px 5px;
-            color: $white-color;
         }
     }
 }
@@ -88,6 +86,13 @@ body {
             padding-bottom: 10px;
         }
     }
+}
+#sign-up-section,
+#sign-in-section,
+#sign-up-section a,
+#sign-in-section a,
+#next-button>button a {
+    color: $white-color;
 }
 #flight-form,
 #form-container,
@@ -257,7 +262,6 @@ h3 {
             @include margin-float-group;
         }
         a {
-            color: $white-color;
             &:hover {
                 text-decoration: none;
             }
