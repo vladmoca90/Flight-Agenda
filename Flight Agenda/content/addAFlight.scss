@@ -124,7 +124,7 @@ body {
 .add-a-flight-information,
 .add-a-flight-information>label,
 input[type="radio"],
-#next-container {
+#save-container {
     width: $maxWidth;
 }
 #flight-form,
@@ -136,7 +136,7 @@ input[type="radio"],
 #seat-container,
 #flight-reason-container,
 #personal-note-container,
-#next-container {
+#save-container {
     max-width: 650px;
 }
 .add-a-flight-information,
@@ -262,7 +262,7 @@ h3 {
         padding-left: 10px;
     }
 }
-#next-container {
+#save-container {
     #next-button>button {
         background: #25CD60;
         border-radius: 30px;
