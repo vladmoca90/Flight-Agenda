@@ -1,11 +1,3 @@
-﻿function flightForm() {
-
-    var addAFlight = document.getElementsByTagName("input").value = "";
-
-    if() {
-
-    }
-    else {
-
-    }
-}
+﻿$('#submitButton').click(function () {
+    $('#thisForm').submit();
+})
