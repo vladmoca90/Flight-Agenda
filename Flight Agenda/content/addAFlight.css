@@ -6,6 +6,7 @@
   position: absolute;
   z-index: 1;
   display: block;
+  border-radius: 10px;
   color: #FFFFFF;
   background: #000000;
   max-width: 250px;
