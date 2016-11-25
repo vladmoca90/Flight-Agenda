@@ -45,7 +45,7 @@
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
       border-radius: 4px;
-      padding: 5px 13px;
+      padding: 5px 15px;
       font-size: 16px;
       background: #FAEA6F;
       background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
@@ -53,9 +53,7 @@
       background-image: -ms-linear-gradient(top, #FAEA6F, #BFA80F);
       background-image: -o-linear-gradient(top, #FAEA6F, #BFA80F);
       background-image: linear-gradient(to bottom, #FAEA6F, #BFA80F); }
-    #sign-up-section .sign-in-group button,
     #sign-up-section .sign-in-group button + label,
-    #sign-in-section .sign-in-group button,
     #sign-in-section .sign-in-group button + label {
       margin-left: 20px; }
     #sign-up-section .sign-in-group a,

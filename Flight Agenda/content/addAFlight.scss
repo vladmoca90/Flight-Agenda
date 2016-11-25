@@ -57,7 +57,7 @@ body {
         }
         button {
             border-radius: 4px;
-            padding: 5px 13px;
+            padding: 5px 15px;
             font-size: 16px;
             background: #FAEA6F;
             background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
@@ -66,7 +66,6 @@ body {
             background-image: -o-linear-gradient(top, #FAEA6F, #BFA80F);
             background-image: linear-gradient(to bottom, #FAEA6F, #BFA80F);
         }
-        button,
         button + label {
             margin-left: 20px;
         }
