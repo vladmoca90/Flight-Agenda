@@ -25,6 +25,10 @@
     #sign-in-section .sign-in-group button,
     #sign-in-section .sign-in-group button + label {
       margin-left: 20px; }
+    #sign-up-section .sign-in-group a,
+    #sign-in-section .sign-in-group a {
+      display: inline-block;
+      padding-top: 10px; }
 
 #sign-up-section {
   display: none; }
