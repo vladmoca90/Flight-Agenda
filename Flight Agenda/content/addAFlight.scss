@@ -77,6 +77,12 @@ body {
 }
 #sign-up-section {
     max-width: 300px;
+    .sign-up-group {
+        @extend .sign-in-group;
+    }
+    button {
+        margin: auto;
+    }
 }
 #flight-form,
 #form-container,
