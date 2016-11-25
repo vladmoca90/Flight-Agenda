@@ -19,6 +19,11 @@
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
       color: #000000; }
+    #sign-up-section .sign-in-group button,
+    #sign-up-section .sign-in-group button + label,
+    #sign-in-section .sign-in-group button,
+    #sign-in-section .sign-in-group button + label {
+      margin-left: 20px; }
 
 #sign-up-section {
   display: none; }

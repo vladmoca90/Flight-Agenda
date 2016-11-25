@@ -33,6 +33,10 @@ body {
         button {
             color: $black-color;
         }
+        button,
+        button + label {
+            margin-left: 20px;
+        }
     }
 }
 #sign-up-section {
