@@ -26,6 +26,11 @@
   #sign-in-section #sign-up-section .sign-up-group, #sign-up-section
   #sign-in-section .sign-up-group {
     margin-top: 5%; }
+    #sign-up-section .sign-in-group:nth-child(2), #sign-up-section .sign-up-group:nth-child(2),
+    #sign-in-section .sign-in-group:nth-child(2),
+    #sign-in-section #sign-up-section .sign-up-group:nth-child(2), #sign-up-section
+    #sign-in-section .sign-up-group:nth-child(2) {
+      margin-bottom: 10%; }
     #sign-up-section .sign-in-group label, #sign-up-section .sign-up-group label,
     #sign-in-section .sign-in-group label,
     #sign-in-section #sign-up-section .sign-up-group label, #sign-up-section

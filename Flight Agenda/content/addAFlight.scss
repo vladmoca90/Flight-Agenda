@@ -39,6 +39,9 @@ body {
     padding: 10px 15px;
     .sign-in-group {
         margin-top: 5%;
+        &:nth-child(2) {
+            margin-bottom: 10%;
+        }
         label {
             line-height: 30px;
             margin-bottom: 0px;
