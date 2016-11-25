@@ -37,20 +37,23 @@ body {
         margin-top: 5%;
         label {
             line-height: 30px;
+            margin-bottom: 0px;
+        }
+        input,
+        button {
+            color: $black-color;
         }
         input {
             float: right;
             background: #FAEA6F;
             border: 1px solid transparent;
             padding: 4px 5px;
-            color: $black-color;
         }
         &:nth-child(1),
         &:nth-child(3) {
             margin-top: 10%;
         }
         button {
-            color: $black-color;
             border: 1px solid transparent;
             border-radius: 4px;
             padding: 4px 10px;
