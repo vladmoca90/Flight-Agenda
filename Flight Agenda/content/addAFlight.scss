@@ -24,6 +24,9 @@ body {
     background: $black-color;
     max-width: 250px;
     padding: 10px;
+    .sign-in-group {
+        margin-top: 10px;
+    }
 }
 #sign-up-section {
     display: none;

@@ -9,6 +9,9 @@
   background: #000000;
   max-width: 250px;
   padding: 10px; }
+  #sign-up-section .sign-in-group,
+  #sign-in-section .sign-in-group {
+    margin-top: 10px; }
 
 #sign-up-section {
   display: none; }
