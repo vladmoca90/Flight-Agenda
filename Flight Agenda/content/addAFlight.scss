@@ -23,9 +23,10 @@ body {
     display: block;
     background: $black-color;
     max-width: 250px;
+    padding: 10px;
 }
-#sign-in-section {
-    
+#sign-up-section {
+    display: none;
 }
 #flight-form,
 #form-container,
