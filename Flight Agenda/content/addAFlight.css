@@ -156,6 +156,10 @@ input[type="radio"],
     #flight-form #form-container #main-flight-info-container div input {
       margin-right: 50%;
       float: right; }
+      @media screen and (max-width: 767px) {
+        #flight-form #form-container #main-flight-info-container div input {
+          margin-right: 20%;
+          text-indent: 0px; } }
 
 #form-container label,
 .containers-title,

@@ -159,6 +159,10 @@ input[type="radio"],
                 input {
                     margin-right: 50%;
                     float: right;
+                    @media screen and (max-width: 767px) {
+                        margin-right: 20%;
+                        text-indent: 0px;
+                    }
                 }
             }
         }
