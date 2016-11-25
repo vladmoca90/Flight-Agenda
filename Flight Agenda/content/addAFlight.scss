@@ -18,6 +18,9 @@ body {
 }
 #sign-up-section,
 #sign-in-section {
+    h3 {
+        text-align: center;
+    }
     form {
         margin-top: 10%;
         font-size: 15px;
@@ -35,9 +38,6 @@ body {
     background: #333333;
     max-width: 265px;
     padding: 10px 15px;
-    h3 {
-        text-align: center;
-    }
     .sign-in-group {
         margin-top: 5%;
         label {
@@ -78,7 +78,7 @@ body {
         }
     }
 }
-#sign-in-section {
+#sign-up-section {
     display: none;
 }
 #sign-up-section {
