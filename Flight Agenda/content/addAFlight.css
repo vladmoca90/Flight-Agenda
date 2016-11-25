@@ -16,8 +16,7 @@
   #sign-up-section h3,
   #sign-in-section h3 {
     text-align: center;
-    margin: 0px;
-    color: #FFFFFF; }
+    margin: 0px; }
   #sign-up-section .sign-in-group,
   #sign-in-section .sign-in-group {
     margin-top: 5%; }
@@ -29,12 +28,12 @@
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group input,
     #sign-in-section .sign-in-group button {
-      color: #000000; }
+      color: #000000;
+      border: 1px solid transparent; }
     #sign-up-section .sign-in-group input,
     #sign-in-section .sign-in-group input {
       float: right;
       background: #FAEA6F;
-      border: 1px solid transparent;
       padding: 4px 5px; }
     #sign-up-section .sign-in-group:nth-child(1), #sign-up-section .sign-in-group:nth-child(3),
     #sign-in-section .sign-in-group:nth-child(1),
@@ -42,7 +41,6 @@
       margin-top: 10%; }
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
-      border: 1px solid transparent;
       border-radius: 4px;
       padding: 4px 10px; }
     #sign-up-section .sign-in-group button,
