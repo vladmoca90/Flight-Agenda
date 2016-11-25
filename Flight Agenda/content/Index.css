@@ -36,7 +36,6 @@ nav,
 .logo,
 #connection-button-container,
 #connection-button-container p,
-#facebook-sign-in,
 .sign-in-button,
 nav,
 #button-menu > li,
@@ -49,7 +48,6 @@ nav,
 
 #account-connection,
 #connection-button-container,
-#facebook-sign-in,
 .sign-in-button,
 nav,
 #button-menu,
@@ -76,22 +74,11 @@ nav,
 #connection-button-container {
   max-width: 300px;
   min-height: 30px; }
-  #connection-button-container #facebook-sign-in {
-    max-width: 194px;
-    min-height: 28px;
-    background: url(../images/connect-with-facebook.png) 0 -28px no-repeat;
-    display: block; }
-    #connection-button-container #facebook-sign-in:hover {
-      background-position: 0 -28px; }
-  #connection-button-container p {
-    margin: 0px 10px;
-    line-height: 30px; }
   #connection-button-container .sign-in-button {
     max-width: 69px;
     min-height: 27px;
     background: url(../images/start-sign-in-button.png) 0 -26px no-repeat; }
 
-#facebook-sign-in,
 .sign-in-button {
   margin: 0px; }
 
