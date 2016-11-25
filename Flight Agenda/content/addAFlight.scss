@@ -36,6 +36,9 @@ body {
     }
     .sign-in-group {
         margin-top: 5%;
+        label {
+            line-height: 30px;
+        }
         input {
             float: right;
             background: #FAEA6F;
