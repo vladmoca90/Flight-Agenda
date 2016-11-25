@@ -59,7 +59,6 @@ body {
         button {
             border-radius: 4px;
             padding: 5px 15px;
-            font-size: 16px;
             background: #FAEA6F;
             background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
             background-image: -moz-linear-gradient(top, #FAEA6F, #BFA80F);
@@ -86,6 +85,10 @@ body {
             padding-bottom: 10px;
         }
     }
+}
+.sign-in-group button,
+#next-button>button a span {
+    font-size: 16px;
 }
 #sign-up-section,
 #sign-in-section,
@@ -266,7 +269,6 @@ h3 {
                 text-decoration: none;
             }
             span {
-                font-size: 16px;
                 padding-left: 5px;
             }
         }

@@ -60,7 +60,6 @@
     #sign-in-section .sign-up-group button {
       border-radius: 4px;
       padding: 5px 15px;
-      font-size: 16px;
       background: #FAEA6F;
       background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
       background-image: -moz-linear-gradient(top, #FAEA6F, #BFA80F);
@@ -85,6 +84,10 @@
   max-width: 300px; }
   #sign-up-section .sign-up-group textarea + p {
     padding-bottom: 10px; }
+
+.sign-in-group button, #sign-up-section .sign-up-group button,
+#next-button > button a span {
+  font-size: 16px; }
 
 #sign-up-section,
 #sign-in-section,
@@ -250,6 +253,5 @@ h3 {
   #next-container #next-button > button a:hover {
     text-decoration: none; }
   #next-container #next-button > button a span {
-    font-size: 16px;
     padding-left: 5px; }
 
