@@ -94,14 +94,14 @@ body {
     }
 }
 .sign-in-group button,
-#next-button>button a span {
+#save-button>button a span {
     font-size: 16px;
 }
 #sign-up-section,
 #sign-in-section,
 #sign-up-section a,
 #sign-in-section a,
-#next-button>button a {
+#save-button>button a {
     color: $white-color;
 }
 #flight-form,
@@ -175,7 +175,7 @@ input[type="radio"],
 #form-container label,
 .containers-title,
 .seat-number-text,
-#next-button>button {
+#save-button>button {
     font-weight: bold;
 }
 hr {
@@ -263,7 +263,7 @@ h3 {
     }
 }
 #save-container {
-    #next-button>button {
+    #save-button>button {
         background: #25CD60;
         border-radius: 30px;
         border: 0px;
