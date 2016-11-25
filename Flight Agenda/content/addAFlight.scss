@@ -84,6 +84,9 @@ body {
     max-width: 300px;
     .sign-up-group {
         @extend .sign-in-group;
+        textarea + p {
+            padding-bottom: 10px;
+        }
     }
 }
 #flight-form,

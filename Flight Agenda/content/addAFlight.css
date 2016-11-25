@@ -84,6 +84,8 @@
 
 #sign-up-section {
   max-width: 300px; }
+  #sign-up-section .sign-up-group textarea + p {
+    padding-bottom: 10px; }
 
 #flight-form,
 #form-container,
