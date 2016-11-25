@@ -4,7 +4,8 @@
 #sign-up-section,
 #sign-in-section {
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  max-width: 250px; }
 
 #flight-form,
 #form-container,
