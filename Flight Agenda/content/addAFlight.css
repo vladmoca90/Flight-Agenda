@@ -28,7 +28,8 @@
     #sign-up-section .sign-in-group a,
     #sign-in-section .sign-in-group a {
       display: inline-block;
-      padding-top: 10px; }
+      padding-top: 10px;
+      color: #FFFFFF; }
 
 #sign-up-section {
   display: none; }
