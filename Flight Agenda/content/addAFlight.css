@@ -19,7 +19,9 @@
       float: right; }
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
-      color: #000000; }
+      color: #000000;
+      border: 1px solid transparent;
+      border-radius: 4px; }
     #sign-up-section .sign-in-group button,
     #sign-up-section .sign-in-group button + label,
     #sign-in-section .sign-in-group button,
