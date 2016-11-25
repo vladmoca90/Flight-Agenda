@@ -58,6 +58,12 @@ body {
         button {
             border-radius: 4px;
             padding: 4px 10px;
+            background: #FAEA6F;
+            background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -moz-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -ms-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -o-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: linear-gradient(to bottom, #FAEA6F, #BFA80F);
         }
         button,
         button + label {
