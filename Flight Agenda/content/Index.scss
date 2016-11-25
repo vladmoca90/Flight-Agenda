@@ -61,7 +61,6 @@ nav,
 .flights-table {
     float: left;
 }
-#account-connection,
 #connection-button-container,
 .sign-in-button,
 nav,
@@ -74,13 +73,6 @@ nav,
 #bottom-icons-container>img {
     @include maxWidthHeight;
 }
-#account-connection {
-    max-width: 325px;
-    min-height: 35px;
-    line-height: 35px;
-    margin-top: 2.2%;
-}
-#account-connection, 
 .diagrams-img,
 .diagrams-texts {
     float: right;
@@ -88,6 +80,7 @@ nav,
 #connection-button-container {
     max-width: 70px;
     min-height: 30px;
+    margin-top: 2.2%;
     .sign-in-button {
         max-width: 69px;
         min-height: 27px;
