@@ -5,6 +5,8 @@
 #sign-in-section {
   position: absolute;
   z-index: 1;
+  top: 8%;
+  right: 13%;
   display: block;
   border-radius: 10px;
   color: #FFFFFF;
