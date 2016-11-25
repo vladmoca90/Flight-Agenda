@@ -38,10 +38,6 @@
       #sign-up-section .sign-in-group input[type="checkbox"],
       #sign-in-section .sign-in-group input[type="checkbox"] {
         margin: 8px 0px 0px 8px; }
-    #sign-up-section .sign-in-group:nth-child(1), #sign-up-section .sign-in-group:nth-child(3),
-    #sign-in-section .sign-in-group:nth-child(1),
-    #sign-in-section .sign-in-group:nth-child(3) {
-      margin-top: 10%; }
     #sign-up-section .sign-in-group button,
     #sign-in-section .sign-in-group button {
       border-radius: 4px;
@@ -62,8 +58,11 @@
       padding: 2px 0px 2px 5px;
       color: #FFFFFF; }
 
-#sign-up-section {
+#sign-in-section {
   display: none; }
+
+#sign-up-section {
+  max-width: 300px; }
 
 #flight-form,
 #form-container,
