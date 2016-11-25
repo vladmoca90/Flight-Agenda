@@ -39,6 +39,7 @@ body {
         input {
             float: right;
         }
+        &:nth-child(1),
         &:nth-child(3) {
             margin-top: 10%;
         }
