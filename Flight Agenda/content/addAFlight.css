@@ -77,7 +77,6 @@
     #sign-in-section .sign-in-group a,
     #sign-in-section #sign-up-section .sign-up-group a, #sign-up-section
     #sign-in-section .sign-up-group a {
-      display: inline-block;
       padding: 2px 0px 2px 5px;
       color: #FFFFFF; }
 
@@ -171,6 +170,7 @@ h3 {
       text-align: center;
       text-indent: 0px; } }
 
+.sign-in-group a, #sign-up-section .sign-up-group a,
 #form-containerlabel,
 .seat-number-text {
   display: inline-block; }
