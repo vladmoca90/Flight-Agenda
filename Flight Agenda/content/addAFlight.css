@@ -94,14 +94,14 @@
     padding-bottom: 10px; }
 
 .sign-in-group button, #sign-up-section .sign-up-group button,
-#next-button > button a span {
+#save-button > button a span {
   font-size: 16px; }
 
 #sign-up-section,
 #sign-in-section,
 #sign-up-section a,
 #sign-in-section a,
-#next-button > button a {
+#save-button > button a {
   color: #FFFFFF; }
 
 #flight-form,
@@ -124,7 +124,7 @@
 .add-a-flight-information,
 .add-a-flight-information > label,
 input[type="radio"],
-#next-container {
+#save-container {
   width: 100%; }
 
 #flight-form,
@@ -136,7 +136,7 @@ input[type="radio"],
 #seat-container,
 #flight-reason-container,
 #personal-note-container,
-#next-container {
+#save-container {
   max-width: 650px; }
 
 .add-a-flight-information,
@@ -151,15 +151,13 @@ input[type="radio"],
   overflow: hidden; }
   #flight-form #form-container #main-flight-info-container div {
     margin-top: 3%; }
-    #flight-form #form-container #main-flight-info-container div label {
-      margin: 3px 0px; }
     #flight-form #form-container #main-flight-info-container div input {
       margin-right: 50%;
       float: right; }
       @media screen and (max-width: 480px) {
         #flight-form #form-container #main-flight-info-container div input {
           margin-right: 5%; } }
-      @media screen and (max-width: 767px) {
+      @media screen and (min-width: 481px) and (max-width: 767px) {
         #flight-form #form-container #main-flight-info-container div input {
           margin-right: 20%; } }
 
@@ -171,7 +169,7 @@ input[type="radio"],
 #form-container label,
 .containers-title,
 .seat-number-text,
-#next-button > button {
+#save-button > button {
   font-weight: bold; }
 
 hr {
@@ -252,7 +250,7 @@ h3 {
   #personal-note-container {
     padding-left: 10px; } }
 
-#next-container #next-button > button {
+#save-container #save-button > button {
   background: #25CD60;
   border-radius: 30px;
   border: 0px;
@@ -261,11 +259,11 @@ h3 {
   font-size: 18px;
   margin: 4% 0% 2% 0%; }
   @media screen and (max-width: 767px) {
-    #next-container #next-button > button {
+    #save-container #save-button > button {
       margin: auto;
       float: none; } }
-  #next-container #next-button > button a:hover {
+  #save-container #save-button > button a:hover {
     text-decoration: none; }
-  #next-container #next-button > button a span {
+  #save-container #save-button > button a span {
     padding-left: 5px; }
 
