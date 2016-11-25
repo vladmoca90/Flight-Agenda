@@ -16,7 +16,9 @@
   #sign-up-section h3,
   #sign-in-section h3 {
     text-align: center;
-    margin: 0px; }
+    margin: 0px;
+    background: #FFFFFF;
+    color: #000000; }
   #sign-up-section .sign-in-group,
   #sign-in-section .sign-in-group {
     margin-top: 5%; }
