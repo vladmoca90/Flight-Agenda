@@ -64,7 +64,8 @@ nav,
   float: right; }
 
 #connection-button-container {
-  max-width: 70px;
+  float: right;
+  max-width: 100px;
   min-height: 30px;
   margin-top: 2.2%; }
   #connection-button-container .sign-in-button {
