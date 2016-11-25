@@ -29,7 +29,8 @@
       float: right;
       background: #FAEA6F;
       border: 1px solid transparent;
-      padding: 4px 5px; }
+      padding: 4px 5px;
+      color: #000000; }
     #sign-up-section .sign-in-group:nth-child(1), #sign-up-section .sign-in-group:nth-child(3),
     #sign-in-section .sign-in-group:nth-child(1),
     #sign-in-section .sign-in-group:nth-child(3) {
