@@ -18,6 +18,12 @@ body {
 }
 #sign-up-section,
 #sign-in-section {
+    form {
+        margin-top: 10%;
+    }
+}
+#sign-up-section,
+#sign-in-section {
     position: absolute;
     z-index: 1;
     top: 8%;
@@ -30,7 +36,6 @@ body {
     padding: 10px 15px;
     h3 {
         text-align: center;
-        margin: 0px;
     }
     .sign-in-group {
         margin-top: 5%;
@@ -79,9 +84,6 @@ body {
     max-width: 300px;
     .sign-up-group {
         @extend .sign-in-group;
-    }
-    button {
-        margin: auto;
     }
 }
 #flight-form,

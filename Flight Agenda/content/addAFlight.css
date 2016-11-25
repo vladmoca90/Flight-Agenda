@@ -1,6 +1,10 @@
 ﻿body {
   font-family: Calibri; }
 
+#sign-up-section form,
+#sign-in-section form {
+  margin-top: 10%; }
+
 #sign-up-section,
 #sign-in-section {
   position: absolute;
@@ -15,8 +19,7 @@
   padding: 10px 15px; }
   #sign-up-section h3,
   #sign-in-section h3 {
-    text-align: center;
-    margin: 0px; }
+    text-align: center; }
   #sign-up-section .sign-in-group, #sign-up-section .sign-up-group,
   #sign-in-section .sign-in-group,
   #sign-in-section #sign-up-section .sign-up-group, #sign-up-section
@@ -81,8 +84,6 @@
 
 #sign-up-section {
   max-width: 300px; }
-  #sign-up-section button {
-    margin: auto; }
 
 #flight-form,
 #form-container,
