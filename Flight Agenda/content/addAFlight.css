@@ -5,6 +5,7 @@
 #sign-in-section {
   position: absolute;
   z-index: 1;
+  display: block;
   max-width: 250px; }
 
 #flight-form,
