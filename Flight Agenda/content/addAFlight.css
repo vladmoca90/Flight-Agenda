@@ -82,11 +82,13 @@
     #sign-in-section .sign-up-group a {
       padding: 2px 0px 2px 5px; }
 
-#sign-up-section {
+#sign-in-section {
   display: none; }
 
 #sign-up-section {
   max-width: 300px; }
+  #sign-up-section .sign-up-group:nth-child(2) {
+    margin-bottom: 0%; }
   #sign-up-section .sign-up-group textarea + p {
     padding-bottom: 10px; }
 

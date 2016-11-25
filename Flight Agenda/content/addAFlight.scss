@@ -77,13 +77,16 @@ body {
         }
     }
 }
-#sign-up-section {
+#sign-in-section {
     display: none;
 }
 #sign-up-section {
     max-width: 300px;
     .sign-up-group {
         @extend .sign-in-group;
+        &:nth-child(2) {
+            margin-bottom: 0%;
+        }
         textarea + p {
             padding-bottom: 10px;
         }
