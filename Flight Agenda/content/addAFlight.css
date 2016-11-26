@@ -94,14 +94,14 @@
     padding-bottom: 10px; }
 
 .sign-in-group button, #sign-up-section .sign-up-group button,
-#save-button a {
+#save-button button {
   font-size: 16px; }
 
 #sign-up-section,
 #sign-in-section,
 #sign-up-section a,
 #sign-in-section a,
-#save-button a {
+#save-button button {
   color: #FFFFFF; }
 
 #flight-form,
@@ -169,7 +169,7 @@ input[type="radio"],
 #form-container label,
 .containers-title,
 .seat-number-text,
-#save-button a {
+#save-button button {
   font-weight: bold; }
 
 hr {
