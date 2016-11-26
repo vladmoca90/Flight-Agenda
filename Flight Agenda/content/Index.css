@@ -182,7 +182,7 @@ nav,
 .profile-color-border {
   max-height: 9px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .main-flights-boxes,
   .main-flights-boxes figure,
   .statistics-container figure,

@@ -213,7 +213,7 @@ nav,
 .diagrams-img,
 .graph-img,
 #bottom #bottom-icons-container {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
         @include margin-float-group;
     }
 }
@@ -367,7 +367,7 @@ nav,
         max-width: 200px;
         margin-left: 24%;
         @media screen and (max-width: 800px) {
-            @include margin-float-group ;
+            @include margin-float-group;
         }
         img {
             max-height: 30px;
