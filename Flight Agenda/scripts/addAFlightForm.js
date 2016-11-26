@@ -1,4 +1,8 @@
-﻿// only for demo purposes
+﻿define(["jquery", "jquery.validate"], function ($) {
+    $("form").validate();
+});
+
+// only for demo purposes
 $.validator.setDefaults({
 
     submitHandler: function () {
