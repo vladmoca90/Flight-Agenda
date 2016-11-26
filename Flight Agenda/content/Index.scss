@@ -21,6 +21,7 @@ body {
     @media screen and (max-width: 767px) {
         @include maxWidthHeight;
         display: block;
+        max-width: 300px;
     }
 }
 nav,
