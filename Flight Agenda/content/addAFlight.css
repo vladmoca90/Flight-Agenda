@@ -250,7 +250,7 @@ h3 {
   #personal-note-container {
     padding-left: 10px; } }
 
-#save-container #save-button > button {
+#save-container #save-button a {
   background: #25CD60;
   border-radius: 30px;
   border: 0px;
@@ -259,11 +259,11 @@ h3 {
   font-size: 18px;
   margin: 4% 0% 2% 0%; }
   @media screen and (max-width: 767px) {
-    #save-container #save-button > button {
+    #save-container #save-button a {
       margin: auto;
       float: none; } }
-  #save-container #save-button > button a:hover {
+  #save-container #save-button a:hover {
     text-decoration: none; }
-  #save-container #save-button > button a span {
+  #save-container #save-button a span {
     padding-left: 5px; }
 
