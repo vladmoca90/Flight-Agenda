@@ -16,6 +16,19 @@ $main-font: Calibri;
 body {
     font-family: $main-font;
 }
+.logo,
+#connection-button-container,
+#connection-button-container p,
+.sign-in-button,
+nav,
+#button-menu>li,
+#bottom-text-container,
+#bottom-icons-container,
+.statistics,
+.main-flights-boxes,
+.flights-table {
+    float: left;
+}
 .logo {
     margin: 0.65% 0% 0% 2%;
     @media screen and (max-width: 767px) {
@@ -52,19 +65,6 @@ nav,
 #top,
 .diagramsStatistics {
     height: $maxHeight;
-}
-.logo,
-#connection-button-container,
-#connection-button-container p,
-.sign-in-button,
-nav,
-#button-menu>li,
-#bottom-text-container,
-#bottom-icons-container,
-.statistics,
-.main-flights-boxes,
-.flights-table {
-    float: left;
 }
 #connection-button-container,
 .sign-in-button,
