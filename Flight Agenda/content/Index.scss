@@ -359,15 +359,15 @@ nav,
                 padding: 0px 5px;
             }
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 800px) {
             display: none;
         }
     }
     #bottom-icons-container {
         max-width: 200px;
         margin-left: 24%;
-        @media screen and (max-width: 768px) {
-            margin-left: auto;
+        @media screen and (max-width: 800px) {
+            margin: auto;
         }
         img {
             max-height: 30px;
