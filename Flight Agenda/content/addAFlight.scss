@@ -153,6 +153,11 @@ input[type="radio"],
         #main-flight-info-container {
             div {
                 margin-top: 3%;
+                label {
+                    @media screen and (max-width: 480px) {
+                        text-indent: 10px;
+                    }
+                }
                 input {
                     margin-right: 50%;
                     float: right;
