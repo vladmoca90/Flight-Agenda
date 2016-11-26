@@ -169,7 +169,7 @@ input[type="radio"],
 #form-container label,
 .containers-title,
 .seat-number-text,
-#save-button > button {
+#save-button a {
   font-weight: bold; }
 
 hr {
