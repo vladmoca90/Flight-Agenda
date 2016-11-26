@@ -326,7 +326,8 @@ nav,
     margin-left: 24%; }
     @media screen and (max-width: 800px) {
       #bottom #bottom-icons-container {
-        margin: auto; } }
+        margin: 0 auto;
+        float: none; } }
     #bottom #bottom-icons-container img {
       max-height: 30px;
       max-width: 30px;
