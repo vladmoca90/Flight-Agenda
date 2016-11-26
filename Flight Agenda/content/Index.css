@@ -68,6 +68,9 @@ nav,
   max-width: 100px;
   min-height: 30px;
   margin-top: 2.2%; }
+  @media screen and (max-width: 767px) {
+    #connection-button-container {
+      display: none; } }
   #connection-button-container .sign-in-button {
     max-width: 69px;
     min-height: 27px;
