@@ -5,8 +5,8 @@
   margin: 0.65% 0% 0% 2%; }
   @media screen and (max-width: 767px) {
     .logo {
-      width: 100%;
-      height: 100%;
+      margin: auto;
+      float: none;
       display: block;
       max-width: 300px; } }
 
