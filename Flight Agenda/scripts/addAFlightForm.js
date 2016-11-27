@@ -1,4 +1,8 @@
-﻿
+﻿$(document).ready(function () {
+    $("#save-button>button").click(function () {
+
+    });
+});
 
 // Wait for the DOM to be ready
 $(function () {
