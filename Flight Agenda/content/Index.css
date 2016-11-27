@@ -105,9 +105,6 @@ nav,
       padding: 2px 0px 2px 5px; }
 
 #sign-up-section {
-  display: none; }
-
-#sign-up-section {
   max-width: 300px; }
   #sign-up-section .sign-up-group:nth-child(2) {
     margin-bottom: 0%; }
