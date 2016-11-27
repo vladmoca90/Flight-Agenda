@@ -172,6 +172,8 @@
     <Content Include="scripts\flightList.js" />
     <Content Include="content\font-awesome.css" />
     <Content Include="content\font-awesome.min.css" />
+    <Content Include="scripts\formValidation\jquery.validate.js" />
+    <Content Include="scripts\formValidation\jquery.validate.min.js" />
     <Content Include="scripts\jquery-3.1.1.min.js" />
     <Content Include="scripts\maps.js" />
     <Content Include="site\addAFlight.html" />
