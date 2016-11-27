@@ -32,11 +32,6 @@ body {
             color: $white-color;
             text-align: center !important;
             font-weight: bold;
-            &:nth-child(5) {
-                @media screen and (max-width: 767px) {
-                    display: none;
-                }
-            }
         }
     }
     tbody {
@@ -48,11 +43,6 @@ body {
         td {
             border-left: none;
             border-right: none;
-            &:nth-child(5) {
-                @media screen and (max-width: 767px) {
-                    display: none;
-                }
-            }
             img {
                 @include maxWidthHeight;
                 max-width: 70px;
@@ -68,7 +58,15 @@ body {
         }
     }
 }
+}
+tr>th,
+tr>td {
+    &:nth-child(5) {
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
     }
+}
 .moneySymbol {
     color: #21B234;
 }
