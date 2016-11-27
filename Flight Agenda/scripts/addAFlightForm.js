@@ -5,7 +5,13 @@
 }); */
 
 $(document).ready(function () {
+
     $("#sign-in-section").hide();
+
+    $(".sign-in-button").click(function () {
+        $("#sign-in-section").show();
+    });
+
 });
 
 // Wait for the DOM to be ready
