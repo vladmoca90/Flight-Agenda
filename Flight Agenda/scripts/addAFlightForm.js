@@ -34,13 +34,16 @@ $(function () {
             aircraftType: "The aircraft type must be completed",
             aircraftRegistration: "The aircraft registration must be completed"
         },
-        errorClass: "error",
-        errorElement: "span",
-        rules:{
-            userGender:{
-                required: function() {
-                    return $('[name="userGender"]:checked').length; 
+        rules: {
+            userGender: {
+                required: function () {
+                    return $('[name="userGender"]:checked').length === 0;
                 }
+            },
+        },
+        messages: {
+            userGender: {
+                required: "please select one"
             }
         },
         // Make sure the form is submitted to the destination defined
