@@ -37,7 +37,7 @@ $(function () {
         rules: {
             userFlight: {
                 required: function () {
-                    return $('[name="ticketInformation"]:checked').length === 0;
+                    return $("[name='ticketInformation']:checked").length === 0;
                 }
             },
         },
