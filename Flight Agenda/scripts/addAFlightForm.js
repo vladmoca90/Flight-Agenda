@@ -33,7 +33,7 @@ $(function () {
             flightNumber: "The flight number must be completed",
             aircraftType: "The aircraft type must be completed",
             aircraftRegistration: "The aircraft registration must be completed",
-            seatNumber: "You must write the seat number"
+            seat: "You must write the seat number"
         },
         rules: {
             userFlight: {
