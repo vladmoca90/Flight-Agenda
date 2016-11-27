@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     $("#save-button>button").click(function () {
-
+        location.href = "Rating.html";
     });
 });
 
