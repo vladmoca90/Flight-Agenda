@@ -1,8 +1,8 @@
-﻿$(document).ready(function () {
+﻿/* $(document).ready(function () {
     $("#save-button>button").click(function () {
         location.href = "Rating.html";
     });
-});
+}); */
 
 // Wait for the DOM to be ready
 $(function () {
@@ -45,7 +45,9 @@ $(function () {
         rules: {
             userFlight: {
                 required: function () {
-                    return $("[name='ticketInformation']:checked").length === 0;
+                    if ($("input[name='ticketInformation']:checked").length <= 0) {
+                        alert("No radio checked")
+                    }
                 }
             },
         },
