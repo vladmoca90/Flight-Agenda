@@ -35,15 +35,15 @@ $(function () {
             aircraftRegistration: "The aircraft registration must be completed"
         },
         rules: {
-            userGender: {
+            userFlight: {
                 required: function () {
-                    return $('[name="userGender"]:checked').length === 0;
+                    return $('[name="ticketInformation"]:checked').length === 0;
                 }
             },
         },
         messages: {
-            userGender: {
-                required: "please select one"
+            userFlight: {
+                required: "You must select"
             }
         },
         // Make sure the form is submitted to the destination defined
