@@ -1,15 +1,8 @@
 ﻿body {
   font-family: Calibri; }
 
-.sign-in-group button,
 #save-button button {
-  font-size: 16px; }
-
-#sign-up-section,
-#sign-in-section,
-#sign-up-section a,
-#sign-in-section a,
-#save-button button {
+  font-size: 16px;
   color: #FFFFFF; }
 
 #flight-form,
@@ -21,8 +14,6 @@
 #personal-note-container {
   margin: auto; }
 
-#sign-in-section,
-#sign-up-section,
 #flight-form,
 #form-container,
 #main-flight-info-container,

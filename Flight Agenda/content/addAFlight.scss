@@ -16,15 +16,8 @@ $main-font: Calibri;
 body {
     font-family: $main-font;
 }
-.sign-in-group button,
 #save-button button {
     font-size: 16px;
-}
-#sign-up-section,
-#sign-in-section,
-#sign-up-section a,
-#sign-in-section a,
-#save-button button {
     color: $white-color;
 }
 #flight-form,
@@ -36,8 +29,6 @@ body {
 #personal-note-container {
     margin: auto;
 }
-#sign-in-section,
-#sign-up-section,
 #flight-form,
 #form-container,
 #main-flight-info-container,
