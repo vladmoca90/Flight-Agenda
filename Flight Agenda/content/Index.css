@@ -104,8 +104,7 @@ nav,
     #sign-in-section .sign-up-group a {
       padding: 2px 0px 2px 5px; }
 
-#sign-up-section,
-#sign-in-section {
+#sign-up-section {
   display: none; }
 
 #sign-up-section {
