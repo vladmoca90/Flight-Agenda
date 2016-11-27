@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $("#sign-up-section").hide();
 
-    $(".sign-in-group a:nth-child(2)").click(function () {
+    $("#signUpLink").click(function () {
         $("#sign-up-section").show();
         $("#sign-in-section").hide();
     });
