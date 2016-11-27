@@ -40,24 +40,24 @@ body {
             &:nth-child(even) {
                 background: #F3F3F3;
             }
-        td {
-            border-left: none;
-            border-right: none;
-            img {
-                @include maxWidthHeight;
-                max-width: 70px;
-                max-height: 25px;
-            }
-            i {
-                margin: 3px 2px;
-                font-size: 20px;
-                &:hover {
-                    cursor: pointer;
+            td {
+                border-left: none;
+                border-right: none;
+                img {
+                    @include maxWidthHeight;
+                        max-width: 70px;
+                        max-height: 25px;
+                  }
+                i {
+                    margin: 3px 2px;
+                    font-size: 20px;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }
     }
-}
 }
 tr>th,
 tr>td {
