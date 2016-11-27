@@ -114,6 +114,15 @@ nav,
         }
     }
 }
+.sign-in-group button {
+    font-size: 16px;
+}
+#sign-up-section,
+#sign-in-section,
+#sign-up-section a,
+#sign-in-section a {
+    color: $white-color;
+}
 nav,
 #button-menu {
     min-height: 50px;
@@ -189,6 +198,8 @@ nav,
 #bottom {
     background: rgba(0, 47, 93, 0.9);
 }
+#sign-in-section,
+#sign-up-section,
 nav,
 #middle,
 #profile-container,
