@@ -37,6 +37,83 @@ nav,
         max-width: 300px;
     }
 }
+#sign-up-section,
+#sign-in-section {
+    h3 {
+        text-align: center;
+    }
+    form {
+        margin-top: 10%;
+        font-size: 15px;
+    }
+}
+#sign-up-section,
+#sign-in-section {
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    right: 13%;
+    display: block;
+    border-radius: 10px;
+    background: #333333;
+    max-width: 265px;
+    padding: 10px 15px;
+    .sign-in-group {
+        margin-top: 5%;
+        &:nth-child(2) {
+            margin-bottom: 10%;
+        }
+        label {
+            line-height: 30px;
+            margin-bottom: 0px;
+        }
+        input,
+        button {
+            color: $black-color;
+            border: 1px solid transparent;
+        }
+        input {
+            float: right;
+            background: #FAEA6F;
+            padding: 4px 5px;
+            &[type="checkbox"] {
+                margin: 8px 0px 0px 8px;
+            }
+        }
+        button {
+            border-radius: 4px;
+            padding: 5px 15px;
+            background: #FAEA6F;
+            background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -moz-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -ms-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: -o-linear-gradient(top, #FAEA6F, #BFA80F);
+            background-image: linear-gradient(to bottom, #FAEA6F, #BFA80F);
+        }
+        button + label {
+            margin-left: 20px;
+        }
+        a {
+            padding: 2px 0px 2px 5px;
+        }
+    }
+}
+#sign-up-section,
+#sign-in-section {
+    display: none;
+}
+#sign-up-section {
+    max-width: 300px;
+    .sign-up-group {
+        @extend .sign-in-group;
+        &:nth-child(2) {
+            margin-bottom: 0%;
+        }
+        textarea + p {
+            padding-bottom: 10px;
+        }
+    }
+}
 nav,
 #button-menu {
     min-height: 50px;
