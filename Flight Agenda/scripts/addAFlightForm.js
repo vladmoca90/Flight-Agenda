@@ -19,16 +19,6 @@ $(function () {
             flightNumber: "required",
             aircraftType: "required",
             aircraftRegistration: "required"
-            email: {
-                required: true,
-                // Specify that email should be validated
-                // by the built-in "email" rule
-                email: true
-            },
-            password: {
-                required: true,
-                minlength: 5
-            }
         },
         // Specify validation error messages
         messages: {
@@ -42,13 +32,8 @@ $(function () {
             airline: "The airline name must be completed",
             flightNumber: "The flight number must be completed",
             aircraftType: "The aircraft type must be completed",
-            aircraftRegistration: "The aircraft registration must be completed",
-            password: {
-                required: "Please provide a password",
-                minlength: "Your password must be at least 5 characters long"
-            },
-            email: "Please enter a valid email address"
-        },
+            aircraftRegistration: "The aircraft registration must be completed"
+        }
         // Make sure the form is submitted to the destination defined
         // in the "action" attribute of the form when valid
         submitHandler: function (form) {
