@@ -176,6 +176,7 @@
     <Content Include="scripts\formValidation\jquery.validate.min.js" />
     <Content Include="scripts\jquery-3.1.1.min.js" />
     <Content Include="scripts\maps.js" />
+    <Content Include="scripts\Sign-In-Sign-Up.js" />
     <Content Include="site\addAFlight.html" />
     <Content Include="site\flightList.html" />
     <Content Include="site\Index.html" />
