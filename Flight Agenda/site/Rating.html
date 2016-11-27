@@ -28,6 +28,60 @@
 <body>
     <header role="banner" id="top">
         <img role="img" class="logo" src="../images/logo.png" alt="Logo" title="Flight Diary Logo" />
+        <div id="sign-in-section">
+            <h3 role="heading">Sign In</h3>
+            <form role="form" method="post">
+                <div role="group" class="sign-in-group">
+                    <label for="signInEmail">Email:</label>
+                    <input role="textbox" type="email" name="signInEmail" />
+                </div>
+                <div role="group" class="sign-in-group">
+                    <label for="signInPassword">Password:</label>
+                    <input role="textbox" type="password" name="signInPassword" />
+                </div>
+                <div role="group" class="sign-in-group">
+                    <button role="button" type="submit">Sign In</button>
+                    <label>Remember Me<input role="checkbox" type="checkbox" /></label>
+                </div>
+                <div role="group" class="sign-in-group">
+                    <a role="link" href="#">Forgot password?</a> <br />
+                    <a role="link" href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+        <div id="sign-up-section">
+            <h3 role="heading">Sign Up</h3>
+            <form role="form" method="post">
+                <div role="group" class="sign-up-group">
+                    <label for="name">Name:</label>
+                    <input role="textbox" type="text" name="name" />
+                </div>
+                <div role="group" class="sign-up-group">
+                    <label for="username">Username:</label>
+                    <input role="textbox" type="text" name="username" />
+                </div>
+                <div role="group" class="sign-up-group">
+                    <label for="signUpEmail">Email:</label>
+                    <input role="textbox" type="email" name="signUpEmail" />
+                </div>
+                <div role="group" class="sign-up-group">
+                    <label for="signUpPassword">Password:</label>
+                    <input role="textbox" type="password" name="signUpPassword" />
+                </div>
+                <div role="group" class="sign-up-group">
+                    <label for="repeatPassword">Repeat password:</label>
+                    <input role="textbox" type="password" name="repeatPassword" />
+                </div>
+                <div role="group" class="sign-up-group">
+                    <label>Terms of service</label>
+                    <textarea role="textbox" rows="5" cols="41"></textarea>
+                    <p>By clicking "Create account" below, you agree to the Terms of Service described above.</p>
+                </div>
+                <div role="group" class="sign-up-group">
+                    <button role="button" type="submit">Create account</button>
+                </div>
+            </form>
+        </div>
         <div id="connection-button-container">
             <div class="sign-in-button"></div>
         </div>
