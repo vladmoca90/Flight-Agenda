@@ -14,6 +14,11 @@ $(function () {
             arrivalDate: "required",
             departureTime: "required",
             arrivalTime: "required",
+            flightDuration: "required",
+            airline: "required",
+            flightNumber: "required",
+            aircraftType: "required",
+            aircraftRegistration: "required"
             email: {
                 required: true,
                 // Specify that email should be validated
