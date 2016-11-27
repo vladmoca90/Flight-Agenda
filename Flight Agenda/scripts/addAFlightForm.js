@@ -33,10 +33,19 @@ $(function () {
             flightNumber: "The flight number must be completed",
             aircraftType: "The aircraft type must be completed",
             aircraftRegistration: "The aircraft registration must be completed"
-        }
+        },
+        errorClass: "error",
+        errorElement: "span",
+        rules:{
+            userGender:{
+                required: function() {
+                    return $('[name="userGender"]:checked').length; 
+                }
+            }
+        },
         // Make sure the form is submitted to the destination defined
         // in the "action" attribute of the form when valid
-        submitHandler: function (form) {
+        $("#flight-form"): function (form) {
             form.submit();
         }
     });
