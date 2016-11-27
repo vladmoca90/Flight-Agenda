@@ -10,15 +10,16 @@ $(function () {
             // on the right side
             departure: "required",
             arrival: "required",
-            departureDate: "required",
-            arrivalDate: "required",
+            departureDate: "date",
+            arrivalDate: "date",
             departureTime: "required",
             arrivalTime: "required",
             flightDuration: "required",
             airline: "required",
             flightNumber: "required",
             aircraftType: "required",
-            aircraftRegistration: "required"
+            aircraftRegistration: "required",
+            seat: "required"
         },
         // Specify validation error messages
         messages: {
