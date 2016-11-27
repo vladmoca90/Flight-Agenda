@@ -1,99 +1,7 @@
 ﻿body {
   font-family: Calibri; }
 
-#sign-up-section h3,
-#sign-in-section h3 {
-  text-align: center; }
-
-#sign-up-section form,
-#sign-in-section form {
-  margin-top: 10%;
-  font-size: 15px; }
-
-#sign-up-section,
-#sign-in-section {
-  position: absolute;
-  z-index: 1;
-  top: 8%;
-  right: 13%;
-  display: block;
-  border-radius: 10px;
-  background: #333333;
-  max-width: 265px;
-  padding: 10px 15px; }
-  #sign-up-section .sign-in-group, #sign-up-section .sign-up-group,
-  #sign-in-section .sign-in-group,
-  #sign-in-section #sign-up-section .sign-up-group, #sign-up-section
-  #sign-in-section .sign-up-group {
-    margin-top: 5%; }
-    #sign-up-section .sign-in-group:nth-child(2), #sign-up-section .sign-up-group:nth-child(2),
-    #sign-in-section .sign-in-group:nth-child(2),
-    #sign-in-section #sign-up-section .sign-up-group:nth-child(2), #sign-up-section
-    #sign-in-section .sign-up-group:nth-child(2) {
-      margin-bottom: 10%; }
-    #sign-up-section .sign-in-group label, #sign-up-section .sign-up-group label,
-    #sign-in-section .sign-in-group label,
-    #sign-in-section #sign-up-section .sign-up-group label, #sign-up-section
-    #sign-in-section .sign-up-group label {
-      line-height: 30px;
-      margin-bottom: 0px; }
-    #sign-up-section .sign-in-group input, #sign-up-section .sign-up-group input,
-    #sign-up-section .sign-in-group button, #sign-up-section .sign-up-group button,
-    #sign-in-section .sign-in-group input,
-    #sign-in-section #sign-up-section .sign-up-group input, #sign-up-section
-    #sign-in-section .sign-up-group input,
-    #sign-in-section .sign-in-group button,
-    #sign-in-section #sign-up-section .sign-up-group button, #sign-up-section
-    #sign-in-section .sign-up-group button {
-      color: #000000;
-      border: 1px solid transparent; }
-    #sign-up-section .sign-in-group input, #sign-up-section .sign-up-group input,
-    #sign-in-section .sign-in-group input,
-    #sign-in-section #sign-up-section .sign-up-group input, #sign-up-section
-    #sign-in-section .sign-up-group input {
-      float: right;
-      background: #FAEA6F;
-      padding: 4px 5px; }
-      #sign-up-section .sign-in-group input[type="checkbox"], #sign-up-section .sign-up-group input[type="checkbox"],
-      #sign-in-section .sign-in-group input[type="checkbox"],
-      #sign-in-section #sign-up-section .sign-up-group input[type="checkbox"], #sign-up-section
-      #sign-in-section .sign-up-group input[type="checkbox"] {
-        margin: 8px 0px 0px 8px; }
-    #sign-up-section .sign-in-group button, #sign-up-section .sign-up-group button,
-    #sign-in-section .sign-in-group button,
-    #sign-in-section #sign-up-section .sign-up-group button, #sign-up-section
-    #sign-in-section .sign-up-group button {
-      border-radius: 4px;
-      padding: 5px 15px;
-      background: #FAEA6F;
-      background-image: -webkit-linear-gradient(top, #FAEA6F, #BFA80F);
-      background-image: -moz-linear-gradient(top, #FAEA6F, #BFA80F);
-      background-image: -ms-linear-gradient(top, #FAEA6F, #BFA80F);
-      background-image: -o-linear-gradient(top, #FAEA6F, #BFA80F);
-      background-image: linear-gradient(to bottom, #FAEA6F, #BFA80F); }
-    #sign-up-section .sign-in-group button + label, #sign-up-section .sign-up-group button + label,
-    #sign-in-section .sign-in-group button + label,
-    #sign-in-section #sign-up-section .sign-up-group button + label, #sign-up-section
-    #sign-in-section .sign-up-group button + label {
-      margin-left: 20px; }
-    #sign-up-section .sign-in-group a, #sign-up-section .sign-up-group a,
-    #sign-in-section .sign-in-group a,
-    #sign-in-section #sign-up-section .sign-up-group a, #sign-up-section
-    #sign-in-section .sign-up-group a {
-      padding: 2px 0px 2px 5px; }
-
-#sign-up-section,
-#sign-in-section {
-  display: none; }
-
-#sign-up-section {
-  max-width: 300px; }
-  #sign-up-section .sign-up-group:nth-child(2) {
-    margin-bottom: 0%; }
-  #sign-up-section .sign-up-group textarea + p {
-    padding-bottom: 10px; }
-
-.sign-in-group button, #sign-up-section .sign-up-group button,
+.sign-in-group button,
 #save-button button {
   font-size: 16px; }
 
@@ -193,7 +101,7 @@ h3 {
       text-align: center;
       text-indent: 0px; } }
 
-.sign-in-group a, #sign-up-section .sign-up-group a,
+.sign-in-group a,
 #form-containerlabel,
 .seat-number-text {
   display: inline-block; }
