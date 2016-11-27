@@ -32,8 +32,17 @@ $(function () {
         },
         // Specify validation error messages
         messages: {
-            firstname: "Please enter your firstname",
-            lastname: "Please enter your lastname",
+            departure: "required",
+            arrival: "required",
+            departureDate: "required",
+            arrivalDate: "required",
+            departureTime: "required",
+            arrivalTime: "required",
+            flightDuration: "required",
+            airline: "required",
+            flightNumber: "required",
+            aircraftType: "required",
+            aircraftRegistration: "required",
             password: {
                 required: "Please provide a password",
                 minlength: "Your password must be at least 5 characters long"
