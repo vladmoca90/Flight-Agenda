@@ -14,6 +14,17 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+
+    $("#sign-up-section").hide();
+
+    $(".sign-in-group a:nth-child(2)").click(function () {
+        $("#sign-up-section").show();
+        $("#sign-in-section").hide();
+    });
+
+});
+
 // Wait for the DOM to be ready
 $(function () {
     // Initialize form validation on the registration form.
