@@ -8,8 +8,12 @@ $(function () {
             // The key name on the left side is the name attribute
             // of an input field. Validation rules are defined
             // on the right side
-            firstname: "required",
-            lastname: "required",
+            departure: "required",
+            arrival: "required",
+            departureDate: "required",
+            arrivalDate: "required",
+            departureTime: "required",
+            arrivalTime: "required",
             email: {
                 required: true,
                 // Specify that email should be validated
