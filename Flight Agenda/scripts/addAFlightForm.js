@@ -32,17 +32,17 @@ $(function () {
         },
         // Specify validation error messages
         messages: {
-            departure: "required",
-            arrival: "required",
-            departureDate: "required",
-            arrivalDate: "required",
-            departureTime: "required",
-            arrivalTime: "required",
-            flightDuration: "required",
-            airline: "required",
-            flightNumber: "required",
-            aircraftType: "required",
-            aircraftRegistration: "required",
+            departure: "The departure code must be completed",
+            arrival: "The arrival code must be completed",
+            departureDate: "The departure date must be selected",
+            arrivalDate: "The arrival date must be selected",
+            departureTime: "The departure time must be selected",
+            arrivalTime: "The arrival time must be selected",
+            flightDuration: "The flight duration must be completed",
+            airline: "The airline name must be completed",
+            flightNumber: "The flight number must be completed",
+            aircraftType: "The aircraft type must be completed",
+            aircraftRegistration: "The aircraft registration must be completed",
             password: {
                 required: "Please provide a password",
                 minlength: "Your password must be at least 5 characters long"
