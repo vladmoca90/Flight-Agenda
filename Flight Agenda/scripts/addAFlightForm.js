@@ -42,20 +42,6 @@ $(function () {
             aircraftRegistration: "The aircraft registration must be completed",
             seat: "You must write the seat number"
         },
-        rules: {
-            userFlight: {
-                required: function () {
-                    if ($("input[name='ticketInformation']:checked").length <= 0) {
-                        alert("No radio checked")
-                    }
-                }
-            },
-        },
-        messages: {
-            userFlight: {
-                required: "You must select"
-            }
-        },
         // Make sure the form is submitted to the destination defined
         // in the "action" attribute of the form when valid
         function (form) {
