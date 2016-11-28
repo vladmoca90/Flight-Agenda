@@ -113,6 +113,8 @@ nav,
   #sign-up-section .sign-up-group button {
     margin: auto;
     display: block; }
+  #sign-up-section .sign-up-group:nth-child(8) {
+    text-align: center; }
 
 .sign-in-group button, #sign-up-section .sign-up-group button {
   font-size: 16px; }

@@ -112,6 +112,9 @@ nav,
             margin: auto;
             display: block;
         }
+        &:nth-child(8) {
+            text-align: center;
+        }
     }
 }
 .sign-in-group button {
