@@ -20,8 +20,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-    $("#sign-in-section").hide();
-
     $("#alreadyHaveAccount").click(function () {
         $("#sign-up-section").hide();
         $("#sign-in-section").show();
