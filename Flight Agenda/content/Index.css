@@ -110,6 +110,9 @@ nav,
     margin-bottom: 0%; }
   #sign-up-section .sign-up-group textarea + p {
     padding-bottom: 10px; }
+  #sign-up-section .sign-up-group button {
+    margin: auto;
+    display: block; }
 
 .sign-in-group button, #sign-up-section .sign-up-group button {
   font-size: 16px; }
