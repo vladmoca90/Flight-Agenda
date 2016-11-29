@@ -6,6 +6,14 @@
     margin: 0 auto;
     float: none;
 }
+@mixin font-sizes {
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 601px) and (max-width: 767px) {
+        font-size: 17px;
+    }
+}
 
 $maxWidth: 100%;
 $maxHeight: 100%;
@@ -337,12 +345,7 @@ nav,
         margin-top: 0px;
     }
     p {
-        @media screen and (max-width: 600px) {
-            font-size: 18px;
-        }
-        @media screen and (min-width: 601px) and (max-width: 767px) {
-            font-size: 17px;
-        }
+        @include font-sizes;
     }
 }
 .diagramsStatistics h3,
@@ -385,12 +388,7 @@ nav,
             font-size: 14px;
             margin: 0px;
             text-align: left;
-            @media screen and (max-width: 600px) {
-                font-size: 18px;
-            }
-            @media screen and (min-width: 601px) and (max-width: 767px) {
-                font-size: 17px;
-            }
+            @include font-sizes;
             @media screen and (max-width: 767px) {
                 text-align: center;
             }
