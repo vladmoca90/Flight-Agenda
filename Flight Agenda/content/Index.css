@@ -402,12 +402,15 @@ nav,
 .flights-per-year-container {
   padding-bottom: 1%; }
 
+.flights-table,
+.flights-table > thead > tr > th {
+  border: 1px solid #000000; }
+
 .flights-container {
   padding: 10px;
   background: #FFFFFF; }
   .flights-container .flights-table {
-    font-size: 16px;
-    border: 1px solid #000000; }
+    font-size: 16px; }
     @media screen and (max-width: 767px) {
       .flights-container .flights-table {
         font-size: 18px; } }
@@ -417,8 +420,7 @@ nav,
   .flights-container .flights-table > tbody > tr > td {
     padding: 5px 13px; }
   .flights-container .flights-table > thead > tr > th {
-    font-weight: bold;
-    border-bottom: 1px solid #000000; }
+    font-weight: bold; }
   .flights-container .diagrams-fig > .diagrams-img {
     margin-top: 7%;
     max-width: 180px; }

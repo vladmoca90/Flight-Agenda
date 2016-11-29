@@ -424,13 +424,15 @@ nav,
 .flights-per-year-container {
     padding-bottom: 1%;
 }
-
+.flights-table,
+.flights-table>thead>tr>th {
+    border: 1px solid $black-color;
+}
 .flights-container {
     padding: 10px;
     background: $white-color;
     .flights-table {
         font-size: 16px;
-        border: 1px solid $black-color;
         @media screen and (max-width: 767px) {
             font-size: 18px;
         }
@@ -444,7 +446,6 @@ nav,
     }
     .flights-table>thead>tr>th {
         font-weight: bold;
-        border-bottom: 1px solid $black-color;
     }
     .diagrams-fig>.diagrams-img {
         margin-top: 7%;
