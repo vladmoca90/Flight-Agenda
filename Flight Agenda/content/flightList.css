@@ -3,7 +3,7 @@
 
 .flight-list {
   width: 100%;
-  max-width: 998px;
+  max-width: 1000px;
   margin: 1% auto;
   font-size: 16px; }
   .flight-list thead > tr > th,
@@ -38,13 +38,10 @@
         .flight-list tbody tr td i:hover {
           cursor: pointer; }
 
-tr > th,
-tr > td {
-  border: 2px solid #FFFFFF; }
-  @media screen and (max-width: 767px) {
-    tr > th:nth-child(5),
-    tr > td:nth-child(5) {
-      display: none; } }
+@media screen and (max-width: 767px) {
+  tr > th:nth-child(5),
+  tr > td:nth-child(5) {
+    display: none; } }
 
 .moneySymbol {
   color: #21B234; }
