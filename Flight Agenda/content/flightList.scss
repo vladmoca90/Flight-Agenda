@@ -38,8 +38,6 @@ body {
             text-align: center;
             background: #EEEEEE;
             td {
-                border-left: none;
-                border-right: none;
                 img {
                     @include maxWidthHeight;
                         max-width: 70px;
@@ -58,6 +56,7 @@ body {
 }
 tr>th,
 tr>td {
+    border: 1px solid $white-color;
     &:nth-child(5) {
         @media screen and (max-width: 767px) {
             display: none;
