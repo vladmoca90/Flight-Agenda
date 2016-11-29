@@ -36,9 +36,11 @@ body {
     tbody {
         tr {
             text-align: center;
-            background: #FAFAFA;
             &:nth-child(even) {
                 background: #E3F2FD;
+            }
+            &:nth-child(odd) {
+                background: #FAFAFA;
             }
             td {
                 border-left: 0px;

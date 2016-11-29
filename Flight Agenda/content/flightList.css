@@ -16,10 +16,11 @@
       text-align: center !important;
       font-weight: bold; }
   .flight-list tbody tr {
-    text-align: center;
-    background: #FAFAFA; }
+    text-align: center; }
     .flight-list tbody tr:nth-child(even) {
       background: #E3F2FD; }
+    .flight-list tbody tr:nth-child(odd) {
+      background: #FAFAFA; }
     .flight-list tbody tr td {
       border-left: 0px;
       border-right: 0px; }
