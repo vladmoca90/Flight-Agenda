@@ -37,7 +37,12 @@ body {
         tr {
             text-align: center;
             background: rgba(246, 247, 248, 0.85);
+            &:nth-child(even) {
+                background: #E3F2FD;
+            }
             td {
+                border-left: 0px;
+                border-right: 0px;
                 img {
                     @include maxWidthHeight;
                         max-width: 70px;

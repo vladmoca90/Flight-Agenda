@@ -18,16 +18,21 @@
   .flight-list tbody tr {
     text-align: center;
     background: rgba(246, 247, 248, 0.85); }
-    .flight-list tbody tr td img {
-      width: 100%;
-      height: 100%;
-      max-width: 70px;
-      max-height: 25px; }
-    .flight-list tbody tr td i {
-      margin: 3px 2px;
-      font-size: 20px; }
-      .flight-list tbody tr td i:hover {
-        cursor: pointer; }
+    .flight-list tbody tr:nth-child(even) {
+      background: #E3F2FD; }
+    .flight-list tbody tr td {
+      border-left: 0px;
+      border-right: 0px; }
+      .flight-list tbody tr td img {
+        width: 100%;
+        height: 100%;
+        max-width: 70px;
+        max-height: 25px; }
+      .flight-list tbody tr td i {
+        margin: 3px 2px;
+        font-size: 20px; }
+        .flight-list tbody tr td i:hover {
+          cursor: pointer; }
 
 tr > th,
 tr > td {
