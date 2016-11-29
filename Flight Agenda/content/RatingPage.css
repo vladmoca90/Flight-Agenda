@@ -40,7 +40,6 @@
       max-width: 360px;
       height: 235px; }
     #flight-form #main-flight-info-container .rating-section p {
-      text-align: center;
       padding-top: 5px;
       font-size: 21px;
       font-weight: bold; }
@@ -58,12 +57,15 @@
         #flight-form #main-flight-info-container .rating-section .rating-stars li:first-child {
           margin-left: 0px; }
 
+.rating-section p,
+#saved-flight-message p {
+  text-align: center; }
+
 #saved-flight-message {
   background: #4CAF50;
   opacity: 0.7;
   margin: 1% auto; }
   #saved-flight-message p {
     color: #FFFFFF;
-    padding: 10px 15px;
-    text-align: center; }
+    padding: 10px 15px; }
 
