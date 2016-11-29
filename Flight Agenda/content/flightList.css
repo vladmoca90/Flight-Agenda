@@ -17,7 +17,7 @@
       font-weight: bold; }
   .flight-list tbody tr {
     text-align: center;
-    background: rgba(246, 247, 248, 0.85); }
+    background: #FAFAFA; }
     .flight-list tbody tr:nth-child(even) {
       background: #E3F2FD; }
     .flight-list tbody tr td {
