@@ -5,8 +5,7 @@
   width: 100%;
   max-width: 950px;
   margin: 1% auto;
-  font-size: 16px;
-  border: 1px solid #CCCCCC; }
+  font-size: 16px; }
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
     padding: 9px; }
@@ -17,9 +16,8 @@
       text-align: center !important;
       font-weight: bold; }
   .flight-list tbody tr {
-    text-align: center; }
-    .flight-list tbody tr:nth-child(even) {
-      background: #F3F3F3; }
+    text-align: center;
+    background: #EEEEEE; }
     .flight-list tbody tr td {
       border-left: none;
       border-right: none; }
