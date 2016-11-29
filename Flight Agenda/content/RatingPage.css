@@ -60,6 +60,7 @@
 
 #saved-flight-message {
   background: #4CAF50;
+  opacity: 0.7;
   margin-bottom: 10px; }
   #saved-flight-message p {
     color: #FFFFFF;
