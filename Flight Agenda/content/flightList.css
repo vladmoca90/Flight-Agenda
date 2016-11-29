@@ -10,7 +10,7 @@
   .flight-list tbody > tr > td {
     padding: 9px; }
   .flight-list thead {
-    background: #A33112; }
+    background: -webkit-gradient(linear, left top, left bottom, from(#267BAE), to(#3A5F97)); }
     .flight-list thead tr > th {
       color: #FFFFFF;
       text-align: center !important;
