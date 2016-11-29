@@ -57,3 +57,9 @@
         #flight-form #main-flight-info-container .rating-section .rating-stars li:first-child {
           margin-left: 0px; }
 
+#saved-flight-message {
+  padding: 20px;
+  background: #4CAF50;
+  color: #FFFFFF;
+  margin-bottom: 10px; }
+
