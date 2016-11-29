@@ -108,8 +108,10 @@ nav,
   max-width: 300px; }
   #sign-up-section .sign-up-group:nth-child(2) {
     margin-bottom: 0%; }
-  #sign-up-section .sign-up-group textarea + p {
-    padding-bottom: 10px; }
+  #sign-up-section .sign-up-group textarea {
+    color: #000000; }
+    #sign-up-section .sign-up-group textarea + p {
+      padding-bottom: 10px; }
   #sign-up-section .sign-up-group button {
     margin: auto;
     display: block; }

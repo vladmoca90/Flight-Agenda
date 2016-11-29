@@ -105,8 +105,11 @@ nav,
         &:nth-child(2) {
             margin-bottom: 0%;
         }
-        textarea + p {
-            padding-bottom: 10px;
+        textarea {
+            color: $black-color;
+            + p {
+                 padding-bottom: 10px;
+            }
         }
         button {
             margin: auto;
