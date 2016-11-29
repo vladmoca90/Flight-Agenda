@@ -428,6 +428,9 @@ nav,
         @media screen and (max-width: 767px) {
             font-size: 18px;
         }
+        tr:nth-child(even) {
+            background: #E3F2FD;
+        }
     }
     .flights-table>thead>tr>th,
     .flights-table>tbody>tr>td {

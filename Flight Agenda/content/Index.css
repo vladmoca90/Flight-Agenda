@@ -405,6 +405,8 @@ nav,
     @media screen and (max-width: 767px) {
       .flights-container .flights-table {
         font-size: 18px; } }
+    .flights-container .flights-table tr:nth-child(even) {
+      background: #E3F2FD; }
   .flights-container .flights-table > thead > tr > th,
   .flights-container .flights-table > tbody > tr > td {
     padding: 5px 10px; }
