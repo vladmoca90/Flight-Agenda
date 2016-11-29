@@ -120,7 +120,9 @@ nav,
         }
     }
 }
-.sign-in-group button {
+.sign-in-group button,
+.flights-table,
+.bottom-texts {
     font-size: 16px;
 }
 .sign-in-group a {
@@ -432,7 +434,6 @@ nav,
     padding: 10px;
     background: $white-color;
     .flights-table {
-        font-size: 16px;
         @media screen and (max-width: 767px) {
             font-size: 18px;
         }
@@ -459,7 +460,6 @@ nav,
         margin-left: 2%;
         max-height: 50px;
         .bottom-texts {
-            font-size: 16px;
             display: inline-block;
             margin: 0px;
             a {

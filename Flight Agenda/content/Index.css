@@ -118,7 +118,9 @@ nav,
   #sign-up-section .sign-up-group:nth-child(8) {
     text-align: center; }
 
-.sign-in-group button, #sign-up-section .sign-up-group button {
+.sign-in-group button, #sign-up-section .sign-up-group button,
+.flights-table,
+.bottom-texts {
   font-size: 16px; }
 
 .sign-in-group a, #sign-up-section .sign-up-group a {
@@ -409,13 +411,11 @@ nav,
 .flights-container {
   padding: 10px;
   background: #FFFFFF; }
-  .flights-container .flights-table {
-    font-size: 16px; }
-    @media screen and (max-width: 767px) {
-      .flights-container .flights-table {
-        font-size: 18px; } }
-    .flights-container .flights-table tr:nth-child(even) {
-      background: #E3F2FD; }
+  @media screen and (max-width: 767px) {
+    .flights-container .flights-table {
+      font-size: 18px; } }
+  .flights-container .flights-table tr:nth-child(even) {
+    background: #E3F2FD; }
   .flights-container .flights-table > thead > tr > th,
   .flights-container .flights-table > tbody > tr > td {
     padding: 5px 13px; }
@@ -432,7 +432,6 @@ nav,
     margin-left: 2%;
     max-height: 50px; }
     #bottom #bottom-text-container .bottom-texts {
-      font-size: 16px;
       display: inline-block;
       margin: 0px; }
       #bottom #bottom-text-container .bottom-texts a {
