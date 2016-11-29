@@ -331,6 +331,10 @@ nav,
     .statistics p {
       font-size: 17px; } }
 
+.diagramsStatistics h3,
+#flights-top div h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#267BAE), to(#3A5F97)); }
+
 .diagramsStatistics {
   min-height: 190px; }
   .diagramsStatistics h3 {
