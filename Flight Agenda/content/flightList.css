@@ -20,7 +20,7 @@
     .flight-list tbody tr:nth-child(even) {
       background: #E3F2FD; }
     .flight-list tbody tr:nth-child(odd) {
-      background: #FAFAFA; }
+      background: #F9F9F9; }
     .flight-list tbody tr td {
       border-left: 0px;
       border-right: 0px; }
