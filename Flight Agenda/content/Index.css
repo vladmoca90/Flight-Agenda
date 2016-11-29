@@ -23,10 +23,6 @@ nav,
       display: block;
       max-width: 300px; } }
 
-#sign-up-section h3,
-#sign-in-section h3 {
-  text-align: center; }
-
 #sign-up-section form,
 #sign-in-section form {
   margin-top: 10%;
@@ -115,8 +111,6 @@ nav,
   #sign-up-section .sign-up-group button {
     margin: auto;
     display: block; }
-  #sign-up-section .sign-up-group:nth-child(8) {
-    text-align: center; }
 
 .sign-in-group button, #sign-up-section .sign-up-group button,
 .flights-table,
@@ -283,6 +277,9 @@ nav,
 .diagramsStatistics h3 {
   text-transform: uppercase; }
 
+#sign-in-section h3,
+#sign-up-section h3,
+.sign-up-group:nth-child(8),
 #flights-top h3,
 .statistics h2,
 .statistics p,

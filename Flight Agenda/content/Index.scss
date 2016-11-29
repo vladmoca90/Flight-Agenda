@@ -39,9 +39,6 @@ nav,
 }
 #sign-up-section,
 #sign-in-section {
-    h3 {
-        text-align: center;
-    }
     form {
         margin-top: 10%;
         font-size: 15px;
@@ -114,9 +111,6 @@ nav,
         button {
             margin: auto;
             display: block;
-        }
-        &:nth-child(8) {
-            text-align: center;
         }
     }
 }
@@ -293,6 +287,9 @@ nav,
         text-transform: uppercase;
     }
 }
+#sign-in-section h3,
+#sign-up-section h3,
+.sign-up-group:nth-child(8),
 #flights-top h3,
 .statistics h2,
 .statistics p,
