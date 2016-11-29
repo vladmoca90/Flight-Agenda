@@ -3,7 +3,7 @@
 
 .flight-list {
   width: 100%;
-  max-width: 1000px;
+  max-width: 998px;
   margin: 1% auto;
   font-size: 16px; }
   .flight-list thead > tr > th,
@@ -16,7 +16,10 @@
       text-align: center !important;
       font-weight: bold; }
   .flight-list tbody tr {
-    text-align: center; }
+    text-align: center;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC; }
     .flight-list tbody tr:nth-child(even) {
       background: #E3F2FD; }
     .flight-list tbody tr:nth-child(odd) {
