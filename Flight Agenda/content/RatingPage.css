@@ -63,5 +63,6 @@
   margin-bottom: 10px; }
   #saved-flight-message p {
     color: #FFFFFF;
-    padding: 10px 15px; }
+    padding: 10px 15px;
+    text-align: center; }
 
