@@ -33,7 +33,8 @@ $main-font: Calibri;
 }
 #flight-form {
     #main-flight-info-container {
-        max-width: 800px; 
+        max-width: 800px;
+        overflow: hidden;
         #title-container {
             max-width: 650px;
         }

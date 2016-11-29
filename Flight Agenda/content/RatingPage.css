@@ -18,7 +18,8 @@
   float: left; }
 
 #flight-form #main-flight-info-container {
-  max-width: 800px; }
+  max-width: 800px;
+  overflow: hidden; }
   #flight-form #main-flight-info-container #title-container {
     max-width: 650px; }
   #flight-form #main-flight-info-container .rating-section {
