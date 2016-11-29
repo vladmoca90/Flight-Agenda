@@ -58,8 +58,9 @@
           margin-left: 0px; }
 
 #saved-flight-message {
-  padding: 20px;
   background: #4CAF50;
-  color: #FFFFFF;
   margin-bottom: 10px; }
+  #saved-flight-message p {
+    color: #FFFFFF;
+    padding: 10px 15px; }
 
