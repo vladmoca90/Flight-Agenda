@@ -36,7 +36,7 @@ body {
     tbody {
         tr {
             text-align: center;
-            background: #EEEEEE;
+            background: rgba(246, 247, 248, 0.85);
             td {
                 img {
                     @include maxWidthHeight;
