@@ -136,7 +136,8 @@ nav,
     color: $white-color;
 }
 nav,
-#button-menu {
+#button-menu,
+#bottom {
     min-height: 50px;
 }
 #top,
@@ -452,7 +453,6 @@ nav,
     }
 }
 #bottom {
-    min-height: 50px;
     line-height: 50px;
     #bottom-text-container {
         margin-left: 2%;
