@@ -37,8 +37,6 @@ body {
         tr {
             text-align: center;
             border: {
-                left: 1px solid #CCC;
-                right:1px solid #CCC;
                 bottom: 1px solid #CCC;
             }
             &:nth-child(even) {
@@ -48,8 +46,6 @@ body {
                 background: #F9F9F9;
             }
             td {
-                border-left: 0px;
-                border-right: 0px;
                 img {
                     @include maxWidthHeight;
                         max-width: 70px;
