@@ -162,7 +162,8 @@ nav,
     min-height: 120px;
 }
 #top,
-.diagramsStatistics {
+.diagramsStatistics,
+.flights-per-year-container figure>img {
     height: $maxHeight;
 }
 #connection-button-container,
