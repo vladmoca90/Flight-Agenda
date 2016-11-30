@@ -400,6 +400,8 @@ nav,
 
 .flights-per-year-container {
   padding-bottom: 1%; }
+  .flights-per-year-container figure > img {
+    max-height: 275px; }
 
 .flights-table,
 .flights-table > thead > tr > th {
