@@ -70,7 +70,6 @@ nav,
     #sign-in-section #sign-up-section .sign-up-group input, #sign-up-section
     #sign-in-section .sign-up-group input {
       float: right;
-      background: #FAEA6F;
       padding: 4px 5px; }
       #sign-up-section .sign-in-group input[type="checkbox"], #sign-up-section .sign-up-group input[type="checkbox"],
       #sign-in-section .sign-in-group input[type="checkbox"],
