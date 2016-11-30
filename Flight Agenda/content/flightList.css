@@ -3,8 +3,8 @@
 
 .flight-list {
   width: 100%;
-  max-width: 998px;
-  margin: 1% auto;
+  max-width: 1000px;
+  margin: 2% auto;
   font-size: 16px; }
   .flight-list thead > tr > th,
   .flight-list tbody > tr > td {
