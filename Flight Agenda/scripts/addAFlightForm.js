@@ -35,7 +35,7 @@ $(function () {
             arrivalDate: "The arrival date must be selected",
             departureTime: "The departure time must be selected",
             arrivalTime: "The arrival time must be selected",
-            flightDuration: "The flight duration must be completed",
+            flightDuration: "The flight duration must be selected",
             airline: "The airline name must be completed",
             flightNumber: "The flight number must be completed",
             aircraftType: "The aircraft type must be completed",
