@@ -90,9 +90,10 @@ $main-font: Calibri;
     text-align: center;
 }
 #saved-flight-message {
-    background: #4CAF50;
+    background: #3C763D;
     opacity: 0.7;
     margin: 3% auto;
+    border-radius: 10px;
     p {
         color: $white-color;
         font-size: 18px;

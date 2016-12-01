@@ -64,9 +64,10 @@
   text-align: center; }
 
 #saved-flight-message {
-  background: #4CAF50;
+  background: #3C763D;
   opacity: 0.7;
-  margin: 3% auto; }
+  margin: 3% auto;
+  border-radius: 10px; }
   #saved-flight-message p {
     color: #FFFFFF;
     font-size: 18px;
