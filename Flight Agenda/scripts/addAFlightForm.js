@@ -1,11 +1,4 @@
-﻿/* $(document).ready(function () {
-    $("#save-button>button").click(function () {
-        location.href = "Rating.html";
-    });
-}); */
-
-
-// Wait for the DOM to be ready
+﻿// Wait for the DOM to be ready
 $(function () {
     // Initialize form validation on the registration form.
     // It has the name attribute "registration"
@@ -50,3 +43,14 @@ $(function () {
         }
     });
 });
+
+/* $(document).ready(function () {
+    $("#save-button>button").click(function () {
+        if (form.submit()) {
+            location.href = "Rating.html";
+        }
+        else {
+            location.href = "";
+        }
+    });
+}); */
