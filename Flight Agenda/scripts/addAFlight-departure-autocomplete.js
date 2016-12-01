@@ -35,13 +35,8 @@
           if (event.keyCode === $.ui.keyCode.TAB && $(this).autocomplete("instance").menu.active) {
               event.preventDefault();
           }
-      })
-      .autocomplete({
-          minLength: 0,
-          source: function (request, response) {
-              // delegate back to autocomplete, but extract the last term
-              response($.ui.autocomplete.filter(
-                availableTags, extractLast(request.term)));
+      }).autocomplete({ minLength: 0, source: function (request, response) {
+              response($.ui.autocomplete.filter(availableTags, extractLast(request.term)));
           },
           focus: function () {
               // prevent value inserted on focus
