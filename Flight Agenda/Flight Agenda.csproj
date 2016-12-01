@@ -164,6 +164,8 @@
     <Content Include="content\Index.min.css">
       <DependentUpon>Index.css</DependentUpon>
     </Content>
+    <Content Include="scripts\addAFlight-aircraftType-autocomplete.js" />
+    <Content Include="scripts\addAFlight-airline-autocomplete.js" />
     <Content Include="scripts\addAFlight-departure-autocomplete.js" />
     <Content Include="scripts\addAFlightForm.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
