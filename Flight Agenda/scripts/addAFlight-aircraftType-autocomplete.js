@@ -30,7 +30,7 @@
               event.preventDefault();
           }
       }).autocomplete({ minLength: 0, source: function (request, response) {
-              response($.ui.autocomplete.filter(availableTags, extractLast(request.term)));
+              response($.ui.autocomplete.filter(input, extractLast(request.term)));
           },
           focus: function () {
               // prevent value inserted on focus
