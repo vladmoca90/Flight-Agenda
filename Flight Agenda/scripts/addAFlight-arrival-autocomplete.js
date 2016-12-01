@@ -31,7 +31,6 @@
     }
 
     $("#arrival")
-      // don't navigate away from the field on tab when selecting an item
       .on("keydown", function (event) {
           if (event.keyCode === $.ui.keyCode.TAB &&
               $(this).autocomplete("instance").menu.active) {
