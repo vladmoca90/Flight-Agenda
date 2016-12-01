@@ -90,6 +90,8 @@ $main-font: Calibri;
     text-align: center;
 }
 #saved-flight-message {
+    height: $maxHeight;
+    min-height: 45px;
     color: #3C763D;
     background: #DFF0D8;
     border: 1px solid #D6E9C6;
