@@ -67,7 +67,8 @@
   background: #3C763D;
   opacity: 0.7;
   margin: 3% auto;
-  border-radius: 4px; }
+  border-radius: 4px;
+  display: block; }
   #saved-flight-message p {
     color: #FFFFFF;
     font-size: 18px;
