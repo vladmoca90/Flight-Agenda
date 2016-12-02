@@ -44,13 +44,3 @@ $(function () {
     });
 });
 
-/* $(document).ready(function () {
-    $("#save-button>button").click(function () {
-        if (form.submit()) {
-            location.href = "Rating.html";
-        }
-        else {
-            location.href = "";
-        }
-    });
-}); */
