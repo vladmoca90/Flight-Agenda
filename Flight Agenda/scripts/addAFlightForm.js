@@ -44,9 +44,6 @@ $(function () {
     });
 });
 
-/* $(document).ready(function () {
+$(document).ready(function () {
     $(".next-button").hide();
-    $(this).click(function () {
-        include.href = "Rating.html";
-    });
-}); */
+});
