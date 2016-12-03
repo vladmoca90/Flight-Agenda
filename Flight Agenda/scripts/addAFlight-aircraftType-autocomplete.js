@@ -16,7 +16,11 @@
       "Boeing 757",
       "Boeing 767",
       "Boeing 777",
-      "Boeing 787"
+      "Boeing 787",
+      "Embraer 170",
+      "Embraer 175",
+      "Embraer 190",
+      "Embraer 195"
     ];
     function split(val) {
         return val.split(/,\s*/);
