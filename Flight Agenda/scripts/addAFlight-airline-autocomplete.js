@@ -21,7 +21,13 @@
       "American Airlines",
       "Avianca",
       "Emirates",
-      "Etihad Airways"
+      "Etihad Airways",
+      "American Airlines",
+      "Iberia",
+      "Wizz Air",
+      "LOT Polish",
+      "Arik Air",
+      "Saudia"
     ];
     function split(val) {
         return val.split(/,\s*/);
