@@ -41,6 +41,11 @@ input[type="radio"],
 .add-a-flight-information > label {
   max-width: 115px; }
 
+#main-flight-info-container div input,
+.add-a-flight-information label.error,
+#save-button button {
+  float: right; }
+
 #flight-form {
   background: rgba(246, 247, 248, 0.85);
   margin: 2% auto;
@@ -53,8 +58,7 @@ input[type="radio"],
       #flight-form #form-container #main-flight-info-container div label {
         text-indent: 10px; } }
     #flight-form #form-container #main-flight-info-container div input {
-      margin-right: 50%;
-      float: right; }
+      margin-right: 50%; }
       @media screen and (max-width: 480px) {
         #flight-form #form-container #main-flight-info-container div input {
           margin-right: 5%; } }
@@ -137,8 +141,7 @@ h3 {
     .add-a-flight-information label.error {
       background: none;
       border: 0px solid #999999;
-      border-radius: 0px;
-      float: right; }
+      border-radius: 0px; }
 
 .seat-number {
   max-width: 170px !important;
@@ -168,7 +171,6 @@ h3 {
   border-radius: 30px;
   border: 0px;
   padding: 10px 25px;
-  float: right;
   font-size: 18px;
   margin: 5% 7% 4% 0%; }
   @media screen and (max-width: 767px) {
