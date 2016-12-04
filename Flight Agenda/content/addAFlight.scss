@@ -74,6 +74,8 @@ input[type="radio"],
         #main-flight-info-container {
             div {
                 max-width: 650px;
+                height: $maxHeight;
+                max-height: 30px;
                 margin-top: 3%;
                 label {
                     @media screen and (max-width: 480px) {

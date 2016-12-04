@@ -57,6 +57,8 @@ input[type="radio"],
   overflow: hidden; }
   #flight-form #form-container #main-flight-info-container div {
     max-width: 650px;
+    height: 100%;
+    max-height: 30px;
     margin-top: 3%; }
     @media screen and (max-width: 480px) {
       #flight-form #form-container #main-flight-info-container div label {
