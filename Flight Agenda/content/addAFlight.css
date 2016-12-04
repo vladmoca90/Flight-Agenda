@@ -66,6 +66,10 @@ input[type="radio"],
   color: #FF0000 !important;
   font-weight: normal !important; }
 
+input[type="time"],
+input[type="date"] {
+  color: #000000 !important; }
+
 #form-container label,
 .containers-title,
 .seat-number-text {
