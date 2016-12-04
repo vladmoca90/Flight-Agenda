@@ -41,6 +41,7 @@ input[type="radio"],
 .add-a-flight-information {
   max-width: 115px; }
 
+#main-flight-info-container div label,
 #main-flight-info-container div input,
 .add-a-flight-information label.error {
   float: left; }
