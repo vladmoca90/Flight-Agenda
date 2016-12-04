@@ -62,6 +62,10 @@ input[type="radio"],
         #flight-form #form-container #main-flight-info-container div input {
           margin-right: 20%; } }
 
+.error {
+  color: #FF0000;
+  font-weight: normal !important; }
+
 #form-container label,
 .containers-title,
 .seat-number-text {

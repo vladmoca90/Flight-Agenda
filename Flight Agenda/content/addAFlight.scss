@@ -85,6 +85,10 @@ input[type="radio"],
         }
     }
 }
+.error {
+    color: #FF0000;
+    font-weight: normal !important;
+}
 #form-container label,
 .containers-title,
 .seat-number-text {
