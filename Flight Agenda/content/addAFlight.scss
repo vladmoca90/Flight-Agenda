@@ -159,6 +159,11 @@ h3 {
         text-align: center;
         border: 1px solid #999999;
         border-radius: 25px;
+        &.error {
+            background: none;
+            border: 0px solid #999999;
+            border-radius: 0px;
+        }
     }
 }
 .seat-number {
