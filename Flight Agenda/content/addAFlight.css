@@ -17,6 +17,7 @@
 #flight-form,
 #form-container,
 #main-flight-info-container,
+#main-flight-info-container div,
 #ticket-information-container,
 #seat-container,
 #flight-reason-container,
@@ -54,6 +55,7 @@ input[type="radio"],
   color: #888888;
   overflow: hidden; }
   #flight-form #form-container #main-flight-info-container div {
+    max-width: 650px;
     margin-top: 3%; }
     @media screen and (max-width: 480px) {
       #flight-form #form-container #main-flight-info-container div label {
