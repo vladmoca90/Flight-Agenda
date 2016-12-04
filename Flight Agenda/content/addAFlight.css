@@ -137,7 +137,8 @@ h3 {
     .add-a-flight-information label.error {
       background: none;
       border: 0px solid #999999;
-      border-radius: 0px; }
+      border-radius: 0px;
+      float: right; }
 
 .seat-number {
   max-width: 170px !important;
