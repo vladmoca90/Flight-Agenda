@@ -1,0 +1,29 @@
+{
+  "name": "flight-agenda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1",
+    "jasmine": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmoca90/Flight-Agenda.git"
+  },
+  "author": "ag_dubs <vladmoca90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmoca90/Flight-Agenda/issues"
+  },
+  "homepage": "https://github.com/vladmoca90/Flight-Agenda#readme"
+}
