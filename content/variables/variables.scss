@@ -1,0 +1,28 @@
+//variables for borders
+
+$side-gray: 1px solid #ccc;
+
+//variables for font families
+
+$arial: Arial, Helvetica, sans-serif;
+$gill-sans: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$lucida: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$times: 'Times New Roman', Times, serif;
+$verdana: Verdana, Geneva, Tahoma, sans-serif;
+
+//variables for colors, including font color
+
+$font-color: #444;
+$black: #222;
+$red: #c0002b;
+$green-dark: #0a493e;
+$green-light: #317c2e;
+
+//device breakpoints
+
+$break-phone: 480px;
+$break-phone-landscape: 600px;
+$break-tablet: 768px;
+$break-desktop: 992px;
+$break-big-desktop: 1200px;
+$break-superwide: 1400px;
